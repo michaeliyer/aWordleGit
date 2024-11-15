@@ -1,2 +1,2 @@
-const wordle = "Life"
+const wordle = "Death"
 console.log(wordle);
