@@ -204,7 +204,8 @@
   }
   
   #filteredWords {
-    font-size: .85rem; 
+    font-family: "Volkhov", serif;
+    font-size: .8rem; 
     color: rgb(15, 174, 71);
     padding: 1.5rem;
     text-align: justify;
