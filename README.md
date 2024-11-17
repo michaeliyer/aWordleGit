@@ -1,1 +1,1 @@
-The Live Wordle Thing
+The Live Wordle Thing is Alive

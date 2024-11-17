@@ -7483,6 +7483,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1245,
     },
+    {
+      word: "VISOR",
+      gameDate: "11/16/24",
+      myScore: 3,
+      wordNumber: 1246,
+    },
   ];
   // prettier-ignore
   let newWords = [
@@ -7605,7 +7611,7 @@ const oldWords = [
         'TURBO', 'TWEET', 'TWIST', 'TWIXT', 'TYING', 'UDDER', 'UMBRA', 'UNCUT', 'UNDID',
         'UNION', 'UNITY', 'UNSET', 'UNWED', 'UPPER', 'URINE', 'UTILE', 'VALOR', 'VALVE', 'VAPOR',
         'VAUNT', 'VEGAN', 'VENUE', 'VERSE', 'VERSO', 'VICAR', 'VIGIL', 'VILLA',
-        'VIPER', 'VIRUS', 'VISIT', 'VISOR', 'VISTA', 'VIXEN', 'VOCAL', 'VOGUE', 'VOILA',
+        'VIPER', 'VIRUS', 'VISIT', 'VISTA', 'VIXEN', 'VOCAL', 'VOGUE', 'VOILA',
         'VOMIT', 'VOWEL', 'VYING', 'WAFER', 'WAGER', 'WAIST', 'WAIVE', 'WARTY', 'WATER',
         'WAVER', 'WAXEN', 'WEAVE', 'WEEDY', 'WEIGH', 'WELCH', 'WELSH', 'WHARF', 'WHEAT',
         'WHINY', 'WHITE', 'WHOLE', 'WHOSE', 'WIDER', 'WIDOW', 'WIDTH', 'WIELD', 'WIGHT',
