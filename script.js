@@ -7489,12 +7489,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1246,
     },
-    // {
-    //   word: "TALLY",
-    //   gameDate: "11/17/24",
-    //   myScore: 3,
-    //   wordNumber: 1247,
-    // },
+    {
+      word: "TALLY",
+      gameDate: "11/17/24",
+      myScore: 3,
+      wordNumber: 1247,
+    },
   ];
   // prettier-ignore
   let newWords = [
@@ -7607,7 +7607,7 @@ const oldWords = [
         'STRAY', 'STRIP', 'STRUT', 'STUCK', 'STUFF', 'STUMP', 'STUNK', 'STUNT', 'SUAVE', 'SUING',
         'SUITE', 'SULLY', 'SUMAC', 'SUNNY', 'SURGE', 'SWAMI', 'SWAMP', 'SWARM', 'SWASH',
         'SWATH', 'SWEAR', 'SWEPT', 'SWIFT', 'SWING', 'SWOOP', 'SWORD', 'SWORE', 
-        'SWORN', 'SYNOD', 'TABBY', 'TAFFY', 'TAINT', 'TAKER', 'TALLY', 'TAMER',      
+        'SWORN', 'SYNOD', 'TABBY', 'TAFFY', 'TAINT', 'TAKER', 'TAMER',      
         'TANGO', 'TAROT', 'TATTY', 'TEDDY', 'TEETH', 'TENET', 'TENOR', 'TENSE', 'TEPEE', 
         'TERRA', 'TESTY', 'THEFT', 'THETA', 'THICK', 'THONG', 'THROB', 
         'THRUM', 'TIGHT', 'TIMER', 'TITHE', 'TOAST', 'TODDY', 'TOKEN', 'TONAL',
