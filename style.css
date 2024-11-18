@@ -11,7 +11,7 @@
   }
   
   body {
-    background-color: rgb(175, 183, 190);
+    background-color: rgb(106, 108, 110);
     position: relative;
   }
   
@@ -27,18 +27,16 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* color: rgb(11, 164, 110); */
-    color: rgb(164, 11, 141);
-    border: solid rgb(6, 134, 92) .3rem;
+    color: rgb(41, 39, 40);
+    border: solid rgb(111, 116, 114) .3rem;
     border-radius: .3rem;
-    /* background-color: rgb(30, 88, 138); */
-    background-color: rgb(187, 198, 215);
+    background-color: rgb(80, 82, 85);
   }
   
   h2 {
-    font-family: "Lobster", sans-serif;
+    font-family: "Merienda", cursive;
     font-size: 1.75rem;
-    border: solid rgb(57, 63, 106) .2rem;
+    border: solid rgb(71, 71, 77) .2rem;
     box-shadow: .2rem .1rem;
     border-radius: .4rem;
     padding: .3rem;
@@ -56,17 +54,17 @@
   }
   
   #instructions {
-    font-family: "Almarai", sans-serif;
-    background-color: rgb(137, 142, 147);
-    color: rgb(136, 152, 146);
-    border: solid rgb(6, 134, 92) .3rem;
+    font-family: "Merienda", cursive;
+    font-style: normal;
+    background-color: rgb(101, 104, 108);
+    color: rgb(36, 41, 39);
+    border: solid rgb(81, 86, 84) .3rem;
     border-radius: .5rem;
     box-shadow: .2rem .1rem;
     position: absolute;
     z-index: 20;
     top: 1rem;
     right: .5rem;
-    font-weight: bold;
     text-align: center;
     padding: .2rem;
     width: 29vw;
@@ -89,11 +87,11 @@
   
   #toggleGroupOne,
   #toggleGroupTwo {
-    border: solid rgb(57, 63, 106) .2rem;
+    border: solid rgb(104, 104, 110) .1rem;
     box-shadow: .2rem .1rem;
-    border-radius: .4rem;
+    border-radius: .2rem;
     padding: .3rem;
-    font-family: "Concert One", sans-serif;
+    font-family: "Merienda", cursive;
     font-size: 1.4rem;
   }
   
@@ -102,28 +100,16 @@
     background-color: rgb(132, 137, 142);
     color: rgb(3, 39, 56);
   }
-  
-  /* .permanent-marker-regular {
-    font-family: "Permanent Marker", cursive;
-    background-color: rgb(158, 162, 165);
-    color: rgb(26, 29, 28); 
-    font-weight: bolder;
-    font-style: normal;
-    font-size: 2rem;
-    border: solid rgb(13, 16, 15) .3rem;
-    border-radius: 2.5rem;
-    padding: .5rem;
-  } */
 
   .anton-regular {
-    background-color: rgb(158, 162, 165);
+    background-color: rgb(70, 72, 73);
     color: rgb(26, 29, 28);
-    font-family: "Anton", sans-serif;
+    font-family: "Merienda", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 2rem;
-    border: solid rgb(13, 16, 15) .3rem;
-    border-radius: 2.5rem;
+    font-size: 1.25rem;
+    border: solid rgb(144, 146, 145) .1rem;
+    border-radius: 1.5rem;
     padding: .5rem;
   }
   
@@ -134,9 +120,9 @@
   
   .main-container {
     height: 142vh; 
-    background-color: rgb(100, 108, 115);
-    border-left: solid rgb(6, 134, 92) .3rem;
-    border-right: solid rgb(6, 134, 92) .3rem; 
+    background-color: rgb(158, 160, 163);
+    border-left: solid rgb(67, 72, 70) .3rem;
+    border-right: solid rgb(100, 108, 106) .3rem; 
     border-radius: .3rem;
     background-position: center;
     background-size: cover;
@@ -153,8 +139,8 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    color: rgb(146, 152, 150); 
-    font-family: "Poetsen One", cursive;
+    color: rgb(48, 50, 50); 
+    font-family: "Merienda", cursive;
   }
   
   .hidden {
@@ -175,7 +161,7 @@
   .group-two > h4 {
     margin-left: 1.5rem;
     align-items: center;
-    color: rgb(137, 201, 174); 
+    color: rgb(48, 50, 50);
   }
   
   .past-input,
@@ -219,48 +205,48 @@
   
   #filteredWords {
     font-family: "Volkhov", serif;
-    font-size: .8rem; 
+    font-size: .75rem; 
     color: rgb(17, 19, 18);
-    background-color: rgb(159, 152, 157);
+    background-color: rgb(158, 160, 163);
     padding: 1.5rem;
     text-align: justify;
   }
   
   footer {
     height: 12vh;
-    border: solid rgb(86, 91, 89) .3rem;
-    border-radius: .3rem;
+    border: solid rgb(77, 79, 78) .3rem;
+    border-radius: .15rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(30, 88, 138);
+    background-color: rgb(158, 160, 163);
   }
   
   #wordle-link,
   #nyt-link   {
-    background-color: rgb(161, 169, 176);
-    border: solid rgb(148, 162, 178);
-    box-shadow: .2rem .1rem;
-    border-radius: .4rem;
+    background-color: rgb(123, 125, 128);
+    border: solid rgb(58, 58, 59);
+    box-shadow: .1rem .05rem;
+    border-radius: .2rem;
     padding: .2rem;
   }
   
   #wordle-link:hover,
   #nyt-link:hover {
-    background-color: rgb(11, 90, 164);
+    background-color: rgb(77, 78, 79);
     color: rgb(3, 39, 56);
   }
   
   #lookupSection {
     font-family: "Poetsen One", cursive;
     position: relative;
-    color: rgb(15, 174, 71);
+    color: rgb(95, 105, 98);
   }
   
   #wordList { 
     position: absolute;
     top: 500; 
-    color: rgb(15, 174, 71);
+    color: rgb(77, 83, 79);
   }
   
   .numbers {
@@ -274,12 +260,12 @@
   #wordNumberInput,
   #lookupWordNumberButton {
     margin-bottom: .3rem ;
-    background-color: rgb(171, 175, 179);
-    border: solid rgb(44, 65, 89);
-    box-shadow: .2rem .1rem;
-    border-radius: .4rem;
+    background-color: rgb(182, 183, 185);
+    border: solid rgb(85, 86, 89);
+    box-shadow: .1rem .05rem;
+    border-radius: .05rem;
     padding: .2rem;
-    color: rgb(15, 174, 71);
+    color: rgb(37, 38, 37);
   }
 
   #toggleAverageScoreButton {
