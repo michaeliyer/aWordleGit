@@ -224,7 +224,8 @@
   
   #wordle-link,
   #nyt-link   {
-    background-color: rgb(123, 125, 128);
+    background-color: rgb(118, 119, 121);
+    color: rgb(196, 198, 200);
     border: solid rgb(58, 58, 59);
     box-shadow: .1rem .05rem;
     border-radius: .2rem;
@@ -233,8 +234,8 @@
   
   #wordle-link:hover,
   #nyt-link:hover {
-    background-color: rgb(77, 78, 79);
-    color: rgb(3, 39, 56);
+    background-color: rgb(125, 126, 127);
+    color: rgb(4, 4, 5);
   }
   
   #lookupSection {
@@ -245,7 +246,7 @@
   
   #wordList { 
     position: absolute;
-    top: 500; 
+    top: 35px; 
     color: rgb(77, 83, 79);
   }
   
