@@ -102,13 +102,13 @@
   }
 
   .anton-regularWP {
-    background-color: rgb(70, 72, 73);
-    color: rgb(111, 114, 113);
+    background-color: rgb(151, 160, 164);
+    color: rgb(35, 36, 36);
     font-family: "Merienda", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 1.25rem;
-    border: solid rgb(144, 146, 145) .1rem;
+    border: solid rgb(90, 92, 91) .1rem;
     border-radius: 1.5rem;
     padding: .5rem;
   }
