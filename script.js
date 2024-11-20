@@ -7501,6 +7501,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1248,
     },
+    {
+      word: "GOING",
+      gameDate: "11/19/24",
+      myScore: 4,
+      wordNumber: 1249,
+    },
   ];
   // prettier-ignore
   let newWords = [
@@ -7550,7 +7556,7 @@ const oldWords = [
         'FUGUE', 'FUNKY', 'FUROR', 'FURRY', 'FUSSY', 'FUZZY', 'GABLE', 'GAFFE', 'GAILY',
         'GASSY', 'GAUGE', 'GAVEL', 'GAYER', 'GAYLY', 'GAZER', 'GEEKY', 'GEESE', 'GENIE', 'GHOST',
         'GIPSY', 'GIRLY', 'GIVER', 'GLADE', 'GLAND', 'GLARE', 'GLINT', 'GLOSS', 'GNOME',
-        'GODLY', 'GOING', 'GOLLY', 'GONAD', 'GOODY', 'GOOEY', 'GOURD', 'GRAFT', 'GRAIN',
+        'GODLY', 'GOLLY', 'GONAD', 'GOODY', 'GOOEY', 'GOURD', 'GRAFT', 'GRAIN',
         'GRAPE', 'GRASS', 'GRAVE', 'GRAVY', 'GRAZE', 'GREED', 'GRILL', 'GROAN',
         'GROPE', 'GROSS', 'GROWN', 'GRUFF', 'GRUNT', 'GUAVA', 'GUESS', 'GUILE', 'GUILT',
         'GUISE', 'GULCH', 'GUMBO', 'GUSTO', 'GYPSY', 'HABIT', 'HALAL', 

@@ -37,7 +37,7 @@
     font-family: "Merienda", cursive;
     font-size: 1.75rem;
     border: solid rgb(71, 71, 77) .2rem;
-    box-shadow: .2rem .1rem;
+    box-shadow: .1rem .05rem;
     border-radius: .4rem;
     padding: .3rem;
   }
@@ -89,10 +89,11 @@
   #toggleGroupTwo {
     border: solid rgb(104, 104, 110) .1rem;
     box-shadow: .2rem .1rem;
-    border-radius: .2rem;
+    border-radius: .45rem;
     padding: .3rem;
     font-family: "Merienda", cursive;
     font-size: 1.4rem;
+    font-weight: 600;
   }
   
   #toggleGroupOne:active,
@@ -105,11 +106,12 @@
     background-color: rgb(151, 160, 164);
     color: rgb(35, 36, 36);
     font-family: "Merienda", cursive;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-size: 1.25rem;
     border: solid rgb(90, 92, 91) .1rem;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
+    box-shadow: .15rem .1rem;
     padding: .5rem;
   }
   
@@ -283,4 +285,8 @@
 
   #averageScoreResult {
     color: rgb(137, 148, 141);
+  }
+
+  #wordInput {
+    color: rgb(45, 34, 34);
   }
