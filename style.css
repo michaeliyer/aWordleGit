@@ -274,13 +274,15 @@
   #toggleAverageScoreButton {
     background-color: rgb(97, 104, 110);
     color: rgb(146, 154, 149);
+    height: 1.5rem;
   }
 
   #wordNumber1,
   #wordNumber2,
-  #calculateAverageButton {
-    background-color: rgb(113, 120, 124);
-    color: rgb(119, 131, 123);
+  #calculateAverageButton,
+  #averageScoreSection {
+    background-color: rgb(182, 183, 185);
+    color: rgb(37, 38, 37);
   }
 
   #averageScoreResult {

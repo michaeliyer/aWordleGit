@@ -7507,6 +7507,12 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1249,
     },
+    {
+      word: "NICHE",
+      gameDate: "11/20/24",
+      myScore: 3,
+      wordNumber: 1250,
+    },
   ];
   // prettier-ignore
   let newWords = [
@@ -7551,7 +7557,7 @@ const oldWords = [
         'FETAL', 'FETCH', 'FETID', 'FETUS', 'FEVER', 'FICUS', 'FIERY', 'FIFTH',
         'FIGHT', 'FILER', 'FILLY', 'FILMY', 'FILTH', 'FIZZY', 'FLACK', 'FLAKY',
         'FLASH', 'FLECK', 'FLEET', 'FLIER', 'FLINT', 'FLUID', 'FLUKE', 'FLUNG',
-        'FLUSH', 'FLUTE', 'FOAMY', 'FOIST', 'FOLIO', 'FORUM', 'FRAIL', 'FRAUD',
+        'FLUSH', 'FLUTE', 'FOAMY', 'FOIST', 'FOLIO', 'FORUM', 'FRAUD',
         'FREAK', 'FREED', 'FREER', 'FRIAR', 'FRILL', 'FRISK', 'FRITZ', 'FRUIT', 'FUDGE',
         'FUGUE', 'FUNKY', 'FUROR', 'FURRY', 'FUSSY', 'FUZZY', 'GABLE', 'GAFFE', 'GAILY',
         'GASSY', 'GAUGE', 'GAVEL', 'GAYER', 'GAYLY', 'GAZER', 'GEEKY', 'GEESE', 'GENIE', 'GHOST',
@@ -7578,7 +7584,7 @@ const oldWords = [
         'MOGUL', 'MOLDY', 'MOODY', 'MORAL', 'MORON', 'MORPH', 'MOTEL', 'MOTIF', 'MOUND', 'MOUTH', 
         'MOVER', 'MOWER',
         'MUCUS', 'MUDDY', 'MUNCH', 'MURKY', 'MUSKY', 'MYRRH', 'NACHO', 'NADIR', 'NASAL',
-        'NAVEL', 'NERVE', 'NEWER', 'NEWLY', 'NICHE', 'NIECE', 'NINNY',
+        'NAVEL', 'NERVE', 'NEWER', 'NEWLY', 'NIECE', 'NINNY',
         'NOBLY', 'NOISY', 'NOMAD', 'NOOSE', 'NOSEY', 'NOTCH', 'NOVEL', 'NUDGE', 'NURSE', 'NUTTY',
         'NYLON', 'OAKEN', 'OBESE', 'OCTAL', 'ODDER', 'ODDLY', 'OFFER', 'OLDEN', 'OMBRE',
         'OMEGA', 'OPINE', 'OPIUM', 'OPTIC', 'ORBIT', 'OTTER', 'OUTGO',
