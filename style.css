@@ -1,5 +1,4 @@
-
-* {
+  * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -268,27 +267,37 @@
     box-shadow: .1rem .05rem;
     border-radius: .05rem;
     padding: .2rem;
-    color: rgb(37, 38, 37);
+    color: rgb(95, 105, 98);
   }
 
+  #calculateAverageButton,
   #toggleAverageScoreButton {
-    background-color: rgb(97, 104, 110);
-    color: rgb(146, 154, 149);
+    background-color: rgb(182, 183, 185);
+    color: rgb(95, 105, 98);
     height: 1.5rem;
   }
 
   #wordNumber1,
   #wordNumber2,
-  #calculateAverageButton,
-  #averageScoreSection {
+  #wordNumberInput {
     background-color: rgb(182, 183, 185);
-    color: rgb(37, 38, 37);
+    color: rgb(95, 105, 98);
+  }
+
+  .numbers,
+  .average-score {
+    font-family: "Poetsen One", cursive;
+    color: rgb(95, 105, 98);
+    font-size: .85rem;
+  
   }
 
   #averageScoreResult {
-    color: rgb(137, 148, 141);
+    color: rgb(95, 105, 98);
   }
 
   #wordInput {
     color: rgb(45, 34, 34);
   }
+
+

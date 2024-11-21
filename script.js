@@ -7643,7 +7643,7 @@ const oldWords = [
         'WOOZY', 'WORTH', 'WOUND', 'WRACK', 'WRECK', 'WREST', 'WRING', 'WRYLY', 'YEAST',
         'ZONAL'
       ];
-  
+    
   let filteredWords = [...newWords];
   let history = [];
   
@@ -7869,6 +7869,5 @@ const oldWords = [
     const totalScore = filteredWords.reduce((sum, word) => sum + word.myScore, 0);
     const averageScore = totalScore / filteredWords.length;
   
-    averageScoreResult.textContent = `The average score between word #${start} and word #${end} is ${averageScore.toFixed(5)}.`;
+    averageScoreResult.textContent = `Your average score between words #${start} and #${end} is a crisp ${averageScore.toFixed(5)} !`;
   });
-  
