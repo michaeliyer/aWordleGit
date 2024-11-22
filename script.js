@@ -7519,6 +7519,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1251,
     },
+    {
+      word: "PEARL",
+      gameDate: "11/22/24",
+      myScore: 3,
+      wordNumber: 1252,
+    },
   ];
   // prettier-ignore
   let newWords = [
@@ -7596,7 +7602,7 @@ const oldWords = [
         'OMEGA', 'OPINE', 'OPIUM', 'OPTIC', 'ORBIT', 'OTTER', 'OUTGO',
         'OVARY', 'OVATE', 'OVINE', 'OVOID', 'OWING', 'OZONE', 'PADDY', 'PAGAN', 
         'PALER', 'PALSY', 'PANSY', 'PAPAL', 'PARKA', 'PARSE', 'PASTE', 'PASTY', 'PATCH', 'PATIO',
-        'PATSY', 'PAYEE', 'PAYER', 'PEARL', 'PECAN', 'PEDAL', 'PENAL', 'PENCE', 'PENNY',
+        'PATSY', 'PAYEE', 'PAYER', 'PECAN', 'PEDAL', 'PENAL', 'PENCE', 'PENNY',
         'PEONY', 'PERIL', 'PESTO', 'PETAL', 'PETTY', 'PIECE', 'PIGGY', 'PITCH', 'PIVOT', 'PIZZA',
         'PLAID', 'PLAIN', 'PLANE', 'PLEAD', 'PLIED', 'PLIER', 'PLUMB', 'PLUME', 'PLUMP', 'PLUSH',
         'POESY', 'POLAR', 'POOCH', 'POPPY', 'POSER', 'POSIT', 'POSSE', 'POUCH', 'POUTY',
@@ -7760,7 +7766,7 @@ const oldWords = [
   function calculateAverageScoreUpToDate(date) {
     const scoresUpToDate = oldWords.filter((wordObj) => new Date(wordObj.gameDate) <= new Date(date) && wordObj.myScore !== 0).map((wordObj) => wordObj.myScore);
     const totalScore = scoresUpToDate.reduce((acc, score) => acc + score, 0);
-    const averageScore = scoresUpToDate.length > 0 ? (totalScore / scoresUpToDate.length).toFixed(8) : 0;
+    const averageScore = scoresUpToDate.length > 0 ? (totalScore / scoresUpToDate.length).toFixed(3) : 0;
     return averageScore;
   }
   
@@ -7868,12 +7874,12 @@ const oldWords = [
     const filteredWords = oldWords.filter((word) => word.wordNumber >= start && word.wordNumber <= end && word.myScore > 0);
   
     if (filteredWords.length === 0) {
-      averageScoreResult.textContent = "Invalid Entry In One Or Both Fields!!!";
+      averageScoreResult.textContent = "Invalid Entry Jerk!";
       return;
     }
   
     const totalScore = filteredWords.reduce((sum, word) => sum + word.myScore, 0);
     const averageScore = totalScore / filteredWords.length;
   
-    averageScoreResult.textContent = `Your average score between words #${start} and #${end} is a crisp ${averageScore.toFixed(5)} !`;
+    averageScoreResult.textContent = `Your average score between words #${start} and #${end} is a crisp ${averageScore.toFixed(3)} !`;
   });
