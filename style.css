@@ -55,19 +55,31 @@
   #instructions {
     font-family: "Merienda", cursive;
     font-style: normal;
-    background-color: rgb(101, 104, 108);
+    background-color: rgb(157, 159, 162);
     color: rgb(36, 41, 39);
-    border: solid rgb(81, 86, 84) .3rem;
+    border: solid rgb(122, 126, 125) .15rem;
     border-radius: .5rem;
-    box-shadow: .2rem .1rem;
+    box-shadow: .15rem .08rem;
     position: absolute;
     z-index: 20;
     top: 1rem;
     right: .5rem;
     text-align: center;
     padding: .2rem;
-    width: 29vw;
+    width: 22vw;
+    opacity: 6;
   } 
+
+  #wordInput,
+  #submitButton {
+    color: rgb(48, 50, 50); 
+    font-family: "Merienda", cursive;
+    font-size: .85rem;
+    border: solid rgb(85, 86, 89) .2rem;
+    box-shadow: .12rem .08rem;
+    border-radius: .3rem;
+    margin: .1rem;
+  }
   
   li {
     line-height: 1.2rem;
@@ -107,7 +119,7 @@
     font-family: "Merienda", cursive;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
     border: solid rgb(90, 92, 91) .1rem;
     border-radius: 1.25rem;
     box-shadow: .15rem .1rem;
@@ -187,9 +199,23 @@
     justify-content: center;
     width: 45vw;
   }
-  
+  #functionSelect,
+  #letterInput,
+  #positionInput,
+  #applyFilterButton,
+  #undoButton {
+    color: rgb(48, 50, 50); 
+    font-family: "Merienda", cursive;
+    font-size: .85rem;
+    border: solid rgb(85, 86, 89) .2rem;
+    box-shadow: .12rem .08rem;
+    border-radius: .3rem;
+    margin: .1rem;
+  }
+
   #functionSelect {
     width: 15vw;
+
   }
   
   #letterInput {
@@ -197,11 +223,15 @@
   }
   
   #positionInput {
-    width: 8vw;  
+    width: 16vw;  
   }
   
   #applyFilterButton {
     width: 8vw;
+  }
+
+  #undoButton {
+    width: 5rem;
   }
   
   #filteredWords {
@@ -214,7 +244,7 @@
   }
   
   footer {
-    height: 12vh;
+    height: 16vh;
     border: solid rgb(77, 79, 78) .3rem;
     border-radius: .15rem;
     display: flex;
@@ -222,7 +252,82 @@
     align-items: center;
     background-color: rgb(158, 160, 163);
   }
+ 
+  #lookupSection {
+    font-family: "Poetsen One", cursive;
+    position: relative;
+    color: rgb(95, 105, 98);
+  }
   
+  #wordList { 
+    /* position: absolute;
+    top: 35px;  */
+    font-size: 1.6rem;
+    color: rgb(62, 68, 64);
+  }
+  
+  .numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+    
+  #toggleLookupButton,
+  #wordNumberInput,
+  #lookupWordNumberButton,
+  #calculateAverageButton,
+  #toggleAverageScoreButton, 
+  #wordNumber1,
+  #wordNumber2,
+  #wordNumberInput {
+    margin-bottom: .3rem ;
+    background-color: rgb(182, 183, 185);
+    color: rgb(95, 105, 98);
+    font-family: "Poetsen One", cursive;
+    height: 1.55rem;
+    border: solid rgb(85, 86, 89) .2rem;
+    box-shadow: .1rem .05rem;
+    border-radius: .05rem;
+    padding: .2rem;
+  }
+
+#wordNumberInput {
+  width: 7rem;
+}
+
+  #wordNumber1,
+  #wordNumber2 {
+    width: 9rem;
+    color: rgb(95, 105, 98);
+  }
+
+  .numbers,
+  .average-score {
+    font-family: "Poetsen One", cursive;
+    color: rgb(95, 105, 98);
+    font-size: .85rem;
+  }
+
+  #wordDetails,
+  #averageScoreResult {
+    color: rgb(95, 105, 98);
+    font-size: 1.15rem;
+  }
+
+  #wordInput {
+    color: rgb(45, 34, 34);
+  }
+
+
+
+
+
+
+
+
+
+   
   /* #wordle-link,
   #nyt-link   {
     background-color: rgb(118, 119, 121);
@@ -238,66 +343,6 @@
     background-color: rgb(125, 126, 127);
     color: rgb(4, 4, 5);
   } */
+
+
   
-  #lookupSection {
-    font-family: "Poetsen One", cursive;
-    position: relative;
-    color: rgb(95, 105, 98);
-  }
-  
-  #wordList { 
-    position: absolute;
-    top: 35px; 
-    color: rgb(77, 83, 79);
-  }
-  
-  .numbers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-    
-  #toggleLookupButton,
-  #wordNumberInput,
-  #lookupWordNumberButton {
-    margin-bottom: .3rem ;
-    background-color: rgb(182, 183, 185);
-    border: solid rgb(85, 86, 89);
-    box-shadow: .1rem .05rem;
-    border-radius: .05rem;
-    padding: .2rem;
-    color: rgb(95, 105, 98);
-  }
-
-  #calculateAverageButton,
-  #toggleAverageScoreButton {
-    background-color: rgb(182, 183, 185);
-    color: rgb(95, 105, 98);
-    height: 1.5rem;
-  }
-
-  #wordNumber1,
-  #wordNumber2,
-  #wordNumberInput {
-    background-color: rgb(182, 183, 185);
-    color: rgb(95, 105, 98);
-  }
-
-  .numbers,
-  .average-score {
-    font-family: "Poetsen One", cursive;
-    color: rgb(95, 105, 98);
-    font-size: .85rem;
-  
-  }
-
-  #averageScoreResult {
-    color: rgb(95, 105, 98);
-  }
-
-  #wordInput {
-    color: rgb(45, 34, 34);
-  }
-
-

@@ -7868,7 +7868,7 @@ const oldWords = [
     const filteredWords = oldWords.filter((word) => word.wordNumber >= start && word.wordNumber <= end && word.myScore > 0);
   
     if (filteredWords.length === 0) {
-      averageScoreResult.textContent = "No words found in this range.";
+      averageScoreResult.textContent = "Invalid Entry In One Or Both Fields!!!";
       return;
     }
   
