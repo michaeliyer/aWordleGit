@@ -223,7 +223,7 @@
     background-color: rgb(158, 160, 163);
   }
   
-  #wordle-link,
+  /* #wordle-link,
   #nyt-link   {
     background-color: rgb(118, 119, 121);
     color: rgb(196, 198, 200);
@@ -237,7 +237,7 @@
   #nyt-link:hover {
     background-color: rgb(125, 126, 127);
     color: rgb(4, 4, 5);
-  }
+  } */
   
   #lookupSection {
     font-family: "Poetsen One", cursive;
