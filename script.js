@@ -7525,6 +7525,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1252,
     },
+    {
+      word: "JELLY",
+      gameDate: "11/23/24",
+      myScore: 4,
+      wordNumber: 1253,
+    },
   ];
   // prettier-ignore
   let newWords = [
@@ -7582,7 +7588,7 @@ const oldWords = [
         'HAZEL', 'HEDGE', 'HEFTY', 'HILLY', 'HIPPO', 'HIPPY', 'HOIST', 'HOLLY',
         'HONOR', 'HORNY', 'HOTLY', 'HOVEL', 'HOVER', 'HUMUS', 'HUSKY', 'HUSSY', 'HYDRO',
         'HYENA', 'HYMEN', 'ICILY', 'ICING', 'IDEAL', 'IDIOM', 'IDIOT', 'IDLER', 'IDYLL', 'ILIAC',
-        'IMBUE', 'IMPLY', 'INBOX', 'INCUR', 'INGOT', 'INLET', 'ISSUE', 'JELLY',
+        'IMBUE', 'IMPLY', 'INBOX', 'INCUR', 'INGOT', 'INLET', 'ISSUE', 
         'JETTY', 'JEWEL', 'JOIST', 'JUICY', 'JUMBO', 'JUMPY', 'JUNTA',
         'JUNTO', 'JUROR', 'KAPPA', 'KINKY', 'KITTY', 'KNACK', 'KNEED', 'KNIFE',
         'KNOWN', 'KRILL', 'LADEN', 'LADLE', 'LANCE', 'LASSO', 'LATCH', 'LATER',
