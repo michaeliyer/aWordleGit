@@ -1,1 +1,1 @@
-This Live Wordle Thing, Man - It's Really Just So Alive, Mangola!
+This Live Wordle Thing, Man - It's Really Just So Alive, Mangola!!!

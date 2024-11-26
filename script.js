@@ -7533,10 +7533,17 @@ const oldWords = [
     },
     {
       word: "TWIST",
-      gameDate: "11/23/24",
+      gameDate: "11/24/24",
       myScore: 4,
-      wordNumber: 1253,
+      wordNumber: 1254,
     },
+    {
+      word: "BROWN",
+      gameDate: "11/25/24",
+      myScore: 5,
+      wordNumber: 1255,
+    },
+    
   ];
   // prettier-ignore
   let newWords = [
@@ -7554,7 +7561,7 @@ const oldWords = [
         'BLOAT', 'BLOOD', 'BLOOM', 'BLUER', 'BLUNT', 'BOARD', 'BOAST', 'BOBBY', 'BONEY', 'BONGO', 
         'BONUS', 'BOOTH', 'BOOTY', 'BORNE', 'BOSOM', 'BOTCH', 'BOULE', 'BOUND', 'BOWEL', 
         'BOXER', 'BRAND', 'BRAWL', 'BRAWN', 'BRICK', 'BROIL', 'BROOD', 
-        'BROWN', 'BRUNT', 'BUDGE', 'BULGE', 'BUNNY', 'BURNT', 'BURST', 'BUSED', 'BUSHY', 'BUTCH', 
+        'BRUNT', 'BUDGE', 'BULGE', 'BUNNY', 'BURNT', 'BURST', 'BUSED', 'BUSHY', 'BUTCH', 
         'BUTTE', 'BUXOM', 'BUYER', 'BYLAW', 'CABAL', 'CABBY', 'CABIN', 'CACTI', 'CADDY', 'CAGEY', 
         'CAIRN', 'CANAL', 'CAPUT', 'CASTE', 'CATTY', 'CAVIL', 'CEASE', 'CELLO', 'CHAFF', 
         'CHAIR', 'CHASE', 'CHASM', 'CHEAP', 'CHECK', 'CHESS', 'CHICK', 'CHIDE', 'CHILI', 'CHINA',
