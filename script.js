@@ -7534,7 +7534,7 @@ const oldWords = [
     {
       word: "TWIST",
       gameDate: "11/24/24",
-      myScore: 4,
+      myScore: 3,
       wordNumber: 1254,
     },
     {
@@ -7900,5 +7900,5 @@ const oldWords = [
     const totalScore = filteredWords.reduce((sum, word) => sum + word.myScore, 0);
     const averageScore = totalScore / filteredWords.length;
   
-    averageScoreResult.textContent = `Your average score between words #${start} and #${end} is a crisp ${averageScore.toFixed(3)} !`;
+    averageScoreResult.textContent = `Your average score between words #${start} and #${end} is a crisp ${averageScore.toFixed(6)} !`;
   });
