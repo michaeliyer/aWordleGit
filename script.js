@@ -7543,6 +7543,12 @@ const oldWords = [
       myScore: 5,
       wordNumber: 1255,
     },
+    {
+      word: "WITCH",
+      gameDate: "11/26/24",
+      myScore: 5,
+      wordNumber: 1256,
+    },
     
   ];
   // prettier-ignore
@@ -7670,7 +7676,7 @@ const oldWords = [
         'VOMIT', 'VOWEL', 'VYING', 'WAFER', 'WAGER', 'WAIST', 'WAIVE', 'WARTY', 'WATER',
         'WAVER', 'WAXEN', 'WEAVE', 'WEEDY', 'WEIGH', 'WELCH', 'WELSH', 'WHARF', 'WHEAT',
         'WHITE', 'WHOLE', 'WHOSE', 'WIDER', 'WIDOW', 'WIDTH', 'WIELD', 'WIGHT',
-        'WILLY', 'WIMPY', 'WINCH', 'WISER', 'WISPY', 'WITCH', 'WITTY', 'WOMEN', 'WOODY', 'WOOLY',
+        'WILLY', 'WIMPY', 'WINCH', 'WISER', 'WISPY', 'WITTY', 'WOMEN', 'WOODY', 'WOOLY',
         'WOOZY', 'WORTH', 'WOUND', 'WRACK', 'WRECK', 'WREST', 'WRING', 'WRYLY', 'YEAST',
         'ZONAL'
       ];
