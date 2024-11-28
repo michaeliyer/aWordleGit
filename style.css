@@ -262,7 +262,7 @@
   #wordList { 
     /* position: absolute;
     top: 35px;  */
-    font-size: 1.6rem;
+    font-size: 1.65rem;
     color: rgb(62, 68, 64);
   }
   
@@ -291,9 +291,9 @@
     padding: .2rem;
   }
 
-#wordNumberInput {
-  width: 7.5rem;
-}
+  #wordNumberInput {
+    width: 7.5rem;
+  }
 
   #wordNumber1,
   #wordNumber2 {

@@ -7549,6 +7549,12 @@ const oldWords = [
       myScore: 5,
       wordNumber: 1256,
     },
+    {
+      word: "SLANG",
+      gameDate: "11/27/24",
+      myScore: 4,
+      wordNumber: 1257,
+    },
     
   ];
   // prettier-ignore
@@ -7649,7 +7655,7 @@ const oldWords = [
         'SHEEN', 'SHEEP', 'SHEER', 'SHEET', 'SHEIK', 'SHELF', 'SHIED', 'SHINY', 'SHIRT',
         'SHOAL', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHORT', 'SHOVE', 'SHREW',
         'SHUCK', 'SHUNT', 'SHUSH', 'SIEVE', 'SIGMA', 'SILKY', 'SILLY', 'SINEW', 'SINGE', 'SIREN',
-        'SIXTY', 'SKULK', 'SKULL', 'SLACK', 'SLAIN', 'SLANG', 'SLANT', 'SLASH', 'SLAVE', 
+        'SIXTY', 'SKULK', 'SKULL', 'SLACK', 'SLAIN', 'SLANT', 'SLASH', 'SLAVE', 
         'SLEET', 'SLEPT', 'SLICK', 'SLIDE', 'SLIME', 'SLIMY', 'SLING', 'SLINK',
         'SLOOP', 'SLUNK', 'SLURP', 'SLUSH', 'SLYLY', 'SMACK', 'SMELL', 'SMOKY',
         'SMOTE', 'SNEER', 'SNIDE', 'SNIFF', 'SNIPE', 'SNORE', 'SNOWY', 'SNUCK', 'SNUFF',
@@ -7740,25 +7746,6 @@ const oldWords = [
       return word.includes(upperLetter) && word[position - 1] !== upperLetter;
     });
   }
-  
-  function containsRepeatingConsecutiveLetters() {
-    return filteredWords.filter((word) => /(.)\1/.test(word));
-  }
-  
-  function containsDuplicateLetters() {
-    return filteredWords.filter((word) => {
-      const letters = {};
-      for (let letter of word) {
-        if (letters[letter]) {
-          return true;
-        } else {
-          letters[letter] = true;
-        }
-      }
-      return false;
-    });
-  }
-  
   function handleWordInput() {
     const inputWord = document.getElementById("wordInput").value.toLowerCase();
     const foundWord = oldWords.find((wordObj) => wordObj.word.toLowerCase() === inputWord);
