@@ -254,8 +254,8 @@
   }
  
   #lookupSection {
-    font-family: "Poetsen One", cursive;
-    position: relative;
+    /* font-family: "Poetsen One", cursive;
+    position: relative; */
     color: rgb(95, 105, 98);
   }
   
