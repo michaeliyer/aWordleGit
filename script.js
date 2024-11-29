@@ -7555,6 +7555,12 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1257,
     },
+    {
+      word: "CHOCK",
+      gameDate: "11/28/24",
+      myScore: 4,
+      wordNumber: 1258,
+    },
     
   ];
   // prettier-ignore
@@ -7577,7 +7583,7 @@ const oldWords = [
         'BUTTE', 'BUXOM', 'BUYER', 'BYLAW', 'CABAL', 'CABBY', 'CABIN', 'CACTI', 'CADDY', 'CAGEY', 
         'CAIRN', 'CANAL', 'CAPUT', 'CASTE', 'CATTY', 'CAVIL', 'CEASE', 'CELLO', 'CHAFF', 
         'CHAIR', 'CHASE', 'CHASM', 'CHEAP', 'CHECK', 'CHESS', 'CHICK', 'CHIDE', 'CHILI', 'CHINA',
-        'CHIRP', 'CHOCK', 'CHORE', 'CHOSE', 'CHUCK', 'CHUMP', 'CHURN', 'CIVIL', 'CLACK', 'CLAIM',
+        'CHIRP', 'CHORE', 'CHOSE', 'CHUCK', 'CHUMP', 'CHURN', 'CIVIL', 'CLACK', 'CLAIM',
         'CLAMP', 'CLANG', 'CLANK', 'CLASH', 'CLASP', 'CLEAT', 'CLIFF', 'CLINK', 'CLOAK', 
         'CLOUT', 'CLOVE', 'CLUED', 'CLUMP', 'CLUNG', 'COBRA', 'COLOR', 'COMFY', 'COMIC', 'CONCH',
         'COPSE', 'CORAL', 'COUCH', 'COUGH', 'COUPE', 'COVEN', 'COVEY', 'CRACK', 'CRASH',
