@@ -7561,6 +7561,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1258,
     },
+    {
+      word: "HIPPO",
+      gameDate: "11/29/24",
+      myScore: 4,
+      wordNumber: 1259,
+    },
     
   ];
   // prettier-ignore
@@ -7616,7 +7622,7 @@ const oldWords = [
         'GROPE', 'GROSS', 'GROWN', 'GRUFF', 'GRUNT', 'GUAVA', 'GUESS', 'GUILE', 'GUILT',
         'GUISE', 'GULCH', 'GUMBO', 'GUSTO', 'GYPSY', 'HABIT', 'HALAL', 
         'HARDY', 'HAREM', 'HARPY', 'HARRY', 'HASTE', 'HASTY', 'HAUNT', 'HAUTE', 'HAVEN',
-        'HAZEL', 'HEDGE', 'HEFTY', 'HILLY', 'HIPPO', 'HIPPY', 'HOIST', 'HOLLY',
+        'HAZEL', 'HEDGE', 'HEFTY', 'HILLY', 'HIPPY', 'HOIST', 'HOLLY',
         'HONOR', 'HORNY', 'HOTLY', 'HOVEL', 'HOVER', 'HUMUS', 'HUSKY', 'HUSSY', 'HYDRO',
         'HYENA', 'HYMEN', 'ICILY', 'ICING', 'IDEAL', 'IDIOM', 'IDIOT', 'IDLER', 'IDYLL', 'ILIAC',
         'IMBUE', 'IMPLY', 'INBOX', 'INCUR', 'INGOT', 'INLET', 'ISSUE', 
