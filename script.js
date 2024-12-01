@@ -7567,6 +7567,12 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1259,
     },
+    {
+      word: "DOGMA",
+      gameDate: "11/30/24",
+      myScore: 3,
+      wordNumber: 1230,
+    },
     
   ];
   // prettier-ignore
@@ -7600,7 +7606,7 @@ const oldWords = [
         'DECOR', 'DECRY', 'DEFER', 'DEIGN', 'DEITY', 
         'DEMON', 'DEMUR', 'DENSE', 'DERBY', 'DETOX', 'DEUCE', 'DILLY', 'DIMLY',
         'DINGY', 'DIODE', 'DIRGE', 'DIRTY', 'DITCH', 'DITTY', 'DIVER', 'DIZZY', 'DODGY',
-        'DOGMA', 'DOPEY', 'DOUGH', 'DOWDY', 'DOWEL', 'DOWNY', 'DRAFT', 'DRAKE', 'DRAMA',
+        'DOPEY', 'DOUGH', 'DOWDY', 'DOWEL', 'DOWNY', 'DRAFT', 'DRAKE', 'DRAMA',
         'DRANK', 'DRAPE', 'DRAWL', 'DREAD', 'DRESS', 'DRIED', 'DRIER', 'DRIFT', 'DRILL',
         'DROIT', 'DRONE', 'DROOL', 'DROSS', 'DROWN', 'DRUID', 'DRUNK', 'DRYER', 'DRYLY',
         'DULLY', 'DUMMY', 'DUMPY', 'DUNCE', 'DUSKY', 'DUSTY', 'DYING', 'EAGER', 'EAGLE',  
