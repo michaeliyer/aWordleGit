@@ -7571,7 +7571,13 @@ const oldWords = [
       word: "DOGMA",
       gameDate: "11/30/24",
       myScore: 3,
-      wordNumber: 1230,
+      wordNumber: 1260,
+    },
+    {
+      word: "MAUVE",
+      gameDate: "12/1/24",
+      myScore: 4,
+      wordNumber: 1261,
     },
     
   ];
@@ -7640,7 +7646,7 @@ const oldWords = [
         'LOAMY', 'LOATH', 'LOBBY', 'LODGE', 'LOGIN', 'LOOSE', 'LORRY', 'LOUSY', 'LUMEN',
         'LUMPY', 'LUPUS', 'LURCH', 'LURID', 'LYMPH', 'LYRIC', 'MACHO', 'MACRO', 'MADLY',
         'MAFIA', 'MAKER', 'MAMBO', 'MAMMA', 'MAMMY', 'MANGE', 'MANGO', 'MANGY', 'MANIC',
-        'MAUVE', 'MEATY', 'MECCA', 'MELEE', 'MIGHT', 'MILKY',
+        'MEATY', 'MECCA', 'MELEE', 'MIGHT', 'MILKY',
         'MINIM', 'MINOR', 'MINTY', 'MIRTH', 'MISER', 'MISSY', 'MOCHA', 'MODAL', 
         'MOGUL', 'MOLDY', 'MOODY', 'MORAL', 'MORON', 'MORPH', 'MOTEL', 'MOTIF', 'MOUND', 'MOUTH', 
         'MOVER', 'MOWER',
