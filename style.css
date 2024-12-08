@@ -336,5 +336,41 @@
     color: rgb(4, 4, 5);
   } */
 
-
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 1.2rem; /* Adjust font size for smaller headers */
+    }
+    #instructions > h4 {
+      font-size: 1rem; /* Reduce line height for instructions */
+    }
+    #filteredWords {
+      font-size: 0.65rem; /* Shrink font for long text sections */
+    }
+  }
   
+  @media (max-width: 600px) {
+    header, footer {
+      flex-direction: column; /* Stack items vertically */
+      height: auto; /* Adjust height */
+    }
+  
+    .filter-input {
+      flex-direction: column; /* Stack input fields vertically */
+      width: 100%; /* Full width on smaller screens */
+    }
+  
+    #applyFilterButton, #undoButton {
+      width: 100%; /* Buttons take full width */
+    }
+  }
+
+  @media (max-width: 600px) {
+    .main-container {
+      flex-wrap: wrap; /* Wrap items on smaller screens */
+      padding: 1rem; /* Reduce padding */
+    }
+  
+    .delivery-container {
+      flex: 1 1 100%; /* Each container takes full width */
+    }
+  }
