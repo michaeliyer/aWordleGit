@@ -7627,6 +7627,12 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1269,
     },
+    {
+      word: "PATIO",
+      gameDate: "12/10/24",
+      myScore: 3,
+      wordNumber: 1270,
+    },
     
   ];
   // prettier-ignore
@@ -7704,7 +7710,7 @@ const oldWords = [
         'NYLON', 'OAKEN', 'OBESE', 'OCTAL', 'ODDER', 'ODDLY', 'OFFER', 'OLDEN', 'OMBRE',
         'OMEGA', 'OPINE', 'OPIUM', 'OPTIC', 'ORBIT', 'OTTER', 'OUTGO',
         'OVARY', 'OVATE', 'OVINE', 'OVOID', 'OWING', 'OZONE', 'PADDY', 'PAGAN', 
-        'PALER', 'PALSY', 'PANSY', 'PARKA', 'PARSE', 'PASTE', 'PASTY', 'PATCH', 'PATIO',
+        'PALER', 'PALSY', 'PANSY', 'PARKA', 'PARSE', 'PASTE', 'PASTY', 'PATCH',
         'PATSY', 'PAYEE', 'PAYER', 'PECAN', 'PEDAL', 'PENAL', 'PENCE', 'PENNY',
         'PEONY', 'PERIL', 'PESTO', 'PETAL', 'PETTY', 'PIECE', 'PIGGY', 'PITCH', 'PIVOT', 'PIZZA',
         'PLAID', 'PLAIN', 'PLANE', 'PLEAD', 'PLIED', 'PLIER', 'PLUMB', 'PLUME', 'PLUMP', 'PLUSH',
