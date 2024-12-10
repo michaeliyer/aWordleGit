@@ -7673,7 +7673,7 @@ const oldWords = [
         'GIPSY', 'GIRLY', 'GIVER', 'GLADE', 'GLAND', 'GLARE', 'GLINT', 'GLOSS', 'GNOME',
         'GODLY', 'GOLLY', 'GONAD', 'GOODY', 'GOOEY', 'GOURD', 'GRAFT', 'GRAIN',
         'GRAPE', 'GRASS', 'GRAVE', 'GRAVY', 'GRAZE', 'GREED', 'GRILL', 'GROAN',
-        'GROPE', 'GROSS', 'GROWN', 'GRUFF', 'GRUNT', 'GUAVA', 'GUESS', 'GUILE', 'GUILT',
+        'GROPE', 'GROSS', 'GROWN', 'GRUFF', 'GRUNT', 'GUAVA', 'GUESS', 'GUILT',
         'GUISE', 'GULCH', 'GUMBO', 'GUSTO', 'GYPSY', 'HABIT', 'HALAL', 
         'HARDY', 'HAREM', 'HARPY', 'HARRY', 'HASTE', 'HASTY', 'HAUNT', 'HAUTE', 'HAVEN',
         'HAZEL', 'HEDGE', 'HEFTY', 'HIPPY', 'HOIST', 'HOLLY',
