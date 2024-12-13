@@ -7642,6 +7642,12 @@ const oldWords = [
     {
       word: "VYING",
       gameDate: "12/11/24",
+      myScore: 3,
+      wordNumber: 1271,
+    },
+    {
+      word: "BOXER",
+      gameDate: "12/11/24",
       myScore: 4,
       wordNumber: 1271,
     },
@@ -7662,7 +7668,7 @@ const oldWords = [
         'BLAST', 'BLEAT', 'BLEND', 'BLESS', 'BLIND', 'BLINK', 'BLISS', 'BLITZ',
         'BLOAT', 'BLOOD', 'BLOOM', 'BLUER', 'BLUNT', 'BOARD', 'BOAST', 'BOBBY', 'BONEY', 'BONGO', 
         'BONUS', 'BOOTH', 'BOOTY', 'BORNE', 'BOSOM', 'BOTCH', 'BOULE', 'BOUND', 'BOWEL', 
-        'BOXER', 'BRAND', 'BRAWL', 'BRAWN', 'BRICK', 'BROIL', 'BROOD', 
+        'BRAND', 'BRAWL', 'BRAWN', 'BRICK', 'BROIL', 'BROOD', 
         'BRUNT', 'BUDGE', 'BULGE', 'BUNNY', 'BURNT', 'BURST', 'BUSED', 'BUSHY', 'BUTCH', 
         'BUTTE', 'BUXOM', 'BUYER', 'BYLAW', 'CABAL', 'CABBY', 'CABIN', 'CACTI', 'CADDY', 'CAGEY', 
         'CAIRN', 'CANAL', 'CAPUT', 'CASTE', 'CATTY', 'CAVIL', 'CEASE', 'CELLO', 'CHAFF', 
