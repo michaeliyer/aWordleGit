@@ -7641,15 +7641,15 @@ const oldWords = [
     },
     {
       word: "VYING",
-      gameDate: "12/11/24",
+      gameDate: "12/12/24",
       myScore: 3,
-      wordNumber: 1271,
+      wordNumber: 1272,
     },
     {
       word: "BOXER",
-      gameDate: "12/11/24",
+      gameDate: "12/13/24",
       myScore: 4,
-      wordNumber: 1271,
+      wordNumber: 1273,
     },
     
   ];
