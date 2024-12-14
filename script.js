@@ -7651,6 +7651,12 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1273,
     },
+    {
+      word: "DROOL",
+      gameDate: "12/14/24",
+      myScore: 3,
+      wordNumber: 1274,
+    },
     
   ];
   // prettier-ignore
@@ -7686,7 +7692,7 @@ const oldWords = [
         'DINGY', 'DIODE', 'DIRGE', 'DIRTY', 'DITCH', 'DITTY', 'DIVER', 'DIZZY', 'DODGY',
         'DOPEY', 'DOUGH', 'DOWDY', 'DOWEL', 'DOWNY', 'DRAFT', 'DRAKE', 'DRAMA',
         'DRANK', 'DRAPE', 'DRAWL', 'DREAD', 'DRESS', 'DRIED', 'DRIER', 'DRIFT', 'DRILL',
-        'DROIT', 'DRONE', 'DROOL', 'DROSS', 'DROWN', 'DRUID', 'DRUNK', 'DRYER', 'DRYLY',
+        'DROIT', 'DRONE', 'DROSS', 'DROWN', 'DRUID', 'DRUNK', 'DRYER', 'DRYLY',
         'DULLY', 'DUMMY', 'DUMPY', 'DUNCE', 'DUSKY', 'DUSTY', 'DYING', 'EAGER', 'EAGLE',  
         'EATEN', 'EATER', 'ECLAT', 'EDIFY', 'EERIE', 'EIGHT', 'EKING', 'ELATE', 'ELBOW', 'ELECT',
         'ELEGY', 'ELFIN', 'ELIDE', 'ELITE', 'EMBED', 'EMCEE', 'ENEMY', 
