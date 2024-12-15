@@ -7657,6 +7657,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1274,
     },
+    {
+      word: "FUNKY",
+      gameDate: "12/15/24",
+      myScore: 3,
+      wordNumber: 1275,
+    },
     
   ];
   // prettier-ignore
@@ -7704,7 +7710,7 @@ const oldWords = [
         'FLASH', 'FLECK', 'FLEET', 'FLIER', 'FLINT', 'FLUID', 'FLUKE',
         'FLUSH', 'FLUTE', 'FOAMY', 'FOIST', 'FOLIO', 'FORUM', 'FRAUD',
         'FREAK', 'FREED', 'FREER', 'FRIAR', 'FRILL', 'FRISK', 'FRITZ', 'FRUIT', 'FUDGE',
-        'FUGUE', 'FUNKY', 'FUROR', 'FURRY', 'FUSSY', 'FUZZY', 'GABLE', 'GAFFE', 'GAILY',
+        'FUGUE', 'FUROR', 'FURRY', 'FUSSY', 'FUZZY', 'GABLE', 'GAFFE', 'GAILY',
         'GASSY', 'GAUGE', 'GAVEL', 'GAYER', 'GAYLY', 'GAZER', 'GEEKY', 'GEESE', 'GENIE', 'GHOST',
         'GIPSY', 'GIRLY', 'GIVER', 'GLADE', 'GLAND', 'GLARE', 'GLINT', 'GLOSS', 'GNOME',
         'GODLY', 'GOLLY', 'GONAD', 'GOODY', 'GOOEY', 'GOURD', 'GRAFT', 'GRAIN',
