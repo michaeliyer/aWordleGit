@@ -22,7 +22,7 @@
     color: rgb(80, 28, 54);
     border: solid rgb(98, 101, 100) .3rem;
     border-radius: .3rem;
-    background-color: rgb(229, 126, 179);
+    background-color: rgb(156, 49, 115);
   }
   
   h2 {
@@ -126,7 +126,7 @@
   
   .main-container {
     height: 142vh; 
-    background-color: rgb(204, 83, 172);
+    background-color: rgb(214, 89, 181);
     border-left: solid rgb(67, 72, 70) .3rem;
     border-right: solid rgb(100, 108, 106) .3rem; 
     border-radius: .3rem;
@@ -243,7 +243,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(219, 122, 182);
+    background-color: rgb(156, 49, 115);
   }
  
   #lookupSection {
