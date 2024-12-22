@@ -10,7 +10,7 @@
   }
   
   body {
-    background-color: rgb(184, 111, 146);
+    background-color: rgb(0, 0, 0);
     position: relative;
   }
 
@@ -19,16 +19,16 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: rgb(143, 33, 88);
+    color: rgb(255, 255, 255);
     border: solid rgb(98, 101, 100) .3rem;
     border-radius: .3rem;
-    background-color: rgb(156, 49, 115);
+    background-color: rgb(0, 0, 0);
   }
   
   h2 {
     font-family: "Merienda", cursive;
     font-size: 1.75rem;
-    border: solid rgb(71, 71, 77) .2rem;
+    border: solid rgb(119, 119, 120) .2rem;
     box-shadow: .1rem .05rem;
     border-radius: .4rem;
     padding: .3rem;
@@ -48,9 +48,9 @@
   #instructions {
     font-family: "Merienda", cursive;
     font-style: normal;
-    background-color: rgb(221, 109, 178);
-    color: rgb(70, 31, 66);
-    border: solid rgb(122, 126, 125) .15rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: solid rgb(156, 156, 156) .15rem;
     border-radius: .5rem;
     box-shadow: .15rem .08rem;
     position: absolute;
@@ -65,7 +65,7 @@
 
   #wordInput,
   #submitButton {
-    color: rgb(92, 9, 71); 
+    color: rgb(167, 167, 167); 
     font-family: "Merienda", cursive;
     font-size: .85rem;
     border: solid rgb(124, 33, 77) .2rem;
@@ -80,8 +80,8 @@
   }
   
   #toggleInstructions:active {
-    background-color: rgb(239, 114, 203);
-    color: rgb(61, 4, 54);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   
   #instructions ol {
@@ -91,7 +91,7 @@
   
   #toggleGroupOne,
   #toggleGroupTwo {
-    border: solid rgb(171, 88, 139) .1rem;
+    border: solid rgb(156, 156, 156) .1rem;
     box-shadow: .2rem .1rem;
     border-radius: .45rem;
     padding: .3rem;
@@ -102,33 +102,33 @@
   
   #toggleGroupOne:active,
   #toggleGroupTwo:active {
-    background-color: rgb(212, 115, 183);
-    color: rgb(89, 7, 53);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
 
   .anton-regularWP {
-    background-color: rgb(203, 74, 178);
-    color: rgb(75, 6, 61);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "Merienda", cursive;
     font-weight: 600;
     font-style: normal;
     font-size: 1.45rem;
-    border: solid rgb(90, 92, 91) .1rem;
+    border: solid rgb(138, 139, 139) .1rem;
     border-radius: 1.25rem;
     box-shadow: .15rem .1rem;
     padding: .5rem;
   }
   
   .permanent-marker-regular:active {
-    background-color: rgb(95, 30, 92);
-    color: rgb(184, 106, 168); 
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
   }
   
   .main-container {
     height: 142vh; 
-    background-color: rgb(214, 89, 181);
-    border-left: solid rgb(67, 72, 70) .3rem;
-    border-right: solid rgb(100, 108, 106) .3rem; 
+    background-color: rgb(0, 0, 0);
+    border-left: solid rgb(133, 133, 133) .3rem;
+    border-right: solid rgb(114, 114, 114) .3rem; 
     border-radius: .3rem;
     background-position: center;
     background-size: cover;
@@ -145,7 +145,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    color: rgb(48, 50, 50); 
+    color: rgb(255, 255, 255); 
     font-family: "Merienda", cursive;
   }
   
@@ -167,7 +167,7 @@
   .group-two > h4 {
     margin-left: 1.5rem;
     align-items: center;
-    color: rgb(73, 19, 84);
+    color: rgb(0, 0, 0);
   }
   
   .past-input,
@@ -197,10 +197,10 @@
   #positionInput,
   #applyFilterButton,
   #undoButton {
-    color: rgb(71, 28, 57); 
+    color: rgb(0, 0, 0); 
     font-family: "Merienda", cursive;
     font-size: .85rem;
-    border: solid rgb(85, 86, 89) .2rem;
+    border: solid rgb(127, 127, 129) .2rem;
     box-shadow: .12rem .08rem;
     border-radius: .3rem;
     margin: .1rem;
@@ -230,33 +230,33 @@
   #filteredWords {
     font-family: "Volkhov", serif;
     font-size: .75rem; 
-    color: rgb(97, 5, 109);
-    background-color: rgb(204, 83, 172);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     padding: 1.5rem;
     text-align: justify;
   }
   
   footer {
     height: 16vh;
-    border: solid rgb(77, 79, 78) .3rem;
+    border: solid rgb(147, 147, 147) .3rem;
     border-radius: .15rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(156, 49, 115);
+    background-color: rgb(0, 0, 0);
   }
  
   #lookupSection {
     /* font-family: "Poetsen One", cursive;
     position: relative; */
-    color: rgb(117, 122, 119);
+    color: rgb(255, 255, 255);
   }
   
   #wordList { 
     /* position: absolute;
     top: 35px;  */
     font-size: 1.65rem;
-    color: rgb(66, 71, 68);
+    color: rgb(255, 255, 255);
   }
   
   .numbers {
@@ -274,11 +274,11 @@
   #wordNumber2,
   #wordNumberInput {
     margin-bottom: .3rem ;
-    background-color: rgb(244, 85, 202);
-    color: rgb(111, 79, 111);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "Poetsen One", cursive;
     height: 1.55rem;
-    border: solid rgb(85, 86, 89) .2rem;
+    border: solid rgb(154, 154, 154) .2rem; 
     box-shadow: .1rem .05rem;
     border-radius: .05rem;
     padding: .2rem;
@@ -291,24 +291,24 @@
   #wordNumber1,
   #wordNumber2 {
     width: 9rem;
-    color: rgb(124, 56, 98);
+    color: rgb(0, 0, 0);
   }
 
   .numbers,
   .average-score {
     font-family: "Poetsen One", cursive;
-    color: rgb(142, 64, 124);
+    color: rgb(0, 0, 0);
     font-size: .85rem;
   }
 
   #wordDetails,
   #averageScoreResult {
-    color: rgb(144, 20, 94);
-    font-size: 1.15rem;
+    color: rgb(255, 255, 255);
+    font-size: .75rem;
   }
 
   #wordInput {
-    color: rgb(119, 17, 17);
+    color: rgb(0, 0, 0);
   }
 
 
