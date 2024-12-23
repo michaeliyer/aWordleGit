@@ -7705,6 +7705,12 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1282,
     },
+    {
+      word: "SAUNA",
+      gameDate: "12/22/24",
+      myScore: 3,
+      wordNumber: 1282,
+    },
     
   ];
   // prettier-ignore
@@ -7798,7 +7804,7 @@ const oldWords = [
         'RIGOR', 'RINSE', 'RIPEN', 'RISER', 'RISKY', 'RIVER', 'RIVET', 'ROACH', 'ROAST', 'ROGER',
         'ROOST', 'ROTOR', 'ROUGH', 'ROWDY', 'ROWER', 'RUGBY', 'RULER', 'RUMBA', 'RUMOR', 'RURAL',
         'SADLY', 'SAFER', 'SALON', 'SALVE', 'SALVO', 'SANER', 'SAPPY', 'SATIN', 'SATYR', 
-        'SAUCE', 'SAUNA', 'SAVOY', 'SAVVY', 'SCALP', 'SCALY', 'SCAMP', 'SCARY', 
+        'SAUCE', 'SAVOY', 'SAVVY', 'SCALP', 'SCALY', 'SCAMP', 'SCARY', 
         'SCENE', 'SCION', 'SCOOP', 'SCORE', 'SCREE', 'SCREW', 'SCRUM',
         'SCUBA', 'SEGUE', 'SEIZE', 'SEMEN', 'SEPIA', 'SERIF', 'SETUP', 'SEWER', 'SHACK',
         'SHADY', 'SHALE', 'SHALT', 'SHARE', 'SHARK', 'SHEAR',
