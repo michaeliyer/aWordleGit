@@ -7717,6 +7717,12 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1284,
     },
+    {
+      word: "SHARE",
+      gameDate: "12/25/24",
+      myScore: 3,
+      wordNumber: 1285,
+    },
     
   ];
   // prettier-ignore
@@ -7813,7 +7819,7 @@ const oldWords = [
         'SAUCE', 'SAVOY', 'SAVVY', 'SCALP', 'SCALY', 'SCAMP', 'SCARY', 
         'SCENE', 'SCION', 'SCOOP', 'SCORE', 'SCREE', 'SCREW', 'SCRUM',
         'SCUBA', 'SEGUE', 'SEIZE', 'SEMEN', 'SEPIA', 'SERIF', 'SETUP', 'SEWER', 'SHACK',
-        'SHADY', 'SHALE', 'SHALT', 'SHARE', 'SHARK', 'SHEAR',
+        'SHADY', 'SHALE', 'SHALT', 'SHARK', 'SHEAR',
         'SHEEN', 'SHEEP', 'SHEER', 'SHEET', 'SHEIK', 'SHELF', 'SHIED', 'SHINY', 'SHIRT',
         'SHOAL', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHORT', 'SHREW',
         'SHUCK', 'SHUNT', 'SHUSH', 'SIEVE', 'SIGMA', 'SILKY', 'SILLY', 'SINEW', 'SINGE', 'SIREN',
