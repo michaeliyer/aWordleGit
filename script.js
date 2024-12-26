@@ -7723,12 +7723,18 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1285,
     },
+    {
+      word: "AFFIX",
+      gameDate: "12/26/24",
+      myScore: 3,
+      wordNumber: 1286,
+    },
     
   ];
   // prettier-ignore
   let newWords = [
         'ABBOT', 'ABHOR', 'ABLED', 'ABODE', 'ABORT', 'ABUSE', 'ACORN', 'ADEPT', 'ADMIN',
-        'ADORN', 'AFFIX', 'AFIRE', 'AFOOT', 'AFOUL', 'AIDER', 'ALARM', 'ALERT', 'ALGAE',
+        'ADORN', 'AFIRE', 'AFOOT', 'AFOUL', 'AIDER', 'ALARM', 'ALERT', 'ALGAE',
         'ALIBI', 'ALIGN', 'ALLAY', 'ALLEY', 'ALLOT', 'ALLOY', 'ALONG', 'AMAZE', 'AMBLE', 'AMEND',
         'AMITY', 'AMONG', 'AMPLY', 'AMUSE', 'ANGLE', 'ANIME', 'ANKLE', 'ANNEX', 'ANNOY',
         'ANNUL', 'APING', 'APNEA', 'ARENA', 'ARISE', 'ARMOR', 'AROSE', 'ARRAY', 'ARROW',
