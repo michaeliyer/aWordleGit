@@ -298,13 +298,13 @@
   .average-score {
     font-family: "Poetsen One", cursive;
     color: rgb(0, 0, 0);
-    font-size: .85rem;
+    font-size: .88rem;
   }
 
   #wordDetails,
   #averageScoreResult {
     color: rgb(255, 255, 255);
-    font-size: .85rem;
+    font-size: .88rem;
   }
 
   #wordInput {
