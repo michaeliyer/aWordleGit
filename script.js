@@ -7741,6 +7741,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1288,
     },
+    {
+      word: "MAMBO",
+      gameDate: "12/29/24",
+      myScore: 3,
+      wordNumber: 1289,
+    },
     
   ];
   // prettier-ignore
@@ -7807,7 +7813,7 @@ const oldWords = [
         'LEPER', 'LEVEL', 'LEVER', 'LIEGE', 'LIKEN', 'LIMBO', 'LIPID', 'LIVID', 'LLAMA',
         'LOAMY', 'LOATH', 'LOBBY', 'LODGE', 'LOGIN', 'LOOSE', 'LORRY', 'LOUSY', 'LUMEN',
         'LUMPY', 'LUPUS', 'LURCH', 'LURID', 'LYMPH', 'LYRIC', 'MACHO', 'MACRO', 'MADLY',
-        'MAFIA', 'MAKER', 'MAMBO', 'MAMMA', 'MAMMY', 'MANGE', 'MANGO', 'MANGY', 'MANIC',
+        'MAFIA', 'MAKER', 'MAMMA', 'MAMMY', 'MANGE', 'MANGO', 'MANGY', 'MANIC',
         'MEATY', 'MECCA', 'MELEE', 'MIGHT', 'MILKY',
         'MINIM', 'MINOR', 'MINTY', 'MIRTH', 'MISER', 'MISSY', 'MOCHA', 'MODAL', 
         'MOGUL', 'MOLDY', 'MOODY', 'MORAL', 'MORON', 'MORPH', 'MOTEL', 'MOTIF', 'MOUND', 'MOUTH', 
