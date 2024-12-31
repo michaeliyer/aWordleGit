@@ -7753,6 +7753,12 @@ const oldWords = [
       myScore: 2,
       wordNumber: 1290,
     },
+    {
+      word: "LEMUR",
+      gameDate: "12/31/24",
+      myScore: 4,
+      wordNumber: 1291,
+    },
     
   ];
   // prettier-ignore
@@ -7815,7 +7821,7 @@ const oldWords = [
         'JETTY', 'JEWEL', 'JOIST', 'JUICY', 'JUMBO', 'JUMPY', 'JUNTA',
         'JUNTO', 'JUROR', 'KAPPA', 'KINKY', 'KITTY', 'KNACK', 'KNEED', 'KNIFE',
         'KNOWN', 'KRILL', 'LADEN', 'LADLE', 'LANCE', 'LASSO', 'LATCH', 'LATER',
-        'LATHE', 'LAUGH', 'LEACH', 'LEANT', 'LEASE', 'LEAST', 'LEFTY', 'LEGAL', 'LEMUR',
+        'LATHE', 'LAUGH', 'LEACH', 'LEANT', 'LEASE', 'LEAST', 'LEFTY', 'LEGAL',
         'LEPER', 'LEVEL', 'LEVER', 'LIEGE', 'LIKEN', 'LIMBO', 'LIPID', 'LIVID', 'LLAMA',
         'LOAMY', 'LOATH', 'LOBBY', 'LODGE', 'LOGIN', 'LOOSE', 'LORRY', 'LOUSY', 'LUMEN',
         'LUMPY', 'LUPUS', 'LURCH', 'LURID', 'LYMPH', 'LYRIC', 'MACHO', 'MACRO', 'MADLY',
