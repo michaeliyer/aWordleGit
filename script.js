@@ -7759,6 +7759,12 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1291,
     },
+    {
+      word: "NERVE",
+      gameDate: "1/1/25",
+      myScore: 3,
+      wordNumber: 1292,
+    },
     
   ];
   // prettier-ignore
@@ -7831,7 +7837,7 @@ const oldWords = [
         'MOGUL', 'MOLDY', 'MOODY', 'MORAL', 'MORON', 'MORPH', 'MOTEL', 'MOTIF', 'MOUND', 'MOUTH', 
         'MOVER', 'MOWER',
         'MUCUS', 'MUDDY', 'MUNCH', 'MURKY', 'MUSKY', 'MYRRH', 'NACHO', 'NADIR', 'NASAL',
-        'NAVEL', 'NERVE', 'NEWER', 'NEWLY', 'NIECE', 'NINNY',
+        'NAVEL', 'NEWER', 'NEWLY', 'NIECE', 'NINNY',
         'NOBLY', 'NOISY', 'NOMAD', 'NOOSE', 'NOSEY', 'NOTCH', 'NOVEL', 'NUDGE', 'NURSE', 'NUTTY',
         'NYLON', 'OAKEN', 'OBESE', 'OCTAL', 'ODDER', 'ODDLY', 'OFFER', 'OLDEN', 'OMBRE',
         'OMEGA', 'OPINE', 'OPIUM', 'OPTIC', 'ORBIT', 'OTTER', 'OUTGO',
