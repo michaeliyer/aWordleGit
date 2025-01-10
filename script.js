@@ -7807,6 +7807,13 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1299,
     },
+    {
+      word: "WAFER",
+      gameDate: "1/9/25",
+      myScore: 6,
+      wordNumber: 1300,
+    },
+    
     
   ];
   // prettier-ignore
@@ -7931,7 +7938,7 @@ const oldWords = [
         'UNION', 'UNITY', 'UNSET', 'UNWED', 'UPPER', 'URINE', 'UTILE', 'VALOR', 'VALVE', 'VAPOR',
         'VAUNT', 'VEGAN', 'VENUE', 'VERSE', 'VERSO', 'VICAR', 'VIGIL', 'VILLA',
         'VIPER', 'VIRUS', 'VISIT', 'VISTA', 'VIXEN', 'VOCAL', 'VOGUE', 
-        'VOMIT', 'VOWEL', 'WAFER', 'WAGER', 'WAIST', 'WAIVE', 'WARTY', 'WATER',
+        'VOMIT', 'VOWEL', 'WAGER', 'WAIST', 'WAIVE', 'WARTY', 'WATER',
         'WAVER', 'WAXEN', 'WEAVE', 'WEEDY', 'WEIGH', 'WELCH', 'WELSH', 'WHARF', 'WHEAT',
         'WHITE', 'WHOLE', 'WHOSE', 'WIDER', 'WIDOW', 'WIDTH', 'WIELD', 'WIGHT',
         'WILLY', 'WIMPY', 'WINCH', 'WISER', 'WISPY', 'WITTY', 'WOMEN', 'WOODY', 'WOOLY',
