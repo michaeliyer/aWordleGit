@@ -7825,6 +7825,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1302,
     },
+    {
+      word: "TOTAL",
+      gameDate: "1/12/25",
+      myScore: 3,
+      wordNumber: 1303,
+    },
     
   ];
   // prettier-ignore
@@ -7942,7 +7948,7 @@ const oldWords = [
         'TANGO', 'TAROT', 'TATTY', 'TEDDY', 'TEETH', 'TENET', 'TENOR', 'TENSE', 'TEPEE', 
         'TERRA', 'TESTY', 'THEFT', 'THETA', 'THICK', 'THONG', 'THROB', 
         'THRUM', 'TIGHT', 'TIMER', 'TOAST', 'TODDY', 'TOKEN', 'TONAL',
-        'TONER', 'TONGA', 'TOOTH', 'TORUS', 'TOTAL', 'TOWER', 'TRACK', 'TRAIL',
+        'TONER', 'TONGA', 'TOOTH', 'TORUS', 'TOWER', 'TRACK', 'TRAIL',
         'TRAMP', 'TREAD', 'TRIAL', 'TRIBE', 'TRICK', 'TRIED', 'TRIPE', 'TROOP', 'TROUT', 'TRUCE',
         'TRUCK', 'TRUER', 'TRUMP', 'TRUNK', 'TUBAL', 'TUBER', 'TULIP', 'TULLE', 'TUMOR',
         'TURBO', 'TWEET', 'TWIXT', 'TYING', 'UDDER', 'UMBRA', 'UNCUT', 'UNDID',
