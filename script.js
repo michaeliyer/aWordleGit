@@ -7843,6 +7843,12 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1305,
     },
+    {
+      word: "KNACK",
+      gameDate: "1/15/25",
+      myScore: 4,
+      wordNumber: 1306,
+    },
     
   ];
   // prettier-ignore
@@ -7903,7 +7909,7 @@ const oldWords = [
         'HYMEN', 'ICILY', 'ICING', 'IDEAL', 'IDIOM', 'IDIOT', 'IDLER', 'IDYLL', 'ILIAC',
         'IMBUE', 'IMPLY', 'INBOX', 'INCUR', 'INGOT', 'INLET', 'ISSUE', 
         'JETTY', 'JEWEL', 'JOIST', 'JUICY', 'JUMBO', 'JUMPY', 'JUNTA',
-        'JUNTO', 'JUROR', 'KAPPA', 'KINKY', 'KITTY', 'KNACK', 'KNEED', 'KNIFE',
+        'JUNTO', 'JUROR', 'KAPPA', 'KINKY', 'KITTY', 'KNEED', 'KNIFE',
         'KNOWN', 'KRILL', 'LADEN', 'LADLE', 'LANCE', 'LASSO', 'LATCH', 'LATER',
         'LATHE', 'LAUGH', 'LEACH', 'LEANT', 'LEASE', 'LEAST', 'LEFTY', 'LEGAL',
         'LEPER', 'LEVEL', 'LEVER', 'LIEGE', 'LIKEN', 'LIMBO', 'LIPID', 'LIVID', 'LLAMA',
