@@ -7856,10 +7856,10 @@ const oldWords = [
       wordNumber: 1307,
     },
     {
-      word: "PROSE",
-      gameDate: "1/17/25",
-      myScore: 3,
-      wordNumber: 1308,
+      word: "SILLY",
+      gameDate: "1/18/25",
+      myScore: 4,
+      wordNumber: 1309,
     },
     
   ];
@@ -7960,7 +7960,7 @@ const oldWords = [
         'SHADY', 'SHALE', 'SHALT', 'SHARK', 'SHEAR',
         'SHEEN', 'SHEEP', 'SHEER', 'SHEET', 'SHEIK', 'SHELF', 'SHIED', 'SHINY', 'SHIRT',
         'SHOAL', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHORT', 'SHREW',
-        'SHUCK', 'SHUNT', 'SHUSH', 'SIEVE', 'SIGMA', 'SILKY', 'SILLY', 'SINEW', 'SINGE', 'SIREN',
+        'SHUCK', 'SHUNT', 'SHUSH', 'SIEVE', 'SIGMA', 'SILKY', 'SINEW', 'SINGE', 'SIREN',
         'SIXTY', 'SKULK', 'SKULL', 'SLACK', 'SLAIN', 'SLANT', 'SLASH', 'SLAVE', 
         'SLEET', 'SLEPT', 'SLICK', 'SLIDE', 'SLIME', 'SLIMY', 'SLING', 'SLINK',
         'SLOOP', 'SLUNK', 'SLURP', 'SLUSH', 'SLYLY', 'SMACK', 'SMELL', 'SMOKY',
