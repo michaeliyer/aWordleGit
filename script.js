@@ -7952,7 +7952,7 @@ const oldWords = [
         'RECUT', 'REEDY', 'REFIT', 'REHAB', 'REIGN', 'RELAY', 'REMIT',
         'RENAL', 'REPLY', 'RESET', 'REUSE', 'REVUE', 'RICER', 'RIFLE', 'RIGID',
         'RIGOR', 'RINSE', 'RIPEN', 'RISER', 'RISKY', 'RIVER', 'RIVET', 'ROACH', 'ROAST', 'ROGER',
-        'ROOST', 'ROTOR', 'ROUGH', 'ROWDY', 'ROWER', 'RUGBY', 'RULER', 'RUMBA', 'RUMOR', 'RURAL',
+        'ROOST', 'ROTOR', 'ROUGH', 'ROWDY', 'RUGBY', 'RULER', 'RUMBA', 'RUMOR', 'RURAL',
         'SADLY', 'SAFER', 'SALON', 'SALVE', 'SALVO', 'SANER', 'SAPPY', 'SATIN', 'SATYR', 
         'SAUCE', 'SAVOY', 'SAVVY', 'SCALP', 'SCALY', 'SCAMP', 'SCARY', 
         'SCENE', 'SCION', 'SCOOP', 'SCORE', 'SCREE', 'SCREW', 'SCRUM',
