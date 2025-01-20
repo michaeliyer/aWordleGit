@@ -7863,9 +7863,9 @@ const oldWords = [
     },
     {
       word: "ROWER",
-      gameDate: "1/18/25",
-      myScore: 4,
-      wordNumber: 1309,
+      gameDate: "1/19/25",
+      myScore: 5,
+      wordNumber: 1310,
     },
     
   ];
