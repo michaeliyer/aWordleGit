@@ -7856,6 +7856,12 @@ const oldWords = [
       wordNumber: 1307,
     },
     {
+      word: "PROSE",
+      gameDate: "1/17/25",
+      myScore: 3,
+      wordNumber: 1308,
+    },
+    {
       word: "SILLY",
       gameDate: "1/18/25",
       myScore: 4,
@@ -8108,7 +8114,7 @@ const oldWords = [
   function calculateAverageScoreUpToDate(date) {
     const scoresUpToDate = oldWords.filter((wordObj) => new Date(wordObj.gameDate) <= new Date(date) && wordObj.myScore !== 0).map((wordObj) => wordObj.myScore);
     const totalScore = scoresUpToDate.reduce((acc, score) => acc + score, 0);
-    const averageScore = scoresUpToDate.length > 0 ? (totalScore / scoresUpToDate.length).toFixed(3) : 0;
+    const averageScore = scoresUpToDate.length > 0 ? (totalScore / scoresUpToDate.length).toFixed(6) : 0;
     return averageScore;
   }
   
