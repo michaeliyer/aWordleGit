@@ -7891,6 +7891,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1313,
     },
+    {
+      word: "UPPER",
+      gameDate: "1/23/25",
+      myScore: 5,
+      wordNumber: 1314,
+    },
     
   ];
   // prettier-ignore
@@ -8012,7 +8018,7 @@ const oldWords = [
         'TRAMP', 'TREAD', 'TRIAL', 'TRIBE', 'TRICK', 'TRIED', 'TRIPE', 'TROOP', 'TROUT', 'TRUCE',
         'TRUCK', 'TRUER', 'TRUMP', 'TRUNK', 'TUBAL', 'TUBER', 'TULIP', 'TULLE', 'TUMOR',
         'TURBO', 'TWEET', 'TWIXT', 'TYING', 'UDDER', 'UMBRA', 'UNCUT', 'UNDID',
-        'UNION', 'UNITY', 'UNSET', 'UNWED', 'UPPER', 'URINE', 'UTILE', 'VALOR', 'VALVE', 'VAPOR',
+        'UNION', 'UNITY', 'UNSET', 'UNWED', 'URINE', 'UTILE', 'VALOR', 'VALVE', 'VAPOR',
         'VAUNT', 'VEGAN', 'VENUE', 'VERSE', 'VERSO', 'VICAR', 'VIGIL', 'VILLA',
         'VIPER', 'VIRUS', 'VISIT', 'VISTA', 'VIXEN', 'VOCAL', 'VOGUE', 
         'VOMIT', 'VOWEL', 'WAGER', 'WAIST', 'WAIVE', 'WARTY', 'WATER',
