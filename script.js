@@ -7903,6 +7903,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1315,
     },
+    {
+      word: "CRISP",
+      gameDate: "1/25/25",
+      myScore: 3,
+      wordNumber: 1316,
+    },
     
   ];
   // prettier-ignore
@@ -7930,7 +7936,7 @@ const oldWords = [
         'CLOUT', 'CLOVE', 'CLUED', 'CLUMP', 'CLUNG', 'COBRA', 'COLOR', 'COMFY', 'COMIC', 'CONCH',
         'COPSE', 'CORAL', 'COUCH', 'COUGH', 'COUPE', 'COVEN', 'COVEY', 'CRACK', 'CRASH',
         'CREAM', 'CREED', 'CREEK', 'CREEP', 'CREME', 'CRESS', 'CREST', 'CRICK',
-        'CRIED', 'CRIER', 'CRISP', 'CROCK', 'CRONY', 'CROOK', 'CROUP', 'CRUDE',
+        'CRIED', 'CRIER', 'CROCK', 'CRONY', 'CROOK', 'CROUP', 'CRUDE',
         'CRUEL', 'CRUMP', 'CUBIC', 'CURIO', 'CURRY', 'CURSE', 'CURVE', 'CURVY',
         'CUTIE', 'CYCLE', 'DAILY', 'DAIRY', 'DALLY', 'DATUM', 'DAUNT', 'DEALT', 'DEBAR',
         'DECOR', 'DEFER', 'DEIGN', 'DEITY', 
