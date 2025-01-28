@@ -7921,6 +7921,12 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1318,
     },
+    {
+      word: "FEVER",
+      gameDate: "1/28/25",
+      myScore: 4,
+      wordNumber: 1319,
+    },
     
   ];
   // prettier-ignore
@@ -7963,7 +7969,7 @@ const oldWords = [
         'ENTRY', 'ENVOY', 'ERASE', 'ERECT', 'ESTER', 'ETUDE', 'EVICT',
         'EXILE', 'EXTOL', 'EYING', 'FABLE', 'FACET', 'FAIRY', 'FALSE', 
         'FANNY', 'FATAL', 'FATTY', 'FAUNA', 'FECAL', 'FELLA', 'FELON', 'FEMME', 'FEMUR', 'FENCE',
-        'FETAL', 'FETCH', 'FETID', 'FETUS', 'FEVER', 'FICUS', 'FIERY', 'FIFTH',
+        'FETAL', 'FETCH', 'FETID', 'FETUS', 'FICUS', 'FIERY', 'FIFTH',
         'FIGHT', 'FILER', 'FILLY', 'FILMY', 'FILTH', 'FIZZY', 'FLACK', 'FLAKY',
         'FLECK', 'FLEET', 'FLIER', 'FLUID', 'FLUKE',
         'FLUSH', 'FLUTE', 'FOAMY', 'FOIST', 'FOLIO', 'FORUM', 'FRAUD',
