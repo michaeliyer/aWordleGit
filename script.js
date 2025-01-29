@@ -8047,7 +8047,7 @@ const oldWords = [
         'TONER', 'TONGA', 'TOOTH', 'TORUS', 'TOWER', 'TRACK', 'TRAIL',
         'TRAMP', 'TREAD', 'TRIAL', 'TRIBE', 'TRICK', 'TRIED', 'TRIPE', 'TROOP', 'TROUT', 'TRUCE',
         'TRUCK', 'TRUER', 'TRUMP', 'TRUNK', 'TUBAL', 'TUBER', 'TULIP', 'TULLE', 'TUMOR',
-        'TURBO', 'TWEET', 'TWIXT', 'TYING', 'UDDER', 'UMBRA', 'UNCUT', 'UNDID',
+        'TURBO', 'TWEET', 'TWIXT', 'TYING', 'UMBRA', 'UNCUT', 'UNDID',
         'UNION', 'UNITY', 'UNSET', 'UNWED', 'URINE', 'UTILE', 'VALOR', 'VALVE', 'VAPOR',
         'VAUNT', 'VEGAN', 'VENUE', 'VERSE', 'VERSO', 'VICAR', 'VIGIL', 'VILLA',
         'VIPER', 'VIRUS', 'VISIT', 'VISTA', 'VIXEN', 'VOCAL', 'VOGUE', 
