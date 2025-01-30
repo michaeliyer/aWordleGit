@@ -249,7 +249,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(49, 47, 47);
+    background-color: rgb(0, 0, 0);
   }
  
   #lookupSection {
