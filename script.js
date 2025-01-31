@@ -7937,7 +7937,13 @@ const oldWords = [
       word: "FALSE",
       gameDate: "1/30/25",
       myScore: 2,
-      wordNumber: 1329,
+      wordNumber: 1321,
+    },
+    {
+      word: "TOAST",
+      gameDate: "1/31/25",
+      myScore: 3,
+      wordNumber: 1322,
     },
     
   ];
@@ -8055,7 +8061,7 @@ const oldWords = [
         'SWORN', 'SYNOD', 'TABBY', 'TAFFY', 'TAINT', 'TAKER', 'TAMER',      
         'TANGO', 'TAROT', 'TATTY', 'TEDDY', 'TEETH', 'TENET', 'TENOR', 'TENSE', 'TEPEE', 
         'TERRA', 'TESTY', 'THEFT', 'THETA', 'THICK', 'THONG', 'THROB', 
-        'THRUM', 'TIGHT', 'TIMER', 'TOAST', 'TODDY', 'TOKEN', 'TONAL',
+        'THRUM', 'TIGHT', 'TIMER', 'TODDY', 'TOKEN', 'TONAL',
         'TONER', 'TONGA', 'TOOTH', 'TORUS', 'TOWER', 'TRACK', 'TRAIL',
         'TRAMP', 'TREAD', 'TRIAL', 'TRIBE', 'TRICK', 'TRIED', 'TRIPE', 'TROOP', 'TROUT', 'TRUCE',
         'TRUCK', 'TRUER', 'TRUMP', 'TRUNK', 'TUBAL', 'TUBER', 'TULIP', 'TULLE', 'TUMOR',
