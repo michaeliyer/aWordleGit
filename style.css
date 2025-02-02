@@ -46,8 +46,8 @@
   }
   
   #instructions {
-    font-family: "Merienda", cursive;
-    font-style: normal;
+    /* font-family: "Merienda", cursive;
+    font-style: normal; */
     background-color: rgb(194, 0, 0);
     color: rgb(212, 239, 13);
     border: solid rgb(255, 255, 255) .15rem;
@@ -61,6 +61,9 @@
     padding: .2rem;
     width: 22vw;
     opacity: 6;
+    font-family: "Passion One", serif;
+    font-weight: 900;
+    font-style: normal;
   } 
 
   #wordInput,
