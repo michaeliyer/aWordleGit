@@ -403,6 +403,10 @@
       color: rgb(0, 0, 0);
       top: 27rem;
       width: 97vw;
+      border: solid rgb(255, 255, 255) 0rem;
+      border-radius: 0rem;
+      box-shadow: 0rem 0rem;
+      padding: 0rem;
     } 
   }
 
@@ -411,10 +415,17 @@
       font-family: "Righteous", serif;
       font-weight: 400;
       font-style: normal;
-      background-color: rgb(144, 138, 138);
-      color: rgb(229, 35, 35);
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       top: 7rem;
       width: 59vw;
+      right: 10.5;
+      border: solid rgb(0, 0, 0) 0rem;
+      border-radius: 0rem;
+      box-shadow: 0rem 0rem;
+      padding: 0rem;
     } 
   }
+
+ 
   
