@@ -394,7 +394,7 @@
     }
   }
 
-  @media screen and (max-width: 430px) {
+  @media screen and (max-width: 500px) {
     #instructions {
       font-family: "Abel", serif;
       font-weight: 400;
@@ -410,7 +410,7 @@
     } 
   }
 
-  @media screen and (max-width: 932px) {
+  @media screen and (max-width: 800px) {
       #instructions {
       font-family: "Righteous", serif;
       font-weight: 400;
