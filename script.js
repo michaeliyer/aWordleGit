@@ -7983,7 +7983,7 @@ const oldWords = [
     },
     {
       word: "SWATH",
-      gameDate: "2/4/25",
+      gameDate: "2/7/25",
       myScore: 4,
       wordNumber: 1329,
     },
