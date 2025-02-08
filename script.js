@@ -7981,6 +7981,12 @@ const oldWords = [
       myScore: 3,
       wordNumber: 1328,
     },
+    {
+      word: "SWATH",
+      gameDate: "2/4/25",
+      myScore: 4,
+      wordNumber: 1329,
+    },
     
     
   ];
@@ -8094,7 +8100,7 @@ const oldWords = [
         'STEER', 'STILT', 'STOKE', 'STOOD', 'STOOP', 'STORK', 
         'STRIP', 'STRUT', 'STUCK', 'STUFF', 'STUMP', 'STUNK', 'STUNT', 'SUAVE', 'SUING',
         'SUITE', 'SULLY', 'SUMAC', 'SURGE', 'SWAMI', 'SWAMP', 'SWARM', 'SWASH',
-        'SWATH', 'SWEAR', 'SWEPT', 'SWIFT', 'SWING', 'SWOOP', 'SWORD', 'SWORE', 
+        'SWEAR', 'SWEPT', 'SWIFT', 'SWING', 'SWOOP', 'SWORD', 'SWORE', 
         'SWORN', 'SYNOD', 'TABBY', 'TAFFY', 'TAINT', 'TAKER', 'TAMER',      
         'TANGO', 'TAROT', 'TATTY', 'TEDDY', 'TEETH', 'TENET', 'TENOR', 'TENSE', 'TEPEE', 
         'TERRA', 'TESTY', 'THEFT', 'THETA', 'THICK', 'THONG', 'THROB', 

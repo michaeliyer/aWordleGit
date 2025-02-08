@@ -48,11 +48,11 @@
   #instructions {
     /* font-family: "Merienda", cursive;
     font-style: normal; */
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: solid rgb(0, 0, 0) .25rem;
+    background-color: rgb(65, 57, 57);
+    color: rgb(66, 46, 46);
+    border: solid rgb(180, 169, 169) .25rem;
     border-radius: .5rem;
-    box-shadow: .15rem .08rem;
+    box-shadow: .15rem .90rem;
     position: absolute;
     z-index: 20;
     top: 1rem;
