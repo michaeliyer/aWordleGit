@@ -7987,6 +7987,12 @@ const oldWords = [
       myScore: 4,
       wordNumber: 1329,
     },
+    {
+      word: "STEEP",
+      gameDate: "2/8/25",
+      myScore: 4,
+      wordNumber: 1330,
+    },
     
     
   ];
@@ -8095,10 +8101,9 @@ const oldWords = [
         'SOAPY', 'SOBER', 'SONAR', 'SOOTH', 'SOOTY', 'SORRY', 'SOUTH', 'SPANK', 'SPARE', 'SPARK',
         'SPASM', 'SPAWN', 'SPEAR', 'SPEED', 'SPERM', 'SPIED', 'SPIKY', 'SPILT', 
         'SPINY', 'SPITE', 'SPLIT', 'SPOIL', 'SPOOF', 'SPOOK', 'SPOOL', 'SPORE', 'SPORT',
-        'SPREE', 'SPUNK', 'SPURN', 'SQUIB', 'STACK', 'STALK',
-        'STAMP', 'STANK', 'STAVE', 'STEAK', 'STEAL', 'STEEP',
-        'STEER', 'STILT', 'STOKE', 'STOOD', 'STOOP', 'STORK', 
-        'STRIP', 'STRUT', 'STUCK', 'STUFF', 'STUMP', 'STUNK', 'STUNT', 'SUAVE', 'SUING',
+        'SPREE', 'SPUNK', 'SPURN', 'SQUIB', 'STACK', 'STALK', 'STAMP', 'STANK', 'STAVE', 'STEAK', 
+        'STEAL', 'STEER', 'STILT', 'STOKE', 'STOOD', 'STOOP', 'STORK', 'STRIP', 'STRUT', 'STUCK', 
+        'STUFF', 'STUMP', 'STUNK', 'STUNT', 'SUAVE', 'SUING',
         'SUITE', 'SULLY', 'SUMAC', 'SURGE', 'SWAMI', 'SWAMP', 'SWARM', 'SWASH',
         'SWEAR', 'SWEPT', 'SWIFT', 'SWING', 'SWOOP', 'SWORD', 'SWORE', 
         'SWORN', 'SYNOD', 'TABBY', 'TAFFY', 'TAINT', 'TAKER', 'TAMER',      
