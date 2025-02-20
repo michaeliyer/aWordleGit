@@ -49,8 +49,8 @@
     /* font-family: "Merienda", cursive;
     font-style: normal; */
     background-color: rgb(111, 111, 111);
-    color: rgb(7, 7, 5);
-    border: solid rgb(180, 169, 169) .25rem;
+    color: rgb(190, 190, 46);
+    border: solid rgb(190, 190, 46) .25rem;
     border-radius: .5rem;
     box-shadow: .15rem .90rem;
     position: absolute;
@@ -62,7 +62,7 @@
     width: 22vw;
     opacity: 6;
     font-family: "Passion One", serif;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal; 
   } 
 
