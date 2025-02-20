@@ -48,15 +48,15 @@
   #instructions {
     /* font-family: "Merienda", cursive;
     font-style: normal; */
-    background-color: rgb(111, 111, 111);
+    background-color: rgb(4, 31, 75);
     color: rgb(190, 190, 46);
-    border: solid rgb(190, 190, 46) .25rem;
-    border-radius: .5rem;
-    box-shadow: .15rem .90rem;
+    /* border: solid rgb(190, 190, 46) .25rem;
+    border-radius: .5rem; */
+    /* box-shadow: .15rem .90rem; */
     position: absolute;
     z-index: 20;
-    top: 1rem;
-    right: .5rem;
+    top: 15rem;
+    right: 25rem;
     text-align: center;
     padding: .2rem;
     width: 22vw;
@@ -64,6 +64,7 @@
     font-family: "Passion One", serif;
     font-weight: 400;
     font-style: normal; 
+    font-size: 1rem;
   } 
 
   #wordInput,
