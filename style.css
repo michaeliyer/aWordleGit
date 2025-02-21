@@ -56,7 +56,7 @@
     position: absolute;
     z-index: 20;
     top: 15rem;
-    right: 25rem;
+    right: 75rem;
     text-align: center;
     padding: .2rem;
     width: 22vw;
@@ -65,6 +65,7 @@
     font-weight: 400;
     font-style: normal; 
     font-size: 1rem;
+    animation: drift 30s linear infinite;
   } 
 
   #wordInput,
@@ -328,7 +329,26 @@
     font-style: normal;
     padding: .25rem;
   }
- 
+
+@keyframes drift {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+  /* .pardon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 9rem;
+    height: 9rem;
+    background-color: bisque;
+    animation: drift 30s linear infinite;
+  }
+  */
 
 
 
