@@ -330,6 +330,11 @@
     padding: .25rem;
   }
 
+  #countdown {
+    font-family: "Slackey", serif;
+    color:rgb(220, 18, 28)
+  }
+
 @keyframes drift {
   0% {
     transform: translateX(0);
