@@ -22,7 +22,7 @@
     color: rgb(125, 150, 232);
     border: solid rgb(255, 255, 255) .3rem;
     border-radius: .3rem;
-    background-color: rgb(22, 67, 202);
+    background-color: rgb(16, 39, 110);
   }
   
   h2 {
@@ -131,7 +131,7 @@
   
   .main-container {
     height: 142vh; 
-    background-color: rgb(4, 31, 75);
+    background-color: rgb(16, 39, 110);
     border-left: solid rgb(255, 255, 255) .3rem;
     border-right: solid rgb(255, 255, 255) .3rem; 
     border-radius: .3rem;
@@ -242,7 +242,7 @@
     /* font-family: "Volkhov", serif; */
     font-size: 1rem; 
     color: rgb(255, 255, 255);
-    background-color: rgb(4, 31, 75);
+    background-color: rgb(16, 39, 110);
     padding: 1.5rem;
     text-align: justify;
   }
@@ -254,7 +254,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(22, 67, 202);
+    background-color: rgb(16, 39, 110);
   }
  
   #lookupSection {
@@ -332,7 +332,7 @@
 
   #countdown {
     font-family: "Slackey", serif;
-    color:rgb(220, 18, 28)
+    color:rgb(233, 14, 25)
   }
 
   #currentTime {
