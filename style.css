@@ -48,15 +48,17 @@
   #instructions {
     /* font-family: "Merienda", cursive;
     font-style: normal; */
-    background-color: rgb(16, 39, 110);
-    color: rgb(244, 69, 11);
-    /* border: solid rgb(190, 190, 46) .25rem;
-    border-radius: .5rem; */
+    /* background-color: rgb(16, 39, 110);
+    color: rgb(147, 132, 230); */
+    /* color: rgb(244, 69, 11); */
+    border: solid rgb(16, 39, 110) .25rem;
+    border-radius: .5rem;
     /* box-shadow: .15rem .90rem; */
     position: absolute;
     z-index: 20;
-    top: 15rem;
-    right: 75rem;
+    top: 20rem;
+    /* right: 75rem; */
+    left: 30rem;
     text-align: center;
     padding: .2rem;
     width: 22vw;
@@ -65,8 +67,119 @@
     font-weight: 400;
     font-style: normal; 
     font-size: 1rem;
-    animation: drift 30s linear infinite;
+    animation: pulseText 40s ease-in infinite, 
+               /* drift 10s ease-in-out infinite, */
+               colorCycle 6s ease-in-out infinite alternate,
+               waveText 3s ease-in-out infinite;
+              
   } 
+
+
+
+
+ /* @keyframes drift {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100vw);
+    }
+  }   */
+
+ /* @keyframes waveText {
+    0% { transform: translateY(0px); }
+    25% { transform: translateY(-3px) rotate(-720deg); }
+    50% { transform: translateY(3px) rotate(360deg); }
+    75% { transform: translateY(-3px) rotate(-720deg); }
+    100% { transform: translateY(0px); }
+} */
+
+
+ /* @keyframes pulseText {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.5); }
+  100% { transform: scale(1); }
+}   */
+ @keyframes pulseText {
+  0% { transform: scale(.25); }
+  10% { transform: scale(.5); }
+  20% { transform: scale(.75); }
+  30% { transform: scale(1); }
+  40% { transform: scale(1.25); }
+  51% { transform: scale(1.5); }
+  52% { transform: scale(1.75); }
+  53% { transform: scale(2); }
+  54% { transform: scale(2.25); }
+  55% { transform: scale(2.5); }
+  56% { transform: scale(5); }
+  57% { transform: scale(2.5); }
+  58% { transform: scale(2.25); }
+  59% { transform: scale(2); }
+  60% { transform: scale(1.75); }
+  70% { transform: scale(1.5); }
+  80% { transform: scale(1.25); }
+  90% { transform: scale(1); }
+  100% { transform: scale(.25); }
+}  
+
+/*@keyframes letterWiggle {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(5deg); }
+  40% { transform: rotate(-5deg); }
+  60% { transform: rotate(5deg); }
+  80% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+} */
+
+  @keyframes colorCycle {
+    0% { color: rgb(16, 39, 110); background-color: white } 
+    7% { color: white; background-color: rgb(16, 39, 110) } 
+    14% { color: rgb(16, 39, 110); background-color: white; } 
+    21% { color: white; background-color: rgb(16, 39, 110); } 
+    28% { color: rgb(16, 39, 110); background-color: white; } 
+    35% { color: white; background-color: rgb(16, 39, 110); } 
+    42% { color: rgb(16, 39, 110); background-color: white; } 
+    49% { color: white; background-color: rgb(16, 39, 110); } 
+    56% { color: rgb(16, 39, 110); background-color: white; } 
+    63% { color: white; background-color: rgb(16, 39, 110); } 
+    70% { color: rgb(16, 39, 110); background-color: white; } 
+    77% { color: white; background-color: rgb(16, 39, 110); } 
+    84% { color: rgb(16, 39, 110); background-color: white; } 
+    91% { color: white; background-color: rgb(16, 39, 110); } 
+    93% { color: rgb(16, 39, 110); background-color: white; } 
+    96% { color: white; background-color: rgb(16, 39, 110); } 
+    98% { color: rgb(16, 39, 110); background-color: white; } 
+    100% { color: white; background-color: rgb(16, 39, 110); } 
+}
+  /* @keyframes colorCycle {
+    0% { color: red; background-color: white } 
+    7% { color: white; background-color: black; } 
+    14% { color: red; background-color: white; } 
+    21% { color: white; background-color: red; } 
+    28% { color: red; background-color: white; } 
+    35% { color: white; background-color: red; } 
+    42% { color: red; background-color: white; } 
+    49% { color: white; background-color: red; } 
+    56% { color: red; background-color: white; } 
+    63% { color: white; background-color: red; } 
+    70% { color: red; background-color: white; } 
+    77% { color: white; background-color: red; } 
+    84% { color: red; background-color: white; } 
+    91% { color: white; background-color: red; } 
+    93% { color: red; background-color: white; } 
+    96% { color: white; background-color: red; } 
+    98% { color: red; background-color: white; } 
+    100% { color: white; background-color: red; } 
+} */
+  /* @keyframes colorCycle {
+    0% { color: rgb(255, 0, 102); background-color: rgb(255, 245, 157); } 
+    20% { color: rgb(0, 255, 171); background-color: rgb(255, 102, 102); } 
+    40% { color: rgb(255, 255, 0); background-color: rgb(0, 153, 255); } 
+    60% { color: rgb(255, 140, 0); background-color: rgb(153, 51, 255); } 
+    80% { color: rgb(0, 255, 85); background-color: rgb(255, 20, 147); } 
+    100% { color: rgb(255, 0, 102); background-color: rgb(255, 245, 157); } 
+} */
+
 
   #wordInput,
   #submitButton {
@@ -82,6 +195,10 @@
   li {
     line-height: 1.2rem;
     font-size: .8rem;
+    animation: pulseText 40s ease-in infinite, 
+    /* drift 10s ease-in-out infinite, */
+    colorCycle 6s ease-in-out infinite alternate,
+    waveText 3s ease-in-out infinite;
   }
   
   #toggleInstructions:active {
@@ -316,6 +433,10 @@
   #averageScoreResult {
     color: rgb(255, 255, 255);
     font-size: .9rem;
+    animation: pulseText 40s ease-in infinite, 
+    /* drift 10s ease-in-out infinite, */
+    colorCycle 6s ease-in-out infinite alternate,
+    waveText 3s ease-in-out infinite;
   }
 
   #wordInput {
@@ -331,30 +452,23 @@
   }
 
   #countdown {
-    font-family: "Slackey", serif;
-    color:rgb(233, 14, 25)
+    font-family: "Courgette", serif;
+    color:rgb(233, 14, 25);
   }
 
   #currentTime {
-    font-family: "Courgette", serif;
-    color:rgb(151, 17, 234)
+    font-family: "Slackey", serif;
+    color:rgb(151, 17, 234);
   }
 
   #countdownToMidnight {
     font-family: "Unlock", serif;
-    color:rgb(15, 108, 10)
+    color:rgb(15, 108, 10);
   }
 
 
 
-@keyframes drift {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100vw);
-  }
-}
+
 
   /* .pardon {
     position: absolute;
