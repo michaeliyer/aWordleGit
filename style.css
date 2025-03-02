@@ -23,6 +23,7 @@
     border: solid rgb(255, 255, 255) .3rem;
     border-radius: .3rem;
     background-color: rgb(16, 39, 110);
+    
   }
   
   h2 {
@@ -32,6 +33,7 @@
     box-shadow: .1rem .05rem;
     border-radius: .4rem;
     padding: .3rem;
+    
   }
   
    #toggleInstructions {
@@ -56,8 +58,8 @@
     /* background-color: rgb(16, 39, 110);
     color: rgb(147, 132, 230); */
     /* color: rgb(244, 69, 11); */
-    border: solid rgb(16, 39, 110) .25rem;
-    border-radius: .5rem;
+    border: solid rgb(16, 69, 110) .25rem;
+    border-radius: .75rem;
     /* box-shadow: .15rem .90rem; */
     position: absolute;
     z-index: 20;
@@ -72,10 +74,10 @@
     font-weight: 400;
     font-style: normal; 
     font-size: 1rem;
-    animation: pulseText 40s ease-in infinite, 
+    animation: pulseText 30s ease-in infinite, 
                /* drift 10s ease-in-out infinite, */
-               colorCycle 6s ease-in-out infinite alternate,
-               waveText 3s ease-in-out infinite;
+               colorCycle 6s ease-in-out infinite alternate;
+               /* waveText 30s ease-in-out infinite; */
               
   } 
 
@@ -156,6 +158,16 @@
     98% { color: rgb(16, 39, 110); background-color: white; } 
     100% { color: white; background-color: rgb(16, 39, 110); } 
 }
+
+   @keyframes colorCycle2 {
+    0% { color: rgb(167, 27, 27); background-color: rgb(160, 232, 16); } 
+    20% { color: rgb(160, 232, 16); background-color: rgb(167, 27, 27); } 
+    40% { color: rgb(167, 27, 27); background-color: rgb(160, 232, 16); } 
+    60% { color: rgb(160, 232, 16); background-color: rgb(167, 27, 27); } 
+    80% { color: rgb(167, 27, 27); background-color: rgb(160, 232, 16); } 
+    100% { color: rgb(160, 232, 16); background-color: rgb(167, 27, 27); } 
+   }
+   
   /* @keyframes colorCycle {
     0% { color: red; background-color: white } 
     7% { color: white; background-color: black; } 
@@ -203,7 +215,7 @@
     animation: pulseText 40s ease-in infinite, 
     /* drift 10s ease-in-out infinite, */
     colorCycle 6s ease-in-out infinite alternate,
-    waveText 3s ease-in-out infinite;
+    /* waveText 30s ease-in-out infinite; */
   }
   
   #toggleInstructions:active {
@@ -377,6 +389,7 @@
     background-color: rgb(16, 39, 110);
     padding: 1.5rem;
     text-align: justify;
+
   }
   
   footer {
@@ -448,10 +461,8 @@
   #averageScoreResult {
     color: rgb(255, 255, 255);
     font-size: .9rem;
-    animation: pulseText 40s ease-in infinite, 
-    /* drift 10s ease-in-out infinite, */
-    colorCycle 6s ease-in-out infinite alternate,
-    /* waveText 3s ease-in-out infinite; */
+    animation: 
+    colorCycle2 5s ease-in-out infinite alternate;
   }
 
   #wordInput {
