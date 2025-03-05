@@ -78,7 +78,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
     const resultsDiv = document.getElementById("filteredWords");
     const wordsList = results.join(", ");
     const totalWords = results.length;
-    const listWithTotal = `${wordsList} (There are ${totalWords} words in this list!!!)`;
+    const listWithTotal = `${wordsList} (${totalWords} words remain in this list!!!)`;
     resultsDiv.innerHTML = listWithTotal;
   }
   
