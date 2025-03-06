@@ -146,7 +146,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
     const selectedFunction = document.getElementById("functionSelect").value;
   
     if (!letter) {
-      alert("Please enter a letter.");
+      alert("Please enter a letter!");
       return;
     }
   
@@ -163,7 +163,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
       filteredWords = history.pop(); // Restore the previous state
       displayResults(filteredWords);
     } else {
-      alert("No more actions to undo.");
+      alert("Stop being impatient!");
     }
   }
   
@@ -189,7 +189,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
     const wordNumber2 = parseInt(document.getElementById("wordNumber2").value);
   
     if (isNaN(wordNumber1) || isNaN(wordNumber2)) {
-      averageScoreResult.textContent = "Please enter valid numbers. These are a joke!";
+      averageScoreResult.textContent = "These are not even numbers!";
       return;
     }
   
