@@ -135,7 +135,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
         filteredWords = containsDuplicateLetters();
         break;
       default:
-        alert("Please select a valid function.");
+        alert("Please select a valid function. Don't be stupid.");
         return;
     }
   }
@@ -189,7 +189,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
     const wordNumber2 = parseInt(document.getElementById("wordNumber2").value);
   
     if (isNaN(wordNumber1) || isNaN(wordNumber2)) {
-      averageScoreResult.textContent = "Please enter valid numbers.";
+      averageScoreResult.textContent = "Please enter valid numbers. These are a joke!";
       return;
     }
   
