@@ -101,13 +101,20 @@
   font-size: 1.15rem;
   animation: colorCycle2 10s ease-in-out infinite alternate,
              drift 10s ease-in-out infinite;
+}
 
  @keyframes drift {
     0% {
       transform: translateX(0);
     }
-    50% {
+    25% {
       transform: translateX(10vw);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(-10vw);
     }
     100% {
       transform: translateX(0);
@@ -124,9 +131,9 @@
 
  @keyframes waveText2 {
     0% { transform: translateY(0px); }
-    25% { transform: translateY(-3px) rotate(-60deg); }
-    50% { transform: translateY(3px) rotate(60deg); }
-    75% { transform: translateY(-3px) rotate(-60deg); }
+    25% { transform: translateY(-3px) rotate(-90deg); }
+    50% { transform: translateY(3px) rotate(90deg); }
+    75% { transform: translateY(-3px) rotate(-90deg); }
     100% { transform: translateY(0px); }
 }
 
