@@ -93,17 +93,26 @@
   animation: 
   waveText 30s ease-in-out infinite,
   colorCycle4 30s ease-in-out infinite alternate,
-  waveText 10s ease-in-out infinite; 
+  waveText2 10s ease-in-out infinite; 
 }
 
- /* @keyframes drift {
+.jackAss {
+  font-family: "Unlock", serif;
+  font-size: 1.15rem;
+  animation: colorCycle2 10s ease-in-out infinite alternate,
+             drift 10s ease-in-out infinite;
+
+ @keyframes drift {
     0% {
       transform: translateX(0);
     }
-    100% {
-      transform: translateX(100vw);
+    50% {
+      transform: translateX(10vw);
     }
-  }   */
+    100% {
+      transform: translateX(0);
+    }
+  }  
 
  @keyframes waveText {
     0% { transform: translateY(0px); }
