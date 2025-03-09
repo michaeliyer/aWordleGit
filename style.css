@@ -103,6 +103,15 @@
              drift 10s ease-in-out infinite;
 }
 
+.jackAss2 {
+  font-family: "Courgette", serif;
+  font-size: 1.15rem;
+  animation: colorCycle4 5s ease-in-out infinite alternate,
+             drift2 10s ease-in-out infinite;
+}
+
+
+
  @keyframes drift {
     0% {
       transform: translateX(0);
@@ -115,6 +124,24 @@
     }
     75% {
       transform: translateX(-10vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }  
+
+ @keyframes drift2 {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10vw);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(10vw);
     }
     100% {
       transform: translateX(0);
