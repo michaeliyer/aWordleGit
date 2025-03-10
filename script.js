@@ -69,7 +69,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
           and you had a score of '${foundWord.myScore}'.<br> Your average score up to this date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}'.`;
       document.querySelector(".field-one").innerHTML = resultString;
     } else {
-      const notFoundString = `The word "${inputWord}" was not found....<br> Feel free to guess the word "${inputWord}", Fuckface!`;
+      const notFoundString = `The word "${inputWord}" was not found....<br> Feel free, feel obligated, to guess the word "${inputWord}", Fuckface!`;
       document.querySelector(".field-one").innerHTML = notFoundString;
     }
   }
