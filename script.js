@@ -78,7 +78,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
     const resultsDiv = document.getElementById("filteredWords");
     const wordsList = results.join(", ");
     const totalWords = results.length;
-    const listWithTotal = `${wordsList} (${totalWords} words remain in this list!!!)`;
+    const listWithTotal = `${wordsList} (${totalWords} words exist in this list!!!)`;
     resultsDiv.innerHTML = listWithTotal;
   }
   
@@ -289,7 +289,7 @@ function calculateCountdown(targetDate) {
 function updateCountdown() {
   const countdownElement = document.getElementById("countdown");
   if (countdownElement) {
-    countdownElement.textContent = `The Mid-Term Elections 2026 Are In  ${calculateCountdown("2026-11-03T00:00:00")}. Can We Fucking Make It Till Then?`;
+    countdownElement.textContent = `American Mid-Term Elections 2026 Are In  ${calculateCountdown("2026-11-03T00:00:00")}. Can We Fucking Make It Till Then?`;
   }
 }
 
