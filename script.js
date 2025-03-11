@@ -78,7 +78,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
     const resultsDiv = document.getElementById("filteredWords");
     const wordsList = results.join(", ");
     const totalWords = results.length;
-    const listWithTotal = `${wordsList} (${totalWords} words exist in this list!!!)`;
+    const listWithTotal = `${wordsList} (${totalWords} Christing words exist in this list!!!)`;
     resultsDiv.innerHTML = listWithTotal;
   }
   

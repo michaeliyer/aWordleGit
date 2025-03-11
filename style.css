@@ -125,6 +125,15 @@
              colorCycle3 10s ease-in-out infinite alternate;
 }
 
+.babyPig1 {
+  font-family: "Belanosima", serif;
+  font-size: 1.15rem;
+  animation: waveText3 5s ease-in-out infinite alternate,
+             colorCycle5 5s ease-in-out infinite alternate;
+}
+
+
+
 @keyframes drift3 {
   0% {
     transform: translateY(0);
@@ -202,6 +211,14 @@
     25% { transform: translateY(-3px) rotate(-90deg); }
     50% { transform: translateY(3px) rotate(90deg); }
     75% { transform: translateY(-3px) rotate(-90deg); }
+    100% { transform: translateY(0px); }
+}
+
+ @keyframes waveText3 {
+    0% { transform: translateY(0px); }
+    25% { transform: translateY(-3px) rotate(15deg); }
+    50% { transform: translateY(3px) rotate(-30deg); }
+    75% { transform: translateY(-3px) rotate(15deg); }
     100% { transform: translateY(0px); }
 }
 
