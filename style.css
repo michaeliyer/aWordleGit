@@ -81,6 +81,12 @@
               
   } 
 
+.pigMan {
+    animation: letterWiggle 1s infinite,
+    waveText 30s ease-in-out infinite,
+    colorCycle5 30s ease-in-out infinite alternate;
+} 
+
 .pigFuckers {
   font-family: "Unlock", serif;
   font-size: 1.15rem;
@@ -93,7 +99,7 @@
   animation: 
   waveText 30s ease-in-out infinite,
   colorCycle4 30s ease-in-out infinite alternate,
-  waveText2 10s ease-in-out infinite; 
+  animation: waveText2 10s ease-in-out infinite; 
 }
 
 .jackAss {
@@ -132,6 +138,32 @@
              colorCycle5 5s ease-in-out infinite alternate;
 }
 
+@keyframes letterWiggle {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(5deg); }
+  40% { transform: rotate(-5deg); }
+  60% { transform: rotate(5deg); }
+  80% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10vh);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 
 @keyframes drift3 {
