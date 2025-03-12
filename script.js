@@ -163,7 +163,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
       filteredWords = history.pop(); // Restore the previous state
       displayResults(filteredWords);
     } else {
-      alert("Stop being impatient!");
+      alert("Stop being impatient, Dickus!");
     }
   }
   
