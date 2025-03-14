@@ -260,7 +260,7 @@ function updateFooter() {
   )}`;
 
   // Update countdown to midnight
-  document.getElementById("countdownToMidnight").textContent = `Countdown to Midnight: ${getTimeUntilMidnightEastern()}`;
+  document.getElementById("countdownToMidnight").textContent = `Countdown to Midnight: ${getTimeUntilMidnightEastern()} The Clock Tick Fast Enough!`;
 }
 
 // Start the clock

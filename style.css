@@ -75,16 +75,14 @@
     font-style: normal; 
     font-size: 1rem;
     animation: pulseText 30s ease-in infinite, 
-               /* drift 10s ease-in-out infinite, */
                colorCycle 6s ease-in-out infinite alternate;
-               /* waveText 30s ease-in-out infinite; */
               
   } 
 
 .pigMan {
-    animation: letterWiggle 1s infinite,
-    waveText 30s ease-in-out infinite,
-    colorCycle5 30s ease-in-out infinite alternate;
+  animation: letterWiggle 1s infinite,
+             waveText 30s ease-in-out infinite,
+             colorCycle5 30s ease-in-out infinite alternate;
 } 
 
 .pigFuckers {
@@ -96,10 +94,8 @@
 .superPig {
   font-family: "Luckiest Guy", cursive;
   font-size: 1rem;
-  animation: 
-  waveText 30s ease-in-out infinite,
-  colorCycle4 30s ease-in-out infinite alternate,
-  animation: waveText2 10s ease-in-out infinite; 
+  animation:  waveText 30s ease-in-out infinite,
+              colorCycle4 30s ease-in-out infinite alternate,
 }
 
 .jackAss {
@@ -138,8 +134,17 @@
              colorCycle5 5s ease-in-out infinite alternate;
 }
 
+.crimeBoys {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.15rem;
+  animation: colorCycle4 5s ease-in-out infinite alternate,
+             wave 10s ease-in-out infinite;
+}
+
 .miniPig1 {
   font-size: .9rem;
+  animation: colorCycle 5s ease-in-out infinite alternate,
+             wave 10s ease-in-out infinite;
 }
 
 @keyframes letterWiggle {
@@ -200,19 +205,19 @@
 
  @keyframes drift {
     0% {
-      transform: translateX(0);
+      transform: translateY(0) rotate(-15deg);
     }
     25% {
-      transform: translateX(10vw);
+      transform: translateY(10vw) rotate(15deg);
     }
     50% {
-      transform: translateX(0);
+      transform: translateY(0) rotate(-15deg);
     }
     75% {
-      transform: translateX(-10vw);
+      transform: translateY(-10vw) rotate(15deg);
     }
     100% {
-      transform: translateX(0);
+      transform: translateY(0) rotate(-15deg);
     }
   }  
 
@@ -288,11 +293,11 @@
   80% { transform: scale(.75); }
   90% { transform: scale(.5); }
   95% { transform: scale(.25); }
-  96% { transform: scale(.05); }
-  97% { transform: scale(.04); }
-  998% { transform: scale(.03); }
-  99% { transform: scale(.02); }
-  100% { transform: scale(.01); }
+  96% { transform: scale(.5); }
+  97% { transform: scale(.75); }
+  998% { transform: scale(1); }
+  99% { transform: scale(1.25); }
+  100% { transform: scale(1.5); }
 }  
 
 /*@keyframes letterWiggle {
@@ -437,7 +442,7 @@
     font-size: 1.4rem;
     font-weight: 600;
     animation: 
-    pulseText 10s ease-in infinite, 
+    /* pulseText 10s ease-in infinite,  */
     /* drift 10s ease-in-out infinite, */
     colorCycle 5s ease-in-out infinite alternate;
     /* waveText 3s ease-in-out infinite; */
@@ -461,7 +466,7 @@
     box-shadow: .15rem .1rem;
     padding: .5rem;
     animation: 
-      pulseText 3s ease-in infinite, 
+      /* pulseText 3s ease-in infinite,  */
       /* drift 10s ease-in-out infinite, */
       colorCycle 4s ease-in-out infinite alternate;
       /* waveText 10s ease-in-out infinite; */
