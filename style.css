@@ -153,6 +153,11 @@
              waveText7 10s ease-in-out infinite,
              letterWiggle 5s infinite;
 }
+.miniPig3 {
+  font-size: .9rem;
+  animation: colorCycle4 5s ease-in-out infinite alternate,
+             letterWiggle 5s infinite;
+}
 
 @keyframes letterWiggle {
   0% { transform: rotate(0deg); }
@@ -160,6 +165,14 @@
   40% { transform: rotate(-5deg); }
   60% { transform: rotate(5deg); }
   80% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+@keyframes letterWiggle2 {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(45deg); }
+  40% { transform: rotate(-15deg); }
+  60% { transform: rotate(45deg); }
+  80% { transform: rotate(-15deg); }
   100% { transform: rotate(0deg); }
 }
 
