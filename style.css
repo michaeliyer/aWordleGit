@@ -150,7 +150,8 @@
 .miniPig2 {
   font-size: .9rem;
   animation: colorCycle2 5s ease-in-out infinite alternate,
-             waveText7 10s ease-in-out infinite;
+             waveText7 10s ease-in-out infinite,
+             letterWiggle 5s infinite;
 }
 
 @keyframes letterWiggle {
@@ -314,14 +315,14 @@
   100% { transform: scale(1.5); }
 }  
 
-/*@keyframes letterWiggle {
+@keyframes letterWiggle {
   0% { transform: rotate(0deg); }
   20% { transform: rotate(5deg); }
   40% { transform: rotate(-5deg); }
   60% { transform: rotate(5deg); }
   80% { transform: rotate(-5deg); }
   100% { transform: rotate(0deg); }
-} */
+}
 
   @keyframes colorCycle {
     0% { color: rgb(16, 39, 110); background-color: white } 
