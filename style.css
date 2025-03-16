@@ -185,8 +185,27 @@
   font-family: "Yanone Kaffeesatz", serif;
   font-size: .9rem;
   animation: colorCycle11 5s ease-in-out infinite alternate,
-             waveText11 5s infinite;
+             waveText11 5s infinite,
+             drift11 30s ease-in-out infinite;
 }
+
+@keyframes drift11 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-40vw);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(40vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}  
 
 @keyframes waveText11 {
   0% { transform: translateY(0); }
