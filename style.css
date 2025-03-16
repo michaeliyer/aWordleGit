@@ -79,13 +79,16 @@
               
   } 
 
-.pigMan {
+.pigMan {  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
   animation: letterWiggle 1s infinite,
              waveText 30s ease-in-out infinite,
              colorCycle5 30s ease-in-out infinite alternate;
 } 
 
 .pigFuckers {
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
   font-family: "Unlock", serif;
   font-size: 1.15rem;
   animation: colorCycle3 30s ease-in-out infinite alternate;
@@ -99,6 +102,8 @@
 }
 
 .jackAss {
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
   font-family: "Unlock", serif;
   font-size: 1.15rem;
   animation: colorCycle2 10s ease-in-out infinite alternate,
@@ -106,6 +111,8 @@
 }
 
 .jackAss2 {
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
   font-family: "Courgette", serif;
   font-size: 1.15rem;
   animation: colorCycle4 5s ease-in-out infinite alternate,
@@ -113,6 +120,8 @@
 }
 
 .jackAss3 {
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
   font-family: "Kaushan Script", cursive;
   font-size: 1.15rem;
   animation: colorCycle5 20s ease-in-out infinite alternate,
@@ -121,6 +130,8 @@
 }
 
 .superPig2 {
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
   font-family: "Unlock", serif;
   font-size: 1.15rem;
   animation: waveText 5s ease-in-out infinite alternate,
@@ -128,6 +139,8 @@
 }
 
 .babyPig1 {
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
   font-family: "Belanosima", serif;
   font-size: 1.15rem;
   animation: waveText3 5s ease-in-out infinite alternate,
@@ -135,6 +148,8 @@
 }
 
 .crimeBoys {
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
   font-family: "Archivo Black", sans-serif;
   font-size: 1.15rem;
   animation: colorCycle4 5s ease-in-out infinite alternate,
@@ -142,22 +157,60 @@
 }
 
 .miniPig1 {
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
   font-size: .9rem;
   animation: colorCycle 5s ease-in-out infinite alternate,
              wave 10s ease-in-out infinite;
 }
 
 .miniPig2 {
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
   font-size: .9rem;
   animation: colorCycle2 5s ease-in-out infinite alternate,
              waveText7 10s ease-in-out infinite,
              letterWiggle 5s infinite;
 }
-.miniPig3 {
+.miniPig3 {  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
   font-size: .9rem;
   animation: colorCycle4 5s ease-in-out infinite alternate,
              letterWiggle 5s infinite;
 }
+
+.miniPig4 {
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
+  font-family: "Yanone Kaffeesatz", serif;
+  font-size: .9rem;
+  animation: colorCycle11 5s ease-in-out infinite alternate,
+             waveText11 5s infinite;
+}
+
+@keyframes waveText11 {
+  0% { transform: translateY(0); }
+  10% { transform: translateY(-10px) rotate(-45deg); }
+  20% { transform: translateY(5) rotate(-15deg); }
+  30% { transform: translateY(10px) rotate(15deg); }
+  40% { transform: translateY(0); }
+  50% { transform: translateY(0); }
+  60% { transform: translateY(5) rotate(-15deg); }
+  70% { transform: translateY(10px) rotate(-45deg); }
+  80% { transform: translateY(0) rotate(-15deg); }
+  90% { transform: translateY(5); }
+  1000% { transform: translateY(0); }
+}
+
+@keyframes colorCycle11 {
+  0% { color: rgb(238, 70, 14); background-color: rgb(165, 198, 19); } 
+  50% { color: rgb(180, 225, 16); background-color: rgb(245, 83, 14); } 
+  90% { color: rgb(227, 14, 216); background-color: rgb(91, 114, 230); } 
+  0% { color: rgb(52, 16, 232); background-color: rgb(27, 167, 62); } 
+ }
+
+
+
 
 @keyframes letterWiggle {
   0% { transform: rotate(0deg); }
