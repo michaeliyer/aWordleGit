@@ -283,13 +283,13 @@ function calculateCountdown(targetDate) {
   const minutes = Math.floor((diff / (1000 * 60)) % 60);
   const seconds = Math.floor((diff / 1000) % 60);
 
-  return `${days} very long days, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")} You Fuckheads.`;
+  return `${days} very longAss days, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")} You Fuckheads.`;
 }
 
 function updateCountdown() {
   const countdownElement = document.getElementById("countdown");
   if (countdownElement) {
-    countdownElement.textContent = `American Mid-Term Elections 2026 Are In  ${calculateCountdown("2026-11-03T00:00:00")}. Can We Fucking Make It Till Then?`;
+    countdownElement.textContent = `The American Mid-Term Elections 2026 Are In  ${calculateCountdown("2026-11-03T00:00:00")}. Can We Fucking Make It Till Then?`;
   }
 }
 
