@@ -79,11 +79,31 @@
               
   } 
 
+  .fuckula1 {
+    border: solid rgb(229, 8, 8) .2rem;
+    border-radius: .5rem;
+    font-family: "Unlock", serif;
+    font-size: 1.15rem;
+    animation: colorCycle11 5s ease-in-out infinite alternate,
+               waveText5 10s ease-in-out infinite;
+  }
+
+  .fuckula2 {
+    border: solid rgb(229, 8, 8) .2rem;
+    border-radius: .5rem;
+    font-family: "Unlock", serif;
+    font-size: 1.15rem;
+    animation: colorCycle4 5s ease-in-out infinite alternate,
+               waveText 10s ease-in-out infinite,
+               drift 10s ease-in-out infinite;
+  }
+
 .pigMan {  border: solid rgb(229, 8, 8) .2rem;
   border-radius: .5rem;
   animation: letterWiggle 1s infinite,
              waveText 30s ease-in-out infinite,
-             colorCycle5 30s ease-in-out infinite alternate;
+             colorCycle5 30s ease-in-out infinite alternate,
+             drift3 5s ease-in-out infinite;
 } 
 
 .pigFuckers {
