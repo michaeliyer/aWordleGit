@@ -229,10 +229,30 @@
              drift 30s ease-in-out infinite;
 }
 
+.fuckFace1 {
+  font-family: "Archivo Black", sans-serif;
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
+  animation: colorCycle11 5s ease-in-out infinite alternate,
+             waveText7 5s infinite;
+}
 
+@keyframes colorCycle11 {
+  0% { color: rgb(128, 156, 45); background-color: rgb(69, 25, 146); } 
+  50% { color: rgb(42, 75, 2); background-color: rgb(245, 83, 14); } 
+  90% { color: rgb(164, 14, 157); background-color: rgb(152, 158, 191); } 
+  0% { color: rgb(51, 16, 16); background-color: rgb(125, 219, 149); } 
+ }
 
-
-
+ @keyframes waveText7 {
+  0% { transform: translateY(0); }
+  25% { transform: translateY(-10px); }
+  50% { transform: translateY(10px); }
+  60% { transform: translateY(0); }
+  70% { transform: translateY(0); }
+  75% { transform: translateY(-10px); }
+  100% { transform: translateY(10px); }
+}
 
 
 
