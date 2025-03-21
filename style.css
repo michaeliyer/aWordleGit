@@ -237,6 +237,47 @@
              waveText7 5s infinite;
 }
 
+.fuckFace2 {
+  font-family: "Archivo Black", sans-serif;
+  border: solid rgb(229, 8, 8) .2rem;
+  border-radius: .5rem;
+  animation: colorCycle66 5s ease-in-out infinite alternate,
+             pulsewText66 5s infinite,
+             waveText66 5s infinite;
+}
+
+@keyframes waveText66 {
+  0% { transform: translateY(0px); }
+  25% { transform: translateY(-3px) rotate(-90deg); }
+  50% { transform: translateY(3px) rotate(45deg); }
+  75% { transform: translateY(-3px) rotate(90deg); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes pulseText66 {
+  1% { transform: scale(1); }
+  2% { transform: scale(1.5); }
+  3% { transform: scale(2); }
+  4% { transform: scale(2.5); }
+  5% { transform: scale(2); }
+  90% { transform: scale(1.5); }
+  95% { transform: scale(2); }
+  96% { transform: scale(2.5); }
+  97% { transform: scale(2); }
+  998% { transform: scale(1.5); }
+  99% { transform: scale(1); }
+  100% { transform: scale(1); }
+}  
+
+@keyframes colorCycle66 {
+  0% { color: rgb(189, 242, 29); background-color: rgb(14, 30, 200); } 
+  50% { color: rgb(219, 158, 28); background-color: rgb(9, 92, 118); } 
+  90% { color: rgb(118, 12, 113); background-color: rgb(219, 113, 150); } 
+  0% { color: rgb(221, 77, 15); background-color: rgb(14, 29, 18); } 
+ }
+
+
+
 @keyframes colorCycle11 {
   0% { color: rgb(128, 156, 45); background-color: rgb(69, 25, 146); } 
   50% { color: rgb(42, 75, 2); background-color: rgb(245, 83, 14); } 
@@ -336,7 +377,7 @@
   }
 }
 
-@keyframes waveText7 {
+@keyframes waveText8 {
   0% { transform: translateY(0); }
   25% { transform: translateY(10px); }
   50% { transform: translateY(0); }
