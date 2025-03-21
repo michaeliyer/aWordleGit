@@ -163,7 +163,7 @@
   border-radius: .5rem;
   font-family: "Belanosima", serif;
   font-size: 1.15rem;
-  animation: waveText3 5s ease-in-out infinite alternate,
+  animation: waveText3 20s ease-in-out infinite alternate,
              colorCycle5 5s ease-in-out infinite alternate;
 }
 
