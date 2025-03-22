@@ -289,7 +289,7 @@ function calculateCountdown(targetDate) {
 function updateCountdown() {
   const countdownElement = document.getElementById("countdown");
   if (countdownElement) {
-    countdownElement.textContent = `The American Mid-Term Elections 2026 Are In  ${calculateCountdown("2026-11-03T00:00:00")}. <br> Can We Fucking Make It Till Then, you fools? Likely we're fucked!`;
+    countdownElement.textContent = `The American Mid-Term Elections 2026 Are In  ${calculateCountdown("2026-11-03T00:00:00")}. <br> Can We Fucking Make It Till Then, you dastardly fools?  <br> Likely we're fucked!`;
   }
 }
 
