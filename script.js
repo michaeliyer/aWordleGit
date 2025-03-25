@@ -283,7 +283,8 @@ function calculateCountdown(targetDate) {
   const minutes = Math.floor((diff / (1000 * 60)) % 60);
   const seconds = Math.floor((diff / 1000) % 60);
 
-  return `${days} very longAss days, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")} You Fuckheads.`;
+  return `${days} very longAss days, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")} You Fuckheads.
+  Please Bleed Out`;
 }
 
 function updateCountdown() {

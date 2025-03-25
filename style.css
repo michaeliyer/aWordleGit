@@ -246,6 +246,10 @@
              waveText66 5s infinite;
 }
 
+.assholes {
+   border: solid rgb(243, 243, 110) .4rem;
+}
+
 @keyframes waveText66 {
   0% { transform: translateY(0px); }
   25% { transform: translateY(-3px) rotate(-90deg); }
