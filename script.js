@@ -257,7 +257,8 @@ function updateFooter() {
   // Update current time display
   document.getElementById("currentTime").textContent = `Current Eastern Time: ${formatTime(
     easternNow
-  )}`;
+  )}
+  YOU ARE SLATED FOR HELL, PIGS!`;
 
   // Update countdown to midnight
   document.getElementById("countdownToMidnight").textContent = `Countdown to Midnight: ${getTimeUntilMidnightEastern()} The Clock Tick Fast Enough!`;
@@ -283,8 +284,7 @@ function calculateCountdown(targetDate) {
   const minutes = Math.floor((diff / (1000 * 60)) % 60);
   const seconds = Math.floor((diff / 1000) % 60);
 
-  return `${days} very longAss days, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")} You Fuckheads.
-  Please Bleed Out`;
+  return `${days} very longAss days, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
 }
 
 function updateCountdown() {
