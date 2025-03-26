@@ -317,6 +317,9 @@
   75% {
     transform: translateX(40vw);
   }
+  85% {
+    transform: translateX(80vw);
+  }
   100% {
     transform: translateX(0);
   }
