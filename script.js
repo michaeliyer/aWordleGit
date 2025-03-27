@@ -261,7 +261,7 @@ function updateFooter() {
   YOU ARE SLATED FOR HELL, PIGS!`;
 
   // Update countdown to midnight
-  document.getElementById("countdownToMidnight").textContent = `Countdown to Midnight: ${getTimeUntilMidnightEastern()} The Clock Can't Tick Fast Enough!`;
+  document.getElementById("countdownToMidnight").textContent = `Countdown to Midnight: 🧌 ${getTimeUntilMidnightEastern()} The Clock Can't Tick Fast Enough!`;
 }
 
 // Start the clock

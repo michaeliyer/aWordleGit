@@ -250,6 +250,12 @@
    border: solid rgb(243, 243, 110) .4rem;
 }
 
+.jerks {
+  animation: colorCycle66 20s ease-in-out infinite alternate,
+  pulsewText66 5s infinite,
+  waveText66 5s infinite;
+}
+
 @keyframes waveText66 {
   0% { transform: translateY(0px); }
   25% { transform: translateY(-3px) rotate(-90deg); }
