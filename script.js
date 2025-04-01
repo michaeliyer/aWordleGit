@@ -436,7 +436,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
         filteredWords = containsDuplicateLetters();
         break;
       default:
-        alert("Please select a valid function. Don't be stupid.");
+        alert("Please select a valid function. Don't be a stupid asshole.");
         return;
     }
   }
