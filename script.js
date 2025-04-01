@@ -379,7 +379,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
     const resultsDiv = document.getElementById("filteredWords");
     const wordsList = results.join(", ");
     const totalWords = results.length;
-    const listWithTotal = `${wordsList} (${totalWords} Christing words exist in this frickin list! It's steadily shrinking...)`;
+    const listWithTotal = `${wordsList} (${totalWords} Christing words exist in this frickin list! It's steadily shrinking, like my sanity!)`;
     resultsDiv.innerHTML = listWithTotal;
   }
   
