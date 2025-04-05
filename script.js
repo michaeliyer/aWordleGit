@@ -206,7 +206,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
     const totalScore = filteredWords.reduce((sum, word) => sum + word.myScore, 0);
     const averageScore = totalScore / filteredWords.length;
   
-    averageScoreResult.textContent = `Your average score between words #${start} and #${end} is a crisp ${averageScore.toFixed(6)}, You Cocksucker!`;
+    averageScoreResult.textContent = `Average Score between words #${start} & #${end} = a crisp ${averageScore.toFixed(6)}, You Cocksucker!`;
   });
 
 
