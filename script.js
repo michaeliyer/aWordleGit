@@ -291,7 +291,7 @@ function updateCountdown() {
   const countdownElement = document.getElementById("countdown");
   if (countdownElement) {
     countdownElement.textContent = `The American Mid-Term Elections 0f 2026 Are In  ${calculateCountdown("2026-11-03T00:00:00")}. 
-    Can We Fucking Make It Till Then, Thou Dastardly Fools? Likely We Art Fucked!`;
+    Will We Goddamn Fucking Make It Till Then, Thou Dastardly Fools? Likely We Art Fucked!`;
   }
 }
 
