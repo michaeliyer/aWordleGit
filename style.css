@@ -234,7 +234,8 @@ font-family: "Archivo Black", sans-serif;
 border: solid rgb(229, 8, 8) .2rem;
 border-radius: .5rem;
 animation: colorCycle11 5s ease-in-out infinite alternate,
-           waveText7 5s infinite;
+           waveText7 5s infinite,
+           fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
 }
 
 .fuckFace2 {
@@ -665,6 +666,7 @@ li {
 }
 
 #instructions ol {
+  
   list-style-position: inside;
 }
 
