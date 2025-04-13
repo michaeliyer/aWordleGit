@@ -240,7 +240,7 @@ animation: colorCycle11 5s ease-in-out infinite alternate,
 
 .fuckFace2 {
 font-family: "Archivo Black", sans-serif;
-border: solid rgb(229, 8, 8) .2rem;
+border: solid rgb(228, 8, 8) .2rem;
 border-radius: .5rem;
 animation: colorCycle66 5s ease-in-out infinite alternate,
            pulsewText66 5s infinite,
