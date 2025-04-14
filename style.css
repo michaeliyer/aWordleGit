@@ -243,7 +243,7 @@ font-family: "Archivo Black", sans-serif;
 border: solid rgb(228, 8, 8) .2rem;
 border-radius: .5rem;
 animation: colorCycle66 5s ease-in-out infinite alternate,
-           pulsewText66 5s infinite,
+           pulseText66 5s infinite,
            waveText66 5s infinite;
 }
 
@@ -1066,6 +1066,14 @@ footer {
   display: inline-block; 
   animation: fontFamKeyFrame 30s infinite, fadeInOut 4s infinite,
              colorCycle 30s ease-in-out infinite alternate;
+}
+.iHateTheGOP2 {
+  display: inline-block; 
+  animation:  fontFamKeyFrame 10s infinite, fadeInOut 4s infinite,
+              colorCycle 15s ease-in-out infinite alternate,
+              letterWiggle 5s infinite,
+              pulseText66 5s infinite,
+              drift 30s ease-in-out infinite;
 }
 
 
