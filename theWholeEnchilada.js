@@ -1384,7 +1384,7 @@ export const dailyWordsSmall = [
     'MAFIA', 'MAKER', 'MAMMA', 'MAMMY', 'MANGE', 'MANGY', 'MANIC',
     'MEATY', 'MECCA', 'MELEE', 'MIGHT', 'MILKY', 
     'MINIM', 'MINOR', 'MINTY', 'MIRTH', 'MISER', 'MISSY', 'MOCHA', 'MODAL',
-    'MOGUL', 'MOLDY', 'MOODY', 'MORAL', 'MORON', 'MORPH', 'MOTEL', 'MOTIF', 'MOUND', 'MOUTH', 
+    'MOGUL', 'MOLDY', 'MOODY', 'MORON', 'MORPH', 'MOTEL', 'MOTIF', 'MOUND', 'MOUTH', 
     'MOVER', 'MOWER',
     'MUCUS', 'MUDDY', 'MUNCH', 'MURKY', 'MUSKY', 'MYRRH', 'NACHO', 'NADIR', 'NASAL',
     'NEWER', 'NEWLY', 'NIECE', 'NINNY',
@@ -2160,7 +2160,7 @@ export const dailyWordsLarge = [
     'MONGO', 'MONGS', 'MONIC', 'MONIE', 'MONKS', 'MONOS', 'MONTE', 'MONTY', 'MOOBS',
     'MOOCH', 'MOODS', 'MOODY', 'MOOED', 'MOOKS', 'MOOLA', 'MOOLI', 'MOOLS', 'MOOLY', 'MOONG',
     'MOONS', 'MOONY', 'MOOPS', 'MOORS', 'MOORY', 'MOOTS', 'MOOVE', 'MOPED', 'MOPER',
-    'MOPES', 'MOPEY', 'MOPPY', 'MOPSY', 'MOPUS', 'MORAE', 'MORAL', 'MORAS', 'MORAT', 'MORAY',
+    'MOPES', 'MOPEY', 'MOPPY', 'MOPSY', 'MOPUS', 'MORAE', 'MORAS', 'MORAT', 'MORAY',
     'MOREL', 'MORES', 'MORIA', 'MORNE', 'MORNS', 'MORON', 'MORPH', 'MORRA', 'MORRO', 'MORSE',
     'MORTS', 'MOSED', 'MOSES', 'MOSEY', 'MOSKS', 'MOSSO', 'MOSTE', 'MOSTS', 'MOTED',
     'MOTEL', 'MOTEN', 'MOTES', 'MOTET', 'MOTEY', 'MOTHS', 'MOTHY', 'MOTIF', 'MOTIS', 
@@ -2174,8 +2174,8 @@ export const dailyWordsLarge = [
     'MULSH', 'MUMMS', 'MUMPS', 'MUMSY', 'MUMUS', 'MUNCH', 'MUNGA', 'MUNGE', 'MUNGO',
     'MUNGS', 'MUNIS', 'MUONS', 'MURAS', 'MURED', 'MURES', 'MUREX', 'MURID', 'MURKS',
     'MURKY', 'MURLS', 'MURLY', 'MURRA', 'MURRE', 'MURRI', 'MURRS', 'MURRY', 'MURTI', 'MURVA',
-    'MUSAR', 'MUSCA', 'MUSED', 'MUSER', 'MUSES', 'MUSET', 'MUSHA', 'MUSIT',
-    
+    'MUSAR', 'MUSCA', 'MUSED', 'MUSER', 'MUSES', 'MUSET', 'MUSHA', 'MUSIT',  
+      
     'MUSKS', 'MUSKY', 'MUSOS', 'MUSSE', 'MUSSY', 'MUSTH', 'MUSTS', 'MUTCH', 'MUTED',
     'MUTER', 'MUTES', 'MUTHA', 'MUTIS', 'MUTON', 'MUTTS', 'MUXED', 'MUXES', 'MUZAK', 'MUZZY',
     'MVULE', 'MYALL', 'MYLAR', 'MYNAH', 'MYNAS', 'MYOID', 'MYOMA', 'MYOPE', 'MYOPS', 'MYOPY',
@@ -11143,6 +11143,12 @@ export const wordleWords = [
         gameDate: "4/15/25",
         myScore: 3,
         wordNumber: 1396,
+      },
+      {
+        word: "MORAL",
+        gameDate: "4/16/25",
+        myScore: 2,
+        wordNumber: 1397,
       },
   
   ];

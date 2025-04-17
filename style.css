@@ -432,7 +432,7 @@ animation: colorCycle11 20s ease-in-out infinite alternate,
 }
 
 @keyframes colorCycle5 {
-0% { color: rgb(27, 167, 62); background-color: rgb(52, 16, 232); } 
+0% { color: rgb(27, 167, 62); background-color: rgb(52, 16, 231); } 
 50% { color: rgb(52, 16, 232); background-color: rgb(27, 167, 62); } 
 90% { color: rgb(27, 167, 62); background-color: rgb(52, 16, 232); } 
 0% { color: rgb(52, 16, 232); background-color: rgb(27, 167, 62); } 
