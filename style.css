@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: rgb(125, 150, 232);
+  color: rgb(125, 150, 231);
   border: solid rgb(255, 255, 255) .3rem;
   border-radius: .3rem;
   background-color: rgb(16, 39, 110);
