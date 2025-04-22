@@ -59,6 +59,23 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
       return word.includes(upperLetter) && word[position - 1] !== upperLetter;
     });
   }
+
+
+
+  function doesNotContainMultipleLetters(letters) {
+    return filteredWords.filter((word) => {
+      // Check if the word contains any of the letters
+      return !letters
+        .split("")
+        .some((letter) => word.includes(letter.toUpperCase()));
+    });
+  }
+  
+  
+
+
+
+
   function handleWordInput() {
     const inputWord = document.getElementById("wordInput").value.toLowerCase();
     const foundWord = wordleWords.find((wordObj) => wordObj.word.toLowerCase() === inputWord);
@@ -114,6 +131,16 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
       case "doesNotContainLetter":
         filteredWords = doesNotContainLetter(letter);
         break;
+
+
+        case "doesNotContainMultipleLetters":
+          filteredWords = doesNotContainMultipleLetters(letter);
+          break;
+  
+  
+
+
+
       case "containsLetterAtPosition":
         if (!position || position < 1 || position > 5) {
           alert("Please enter a valid position (1-5).");
