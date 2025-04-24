@@ -122,7 +122,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
       wordDetailsDiv.innerHTML = `Word: ${foundWord.word}, Date: ${foundWord.gameDate}, My Score:
            ${foundWord.myScore}, Average Score: ${averageScore}`;
     } else {
-      wordDetailsDiv.innerHTML = `Word # ${wordNumber} not found.`;
+      wordDetailsDiv.innerHTML = `Word # ${wordNumber} not goddamn found.`;
     }
   }
   

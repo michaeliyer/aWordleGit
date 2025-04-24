@@ -1,4 +1,4 @@
-document.getElementById("footerClocks").style.border = "1px solid #ccc"; // Example of targeting the new ID 
+document.getElementById("footerClocks").style.border = "3px solid #ccc"; // Example of targeting the new ID 
 // Function to format time in the "HH:MM:SS" format
 function formatTime(date) {
   const hours = date.getHours().toString().padStart(2, "0");
@@ -52,11 +52,6 @@ function updateFooter() {
 // Start the clock
 setInterval(updateFooter, 1000);
 updateFooter(); // Initial call  
-
-
-
-
-
 
 function calculateCountdown(targetDate) {
   const now = new Date().toLocaleString("en-US", { timeZone: "America/New_York" });
