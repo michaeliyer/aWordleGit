@@ -82,7 +82,7 @@ import { wordleWords, dailyWordsSmall } from './theWholeEnchilada.js';
   
     if (foundWord) {
       const averageScoreUpToDate = calculateAverageScoreUpToDate(foundWord.gameDate);
-      const resultString = `'${foundWord.word}' was already Goddamn Fucking used by Wordle on ${foundWord.gameDate}.<br> It was word #${foundWord.wordNumber}, 
+      const resultString = `'${foundWord.word}' was ALREADY Goddamn FUCKING used by Wordle on ${foundWord.gameDate}.<br> It was word #${foundWord.wordNumber}, 
           and you had a score of '${foundWord.myScore}'.<br> Your average score up to this date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
       document.querySelector(".field-one").innerHTML = resultString;
     } else {
