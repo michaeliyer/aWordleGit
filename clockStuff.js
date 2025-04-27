@@ -71,7 +71,7 @@ function updateCountdown() {
   const countdownElement = document.getElementById("countdown");
   if (countdownElement) {
     countdownElement.textContent = `American Mid-Term Elections 0f 2026: ${calculateCountdown("2026-11-03T00:00:00")}. 
-    Will We Goddamn MotherFucking Make Her Till Then, Thou Jerkoes? Thou Dastardly Fools? Likely We Art Fucketh!!`;
+    Will We Goddamn MotherFucking Make Her Till Then, Thou Jerkoes? Thou Dastardly Fools? Likely We Art Fucketh? Sayeth Thou?`;
   }
 }
 
