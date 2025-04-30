@@ -719,7 +719,7 @@ li {
 
 .main-container {
   height: 142vh; 
-  background-color: rgb(37, 100, 108);
+  background-color: dodgerblue;
   border-left: solid rgb(255, 255, 255) .3rem;
   border-right: solid rgb(255, 255, 255) .3rem; 
   border-radius: .3rem;
@@ -830,7 +830,7 @@ h4 {
   /* font-family: "Volkhov", serif; */
   font-size: .99rem; 
   color: rgb(255, 255, 255);
-  background-color: rgb(36, 100, 108);
+  background-color: rgb(216, 199, 10);
   padding: 1.5rem;
   text-align: justify;
 
