@@ -15,42 +15,39 @@ body {
 }
 
 header {
-  height: 12.0vh; 
+  height: 12vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   /* color: #F7E64C; */
   color: rgb(125, 150, 230);
-  border: solid rgb(255, 255, 255) .3rem;
-  border-radius: .3rem;
+  border: solid rgb(255, 255, 255) 0.3rem;
+  border-radius: 0.3rem;
   background-color: rgb(50, 70, 123);
-  
 }
 
 h2 {
   font-family: "Merienda", cursive;
   font-size: 1.75rem;
-  border: solid rgb(255, 255, 255) .2rem;
-  box-shadow: .1rem .05rem;
-  border-radius: .4rem;
-  padding: .3rem;
-  
+  border: solid rgb(255, 255, 255) 0.2rem;
+  box-shadow: 0.1rem 0.05rem;
+  border-radius: 0.4rem;
+  padding: 0.3rem;
 }
 
- #toggleInstructions {
+#toggleInstructions {
   position: relative;
   align-items: center;
-  animation: 
-  pulseText 40s ease-in infinite, 
-  /* drift 10s ease-in-out infinite, */
-  colorCycle 6s ease-in-out infinite alternate;
+  animation: pulseText 40s ease-in infinite,
+    /* drift 10s ease-in-out infinite, */ colorCycle 6s ease-in-out infinite
+      alternate;
   /* waveText 3s ease-in-out infinite; */
 }
 
 #instructions > h4 {
-   line-height: 2rem;
-   font-size: 1.2rem; 
-   margin-left: 1.2rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  margin-left: 1.2rem;
 }
 
 #instructions {
@@ -59,8 +56,8 @@ h2 {
   /* background-color: rgb(16, 39, 110);
   color: rgb(147, 132, 230); */
   /* color: rgb(244, 69, 11); */
-  border: solid rgb(16, 69, 111) .25rem;
-  border-radius: .75rem;
+  border: solid rgb(16, 69, 111) 0.25rem;
+  border-radius: 0.75rem;
   /* box-shadow: .15rem .90rem; */
   position: absolute;
   z-index: 20;
@@ -68,379 +65,518 @@ h2 {
   /* right: 75rem; */
   left: 30rem;
   text-align: center;
-  padding: .2rem;
+  padding: 0.2rem;
   width: 22vw;
   opacity: 6;
   font-family: "Passion One", serif;
   font-weight: 400;
-  font-style: normal; 
+  font-style: normal;
   font-size: 1rem;
-  animation: pulseText 30s ease-in infinite, 
-             colorCycle 6s ease-in-out infinite alternate;
-            
-} 
+  animation: pulseText 30s ease-in infinite,
+    colorCycle 6s ease-in-out infinite alternate;
+}
 
 .fuckula1 {
-  border: solid rgb(229, 8, 8) .2rem;
-  border-radius: .5rem;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
   font-family: "Unlock", serif;
   font-size: 1.15rem;
   animation: colorCycle11 5s ease-in-out infinite alternate,
-             waveText5 10s ease-in-out infinite;
+    waveText5 10s ease-in-out infinite;
 }
 
 .fuckula2 {
-  border: solid rgb(229, 8, 8) .2rem;
-  border-radius: .5rem;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
   font-family: "Unlock", serif;
   font-size: 1.15rem;
   animation: colorCycle4 5s ease-in-out infinite alternate,
-             waveText 10s ease-in-out infinite,
-             drift 10s ease-in-out infinite;
+    waveText 10s ease-in-out infinite, drift 10s ease-in-out infinite;
 }
 
-.pigMan {  border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-animation: letterWiggle 1s infinite,
-           waveText 30s ease-in-out infinite,
-           colorCycle5 30s ease-in-out infinite alternate,
-           drift3 5s ease-in-out infinite;
-} 
+.pigMan {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  animation: letterWiggle 1s infinite, waveText 30s ease-in-out infinite,
+    colorCycle5 30s ease-in-out infinite alternate,
+    drift3 5s ease-in-out infinite;
+}
 
 .pigFuckers {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-family: "Unlock", serif;
-font-size: 1.15rem;
-animation: colorCycle3 30s ease-in-out infinite alternate;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Unlock", serif;
+  font-size: 1.15rem;
+  animation: colorCycle3 30s ease-in-out infinite alternate;
 }
 
 .superPig {
-font-family: "Luckiest Guy", cursive;
-font-size: 1rem;
-animation:  waveText 30s ease-in-out infinite,
-            colorCycle4 30s ease-in-out infinite alternate,
+  font-family: "Luckiest Guy", cursive;
+  font-size: 1rem;
+  animation: waveText 30s ease-in-out infinite,
+    colorCycle4 30s ease-in-out infinite alternate;
 }
 
 .jackAss {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-family: "Unlock", serif;
-font-size: 1.15rem;
-animation: colorCycle2 10s ease-in-out infinite alternate,
-           drift 10s ease-in-out infinite;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Unlock", serif;
+  font-size: 1.15rem;
+  animation: colorCycle2 10s ease-in-out infinite alternate,
+    drift 10s ease-in-out infinite;
 }
 
 .jackAss2 {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-family: "Courgette", serif;
-font-size: 1.15rem;
-animation: colorCycle4 5s ease-in-out infinite alternate,
-           drift2 10s ease-in-out infinite;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Courgette", serif;
+  font-size: 1.15rem;
+  animation: colorCycle4 5s ease-in-out infinite alternate,
+    drift2 10s ease-in-out infinite;
 }
 
 .jackAss3 {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-family: "Kaushan Script", cursive;
-font-size: 1.15rem;
-animation: colorCycle5 20s ease-in-out infinite alternate,
-           drift3 15s ease-in-out infinite,
-           pulseText 10s ease-in infinite;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.15rem;
+  animation: colorCycle5 20s ease-in-out infinite alternate,
+    drift3 15s ease-in-out infinite, pulseText 10s ease-in infinite;
 }
 
 .superPig2 {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-family: "Unlock", serif;
-font-size: 1.15rem;
-animation: waveText 5s ease-in-out infinite alternate,
-           colorCycle3 10s ease-in-out infinite alternate;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Unlock", serif;
+  font-size: 1.15rem;
+  animation: waveText 5s ease-in-out infinite alternate,
+    colorCycle3 10s ease-in-out infinite alternate;
 }
 
 .babyPig1 {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-family: "Belanosima", serif;
-font-size: 1.15rem;
-animation: waveText3 20s ease-in-out infinite alternate,
-           colorCycle5 5s ease-in-out infinite alternate;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Belanosima", serif;
+  font-size: 1.15rem;
+  animation: waveText3 20s ease-in-out infinite alternate,
+    colorCycle5 5s ease-in-out infinite alternate;
 }
 
 .crimeBoys {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-family: "Archivo Black", sans-serif;
-font-size: 1.15rem;
-animation: colorCycle4 5s ease-in-out infinite alternate,
-           wave 10s ease-in-out infinite;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.15rem;
+  animation: colorCycle4 5s ease-in-out infinite alternate,
+    wave 10s ease-in-out infinite;
 }
 
 .miniPig1 {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-size: .9rem;
-animation: colorCycle 5s ease-in-out infinite alternate,
-           wave 10s ease-in-out infinite;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  animation: colorCycle 5s ease-in-out infinite alternate,
+    wave 10s ease-in-out infinite;
 }
 
 .miniPig2 {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-size: .9rem;
-animation: colorCycle2 5s ease-in-out infinite alternate,
-           waveText7 10s ease-in-out infinite,
-           letterWiggle 5s infinite;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  animation: colorCycle2 5s ease-in-out infinite alternate,
+    waveText7 10s ease-in-out infinite, letterWiggle 5s infinite;
 }
-.miniPig3 {  border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-size: .9rem;
-animation: colorCycle4 5s ease-in-out infinite alternate,
-           letterWiggle 5s infinite;
+.miniPig3 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  animation: colorCycle4 5s ease-in-out infinite alternate,
+    letterWiggle 5s infinite;
 }
 
 .miniPig4 {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-family: "Yanone Kaffeesatz", serif;
-font-size: .9rem;
-animation: colorCycle11 5s ease-in-out infinite alternate,
-           waveText11 5s infinite,
-           drift11 30s ease-in-out infinite;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Yanone Kaffeesatz", serif;
+  font-size: 0.9rem;
+  animation: colorCycle11 5s ease-in-out infinite alternate,
+    waveText11 5s infinite, drift11 30s ease-in-out infinite;
 }
 
 .jackAss99 {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-family: "Archivo Black", sans-serif;
-font-size: .9rem;
-animation: colorCycle5 5s ease-in-out infinite alternate,
-           waveText11 5s infinite,
-           drift11 3s ease-in-out infinite;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 0.9rem;
+  animation: colorCycle5 5s ease-in-out infinite alternate,
+    waveText11 5s infinite, drift11 3s ease-in-out infinite;
 }
 
 .jackAss999 {
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-font-family: "Merienda", cursive;
-font-size: .9rem;
-animation: colorCycle 5s ease-in-out infinite alternate,
-           letterWiggle 5s infinite,
-           drift 30s ease-in-out infinite;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Merienda", cursive;
+  font-size: 0.9rem;
+  animation: colorCycle 5s ease-in-out infinite alternate,
+    letterWiggle 5s infinite, drift 30s ease-in-out infinite;
 }
 
 .fuckFace1 {
-font-family: "Archivo Black", sans-serif;
-border: solid rgb(229, 8, 8) .2rem;
-border-radius: .5rem;
-animation: colorCycle11 5s ease-in-out infinite alternate,
-           waveText7 5s infinite,
-           fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
+  font-family: "Archivo Black", sans-serif;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  animation: colorCycle11 5s ease-in-out infinite alternate,
+    waveText7 5s infinite, fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
 }
 
 .fuckFace2 {
-font-family: "Archivo Black", sans-serif;
-border: solid rgb(228, 8, 8) .2rem;
-border-radius: .5rem;
-animation: colorCycle66 5s ease-in-out infinite alternate,
-           pulseText66 5s infinite,
-           waveText66 5s infinite;
+  font-family: "Archivo Black", sans-serif;
+  border: solid rgb(228, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  animation: colorCycle66 5s ease-in-out infinite alternate,
+    pulseText66 5s infinite, waveText66 5s infinite;
 }
 
 .assholes {
- border: solid rgb(244, 243, 110) .4rem;
+  border: solid rgb(244, 243, 110) 0.4rem;
 }
 
 .jerks {
-animation: colorCycle66 20s ease-in-out infinite alternate,
-          pulseText66 5s infinite,
-          waveText66 5s infinite;
+  animation: colorCycle66 20s ease-in-out infinite alternate,
+    pulseText66 5s infinite, waveText66 5s infinite;
 }
 
 .jerks2 {
-animation: colorCycle11 20s ease-in-out infinite alternate,
-            waveText67 20s infinite;
+  animation: colorCycle11 20s ease-in-out infinite alternate,
+    waveText67 20s infinite;
 }
 
 @keyframes waveText66 {
-0% { transform: translateY(0px); }
-25% { transform: translateY(-3px) rotate(-90deg); }
-50% { transform: translateY(3px) rotate(45deg); }
-75% { transform: translateY(-3px) rotate(90deg); }
-100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-3px) rotate(-90deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(45deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(90deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 @keyframes waveText67 {
-0% { transform: translateY(0px); }
-25% { transform: translateY(3px) rotate(45deg); }
-50% { transform: translateY(3px) rotate(90deg); }
-75% { transform: translateY(-3px) rotate(45deg); }
-100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(3px) rotate(45deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(90deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 @keyframes pulseText66 {
-1% { transform: scale(1); }
-2% { transform: scale(1.5); }
-3% { transform: scale(2); }
-4% { transform: scale(2.5); }
-5% { transform: scale(2); }
-90% { transform: scale(1.5); }
-95% { transform: scale(2); }
-96% { transform: scale(2.5); }
-97% { transform: scale(2); }
-998% { transform: scale(1.5); }
-99% { transform: scale(1); }
-100% { transform: scale(1); }
-}  
-
-@keyframes colorCycle66 {
-0% { color: rgb(189, 242, 29); background-color: rgb(14, 30, 200); } 
-50% { color: rgb(219, 158, 28); background-color: rgb(9, 92, 118); } 
-90% { color: rgb(118, 12, 113); background-color: rgb(219, 113, 150); } 
-0% { color: rgb(221, 77, 15); background-color: rgb(14, 29, 18); } 
+  1% {
+    transform: scale(1);
+  }
+  2% {
+    transform: scale(1.5);
+  }
+  3% {
+    transform: scale(2);
+  }
+  4% {
+    transform: scale(2.5);
+  }
+  5% {
+    transform: scale(2);
+  }
+  90% {
+    transform: scale(1.5);
+  }
+  95% {
+    transform: scale(2);
+  }
+  96% {
+    transform: scale(2.5);
+  }
+  97% {
+    transform: scale(2);
+  }
+  998% {
+    transform: scale(1.5);
+  }
+  99% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
-
+@keyframes colorCycle66 {
+  0% {
+    color: rgb(189, 242, 29);
+    background-color: rgb(14, 30, 200);
+  }
+  50% {
+    color: rgb(219, 158, 28);
+    background-color: rgb(9, 92, 118);
+  }
+  90% {
+    color: rgb(118, 12, 113);
+    background-color: rgb(219, 113, 150);
+  }
+  0% {
+    color: rgb(221, 77, 15);
+    background-color: rgb(14, 29, 18);
+  }
+}
 
 @keyframes colorCycle11 {
-0% { color: rgb(128, 156, 45); background-color: rgb(69, 25, 146); } 
-50% { color: rgb(42, 75, 2); background-color: rgb(245, 83, 14); } 
-90% { color: rgb(164, 14, 157); background-color: rgb(152, 158, 191); } 
-0% { color: rgb(51, 16, 16); background-color: rgb(125, 219, 149); } 
+  0% {
+    color: rgb(128, 156, 45);
+    background-color: rgb(69, 25, 146);
+  }
+  50% {
+    color: rgb(42, 75, 2);
+    background-color: rgb(245, 83, 14);
+  }
+  90% {
+    color: rgb(164, 14, 157);
+    background-color: rgb(152, 158, 191);
+  }
+  0% {
+    color: rgb(51, 16, 16);
+    background-color: rgb(125, 219, 149);
+  }
 }
 
 @keyframes waveText7 {
-0% { transform: translateY(0); }
-25% { transform: translateY(-10px); }
-50% { transform: translateY(10px); }
-60% { transform: translateY(0); }
-70% { transform: translateY(0); }
-75% { transform: translateY(-10px); }
-100% { transform: translateY(10px); }
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
 }
-
-
-
-
-
 
 @keyframes drift11 {
-0% {
-  transform: translateX(0);
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-40vw);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(40vw);
+  }
+  85% {
+    transform: translateX(80vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
-25% {
-  transform: translateX(-40vw);
-}
-50% {
-  transform: translateX(0);
-}
-75% {
-  transform: translateX(40vw);
-}
-85% {
-  transform: translateX(80vw);
-}
-100% {
-  transform: translateX(0);
-}
-}  
 
 @keyframes waveText11 {
-0% { transform: translateY(0); }
-10% { transform: translateY(-10px) rotate(-45deg); }
-20% { transform: translateY(5) rotate(-15deg); }
-30% { transform: translateY(10px) rotate(15deg); }
-40% { transform: translateY(0); }
-50% { transform: translateY(0); }
-60% { transform: translateY(5) rotate(-15deg); }
-70% { transform: translateY(10px) rotate(-45deg); }
-80% { transform: translateY(0) rotate(-15deg); }
-90% { transform: translateY(5); }
-1000% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+  20% {
+    transform: translateY(5) rotate(-15deg);
+  }
+  30% {
+    transform: translateY(10px) rotate(15deg);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(5) rotate(-15deg);
+  }
+  70% {
+    transform: translateY(10px) rotate(-45deg);
+  }
+  80% {
+    transform: translateY(0) rotate(-15deg);
+  }
+  90% {
+    transform: translateY(5);
+  }
+  1000% {
+    transform: translateY(0);
+  }
 }
 
 @keyframes colorCycle11 {
-0% { color: rgb(238, 70, 14); background-color: rgb(165, 198, 19); } 
-50% { color: rgb(180, 225, 16); background-color: rgb(245, 83, 14); } 
-90% { color: rgb(227, 14, 216); background-color: rgb(91, 114, 230); } 
-0% { color: rgb(52, 16, 232); background-color: rgb(27, 167, 62); } 
+  0% {
+    color: rgb(238, 70, 14);
+    background-color: rgb(165, 198, 19);
+  }
+  50% {
+    color: rgb(180, 225, 16);
+    background-color: rgb(245, 83, 14);
+  }
+  90% {
+    color: rgb(227, 14, 216);
+    background-color: rgb(91, 114, 230);
+  }
+  0% {
+    color: rgb(52, 16, 232);
+    background-color: rgb(27, 167, 62);
+  }
 }
-
-
-
 
 @keyframes letterWiggle {
-0% { transform: rotate(0deg); }
-20% { transform: rotate(5deg); }
-40% { transform: rotate(-5deg); }
-60% { transform: rotate(5deg); }
-80% { transform: rotate(-5deg); }
-100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 @keyframes letterWiggle2 {
-0% { transform: rotate(0deg); }
-20% { transform: rotate(45deg); }
-40% { transform: rotate(-15deg); }
-60% { transform: rotate(45deg); }
-80% { transform: rotate(-15deg); }
-100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(45deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+  60% {
+    transform: rotate(45deg);
+  }
+  80% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes wave {
-0% {
-  transform: translateY(0);
-}
-25% {
-  transform: translateY(-10vh);
-}
-50% {
-  transform: translateY(0);
-}
-75% {
-  transform: translateY(-10vh);
-}
-100% {
-  transform: translateY(0);
-}
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10vh);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @keyframes waveText8 {
-0% { transform: translateY(0); }
-25% { transform: translateY(10px); }
-50% { transform: translateY(0); }
-75% { transform: translateY(10px); }
-100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
-
 
 @keyframes drift3 {
-0% {
-  transform: translateY(0);
-}
-25% {
-  transform: translateY(-10vh);
-}
-50% {
-  transform: translateY(0);
-}
-75% {
-  transform: translateY(-10vh);
-}
-100% {
-  transform: translateY(0);
-}
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10vh);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @keyframes colorCycle5 {
-0% { color: rgb(27, 167, 62); background-color: rgb(52, 16, 231); } 
-50% { color: rgb(52, 16, 232); background-color: rgb(27, 167, 62); } 
-90% { color: rgb(27, 167, 62); background-color: rgb(52, 16, 232); } 
-0% { color: rgb(52, 16, 232); background-color: rgb(27, 167, 62); } 
+  0% {
+    color: rgb(27, 167, 62);
+    background-color: rgb(52, 16, 231);
+  }
+  50% {
+    color: rgb(52, 16, 232);
+    background-color: rgb(27, 167, 62);
+  }
+  90% {
+    color: rgb(27, 167, 62);
+    background-color: rgb(52, 16, 232);
+  }
+  0% {
+    color: rgb(52, 16, 232);
+    background-color: rgb(27, 167, 62);
+  }
 }
-
-
-
 
 @keyframes drift {
   0% {
@@ -458,7 +594,7 @@ animation: colorCycle11 20s ease-in-out infinite alternate,
   100% {
     transform: translateY(0) rotate(-15deg);
   }
-}  
+}
 
 @keyframes drift2 {
   0% {
@@ -476,32 +612,61 @@ animation: colorCycle11 20s ease-in-out infinite alternate,
   100% {
     transform: translateX(0);
   }
-}  
+}
 
 @keyframes waveText {
-  0% { transform: translateY(0px); }
-  25% { transform: translateY(-3px) rotate(-720deg); }
-  50% { transform: translateY(3px) rotate(360deg); }
-  75% { transform: translateY(-3px) rotate(-720deg); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-3px) rotate(-720deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(360deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(-720deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 @keyframes waveText2 {
-  0% { transform: translateY(0px); }
-  25% { transform: translateY(-3px) rotate(-90deg); }
-  50% { transform: translateY(3px) rotate(90deg); }
-  75% { transform: translateY(-3px) rotate(-90deg); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-3px) rotate(-90deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(90deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(-90deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 @keyframes waveText3 {
-  0% { transform: translateY(0px); }
-  25% { transform: translateY(-3px) rotate(15deg); }
-  50% { transform: translateY(3px) rotate(-30deg); }
-  75% { transform: translateY(-3px) rotate(15deg); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-3px) rotate(15deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(-30deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(15deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
-
 
 /* @keyframes pulseText {
 0% { transform: scale(1); }
@@ -509,108 +674,329 @@ animation: colorCycle11 20s ease-in-out infinite alternate,
 100% { transform: scale(1); }
 }   */
 @keyframes pulseText {
-1% { transform: scale(1); }
-2% { transform: scale(1.25); }
-3% { transform: scale(1); }
-4% { transform: scale(1.25); }
-5% { transform: scale(1); }
-10% { transform: scale(1.25); }
-20% { transform: scale(1); }
-30% { transform: scale(1); }
-40% { transform: scale(1.5); }
-51% { transform: scale(1.5); }
-52% { transform: scale(1.5); }
-53% { transform: scale(1.5); }
-54% { transform: scale(1.25); }
-55% { transform: scale(1.75); }
-56% { transform: scale(1.5); }
-57% { transform: scale(1.5); }
-58% { transform: scale(1.5); }
-59% { transform: scale(1.5); }
-60% { transform: scale(1.5); }
-70% { transform: scale(1); }
-80% { transform: scale(1.25); }
-90% { transform: scale(1); }
-95% { transform: scale(1.25); }
-96% { transform: scale(1); }
-97% { transform: scale(1.25); }
-998% { transform: scale(1); }
-99% { transform: scale(1.25); }
-100% { transform: scale(1); }
-}  
+  1% {
+    transform: scale(1);
+  }
+  2% {
+    transform: scale(1.25);
+  }
+  3% {
+    transform: scale(1);
+  }
+  4% {
+    transform: scale(1.25);
+  }
+  5% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.25);
+  }
+  20% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.5);
+  }
+  51% {
+    transform: scale(1.5);
+  }
+  52% {
+    transform: scale(1.5);
+  }
+  53% {
+    transform: scale(1.5);
+  }
+  54% {
+    transform: scale(1.25);
+  }
+  55% {
+    transform: scale(1.75);
+  }
+  56% {
+    transform: scale(1.5);
+  }
+  57% {
+    transform: scale(1.5);
+  }
+  58% {
+    transform: scale(1.5);
+  }
+  59% {
+    transform: scale(1.5);
+  }
+  60% {
+    transform: scale(1.5);
+  }
+  70% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.25);
+  }
+  90% {
+    transform: scale(1);
+  }
+  95% {
+    transform: scale(1.25);
+  }
+  96% {
+    transform: scale(1);
+  }
+  97% {
+    transform: scale(1.25);
+  }
+  998% {
+    transform: scale(1);
+  }
+  99% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 @keyframes letterWiggle {
-0% { transform: rotate(0deg); }
-20% { transform: rotate(5deg); }
-40% { transform: rotate(-5deg); }
-60% { transform: rotate(5deg); }
-80% { transform: rotate(-5deg); }
-100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes colorCycle {
-  0% { color: rgb(16, 39, 110); background-color: white } 
-  7% { color: white; background-color: rgb(16, 39, 110) } 
-  14% { color: rgb(16, 39, 110); background-color: white; } 
-  21% { color: white; background-color: rgb(16, 39, 110); } 
-  28% { color: rgb(16, 39, 110); background-color: white; } 
-  35% { color: white; background-color: rgb(16, 39, 110); } 
-  42% { color: rgb(16, 39, 110); background-color: white; } 
-  49% { color: white; background-color: rgb(16, 39, 110); } 
-  56% { color: rgb(16, 39, 110); background-color: white; } 
-  63% { color: white; background-color: rgb(16, 39, 110); } 
-  70% { color: rgb(16, 39, 110); background-color: white; } 
-  77% { color: white; background-color: rgb(16, 39, 110); } 
-  84% { color: rgb(16, 39, 110); background-color: white; } 
-  91% { color: white; background-color: rgb(16, 39, 110); } 
-  93% { color: rgb(16, 39, 110); background-color: white; } 
-  96% { color: white; background-color: rgb(16, 39, 110); } 
-  98% { color: rgb(16, 39, 110); background-color: white; } 
-  100% { color: white; background-color: rgb(16, 39, 110); } 
+  0% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  7% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  14% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  21% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  28% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  35% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  42% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  49% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  56% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  63% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  70% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  77% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  84% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  91% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  93% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  96% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  98% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  100% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
 }
 
- @keyframes colorCycle2 {
-  0% { color: rgb(167, 27, 27); background-color: rgb(160, 232, 16); } 
-  20% { color: rgb(160, 232, 16); background-color: rgb(167, 27, 27); } 
-  40% { color: rgb(167, 27, 27); background-color: rgb(160, 232, 16); } 
-  60% { color: rgb(160, 232, 16); background-color: rgb(167, 27, 27); } 
-  80% { color: rgb(167, 27, 27); background-color: rgb(160, 232, 16); } 
-  100% { color: rgb(160, 232, 16); background-color: rgb(167, 27, 27); } 
- }
+@keyframes colorCycle2 {
+  0% {
+    color: rgb(167, 27, 27);
+    background-color: rgb(160, 232, 16);
+  }
+  20% {
+    color: rgb(160, 232, 16);
+    background-color: rgb(167, 27, 27);
+  }
+  40% {
+    color: rgb(167, 27, 27);
+    background-color: rgb(160, 232, 16);
+  }
+  60% {
+    color: rgb(160, 232, 16);
+    background-color: rgb(167, 27, 27);
+  }
+  80% {
+    color: rgb(167, 27, 27);
+    background-color: rgb(160, 232, 16);
+  }
+  100% {
+    color: rgb(160, 232, 16);
+    background-color: rgb(167, 27, 27);
+  }
+}
 
- @keyframes colorCycle3 {
-  10% { color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); } 
-  15% { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); } 
-  20% { color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); } 
-  25% { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); } 
-  30% { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); } 
-  40% { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); } 
-  50% { color: rgb(194, 245, 7); background-color: rgb(255, 2, 2); } 
-  51% { color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); } 
-  52% { color: rgb(194, 245, 7); background-color: rgb(255, 2, 2); }
-  53% { color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); } 
-  54% { color: rgb(194, 245, 7); background-color: rgb(255, 2, 2); } 
-  55% { color: rgb(194, 245, 7); background-color: rgb(255, 2, 2); } 
-  56% { color: rgb(194, 245, 7); background-color: rgb(255, 2, 2); } 
-  58% { color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); } 
-  59% { color: rgb(194, 245, 7); background-color: rgb(255, 2, 2); }
-  65% { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); } 
-  70% { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); } 
-  75% { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); } 
-  80% { color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); } 
-  90% { color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); } 
-  95% { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); } 
-  100% { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); } 
- }
+@keyframes colorCycle3 {
+  10% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+  }
+  15% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  20% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+  }
+  25% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  30% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  40% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  50% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  51% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  52% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  53% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  54% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  55% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  56% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  58% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  59% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  65% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  70% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  75% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  80% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+  }
+  90% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+  }
+  95% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+}
 
- @keyframes colorCycle4 {
-  20% { color: rgb(251, 48, 211); background-color: rgb(26, 194, 68); } 
-  40% { color: rgb(26, 194, 68); background-color: rgb(251, 48, 211); } 
-  60% { color: rgb(251, 48, 211); background-color: rgb(26, 194, 68); } 
-  80% { color: rgb(255, 255, 255); background-color: rgb(251, 48, 211); } 
-  100% { color: rgb(251, 48, 211); background-color: rgb(26, 194, 68); } 
- }
- 
+@keyframes colorCycle4 {
+  20% {
+    color: rgb(251, 48, 211);
+    background-color: rgb(26, 194, 68);
+  }
+  40% {
+    color: rgb(26, 194, 68);
+    background-color: rgb(251, 48, 211);
+  }
+  60% {
+    color: rgb(251, 48, 211);
+    background-color: rgb(26, 194, 68);
+  }
+  80% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 48, 211);
+  }
+  100% {
+    color: rgb(251, 48, 211);
+    background-color: rgb(26, 194, 68);
+  }
+}
+
 /* @keyframes colorCycle {
   0% { color: red; background-color: white } 
   7% { color: white; background-color: black; } 
@@ -632,32 +1018,49 @@ animation: colorCycle11 20s ease-in-out infinite alternate,
   100% { color: white; background-color: red; } 
 } */
 @keyframes colorCycle {
-  0% { color: rgb(255, 0, 102); background-color: rgb(255, 245, 157); } 
-  20% { color: rgb(0, 255, 171); background-color: rgb(255, 102, 102); } 
-  40% { color: rgb(255, 255, 0); background-color: rgb(0, 153, 255); } 
-  60% { color: rgb(255, 140, 0); background-color: rgb(153, 51, 255); } 
-  80% { color: rgb(0, 255, 85); background-color: rgb(255, 20, 147); } 
-  100% { color: rgb(255, 0, 102); background-color: rgb(255, 245, 157); } 
+  0% {
+    color: rgb(255, 0, 102);
+    background-color: rgb(255, 245, 157);
+  }
+  20% {
+    color: rgb(0, 255, 171);
+    background-color: rgb(255, 102, 102);
+  }
+  40% {
+    color: rgb(255, 255, 0);
+    background-color: rgb(0, 153, 255);
+  }
+  60% {
+    color: rgb(255, 140, 0);
+    background-color: rgb(153, 51, 255);
+  }
+  80% {
+    color: rgb(0, 255, 85);
+    background-color: rgb(255, 20, 147);
+  }
+  100% {
+    color: rgb(255, 0, 102);
+    background-color: rgb(255, 245, 157);
+  }
 }
-
 
 #wordInput,
 #submitButton {
-  color: rgb(0, 0, 0); 
+  color: rgb(0, 0, 0);
   font-family: "Merienda", cursive;
-  font-size: .85rem;
-  border: solid rgb(255, 255, 255) .2rem;
-  box-shadow: .12rem .08rem;
-  border-radius: .3rem;
-  margin: .1rem;
+  font-size: 0.85rem;
+  border: solid rgb(255, 255, 255) 0.2rem;
+  box-shadow: 0.12rem 0.08rem;
+  border-radius: 0.3rem;
+  margin: 0.1rem;
 }
 
 li {
   line-height: 1.2rem;
-  font-size: .8rem;
-  animation: pulseText 40s ease-in infinite, 
-  /* drift 10s ease-in-out infinite, */
-  colorCycle 6s ease-in-out infinite alternate,
+  font-size: 0.8rem;
+  animation: pulseText 40s ease-in infinite,
+    /* drift 10s ease-in-out infinite, */ colorCycle 6s ease-in-out infinite
+      alternate;
   /* waveText 30s ease-in-out infinite; */
 }
 
@@ -667,24 +1070,22 @@ li {
 }
 
 #instructions ol {
-  
   list-style-position: inside;
 }
 
-
 #toggleGroupOne,
 #toggleGroupTwo {
-  border: solid rgb(255, 255, 255) .1rem;
-  box-shadow: .2rem .1rem;
-  border-radius: .45rem;
-  padding: .3rem;
+  border: solid rgb(255, 255, 255) 0.1rem;
+  box-shadow: 0.2rem 0.1rem;
+  border-radius: 0.45rem;
+  padding: 0.3rem;
   font-family: "Merienda", cursive;
   font-size: 1.4rem;
   font-weight: 600;
   animation: 
   /* pulseText 10s ease-in infinite,  */
-  /* drift 10s ease-in-out infinite, */
-  colorCycle 5s ease-in-out infinite alternate;
+  /* drift 10s ease-in-out infinite, */ colorCycle
+    5s ease-in-out infinite alternate;
   /* waveText 3s ease-in-out infinite; */
 }
 
@@ -701,28 +1102,28 @@ li {
   font-weight: 600;
   font-style: normal;
   font-size: 1.45rem;
-  border: solid rgb(255, 255, 255) .1rem;
+  border: solid rgb(255, 255, 255) 0.1rem;
   border-radius: 1.25rem;
-  box-shadow: .15rem .1rem;
-  padding: .5rem;
+  box-shadow: 0.15rem 0.1rem;
+  padding: 0.5rem;
   animation: 
     /* pulseText 3s ease-in infinite,  */
-    /* drift 10s ease-in-out infinite, */
-    colorCycle 4s ease-in-out infinite alternate;
-    /* waveText 10s ease-in-out infinite; */
+    /* drift 10s ease-in-out infinite, */ colorCycle
+    4s ease-in-out infinite alternate;
+  /* waveText 10s ease-in-out infinite; */
 }
 
 .permanent-marker-regular:active {
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0); 
+  color: rgb(0, 0, 0);
 }
 
 .main-container {
-  height: 142vh; 
+  height: 142vh;
   background-color: rgb(17, 54, 235);
-  border-left: solid rgb(255, 255, 255) .3rem;
-  border-right: solid rgb(255, 255, 255) .3rem; 
-  border-radius: .3rem;
+  border-left: solid rgb(255, 255, 255) 0.3rem;
+  border-right: solid rgb(255, 255, 255) 0.3rem;
+  border-radius: 0.3rem;
   background-position: center;
   background-size: cover;
 }
@@ -730,26 +1131,26 @@ li {
 .inner-main {
   position: relative;
   z-index: 1;
-} 
+}
 
 .group-one,
-.group-two {   
+.group-two {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  color: rgb(255, 255, 255); 
+  color: rgb(255, 255, 255);
   font-family: "Merienda", cursive;
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 h4 {
   display: flex;
   text-align: center;
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
 .group-one > h4 {
@@ -765,14 +1166,14 @@ h4 {
 
 .past-input,
 .filter-input {
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
 .field-one {
-  display: flex;   
+  display: flex;
   align-items: center;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .group-two {
@@ -780,7 +1181,7 @@ h4 {
 }
 
 .filter-input {
-  margin-top: .3rem;
+  margin-top: 0.3rem;
   display: flex;
   justify-content: center;
   width: 45vw;
@@ -791,18 +1192,17 @@ h4 {
 #positionInput,
 #applyFilterButton,
 #undoButton {
-  color: rgb(0, 0, 0); 
+  color: rgb(0, 0, 0);
   font-family: "Merienda", cursive;
-  font-size: .85rem;
-  border: solid rgb(255, 255, 255) .2rem;
-  box-shadow: .12rem .08rem;
-  border-radius: .3rem;
-  margin: .1rem;
+  font-size: 0.85rem;
+  border: solid rgb(255, 255, 255) 0.2rem;
+  box-shadow: 0.12rem 0.08rem;
+  border-radius: 0.3rem;
+  margin: 0.1rem;
 }
 
 #functionSelect {
   width: 15vw;
-
 }
 
 #letterInput {
@@ -810,7 +1210,7 @@ h4 {
 }
 
 #positionInput {
-  width: 16vw;  
+  width: 16vw;
 }
 
 #applyFilterButton {
@@ -828,117 +1228,121 @@ h4 {
   font-weight: 400;
   font-style: normal;
   /* font-family: "Volkhov", serif; */
-  font-size: .99rem; 
+  font-size: 0.99rem;
   color: rgb(252, 12, 12);
   background-color: rgb(233, 226, 16);
   padding: 1.5rem;
   text-align: justify;
-
 }
 
 footer {
-  height: 16vh;
-  border: solid rgb(255, 255, 255) .3rem;
-  border-radius: .15rem;
+  height: auto;
+  min-height: 16vh;
+  border: solid rgb(255, 255, 255) 0.3rem;
+  border-radius: 0.15rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   background-color: rgb(21, 6, 108);
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-#lookupSection {
-  /* font-family: "Poetsen One", cursive;
-  position: relative; */
-  color: rgb(255, 255, 255);
-}
-
-#wordList { 
-  /* position: absolute;
-  top: 35px;  */
-  font-size: 1.6rem;
-  color: rgb(255, 255, 255);
-}
-
-.numbers {
-  display: flex;
+#lookupSection,
+#averageScoreSection {
+  display: none;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
 }
-  
+
+#lookupSection.visible,
+#averageScoreSection.visible {
+  display: flex;
+}
+
 #toggleLookupButton,
-#lookupWordNumberButton,
-#calculateAverageButton,
-#toggleAverageScoreButton, 
-#wordNumber1,
-#wordNumber2,
-#wordNumberInput {
-  margin-bottom: .30rem;
+#toggleAverageScoreButton {
+  margin-bottom: 0.3rem;
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
   font-family: "Poetsen One", cursive;
   height: 1.55rem;
-  border: solid rgb(10, 76, 157) .2rem; 
-  box-shadow: .1rem .05rem;
-  border-radius: .15rem;
-  padding: .2rem;
+  border: solid rgb(10, 76, 157) 0.2rem;
+  box-shadow: 0.1rem 0.05rem;
+  border-radius: 0.15rem;
+  padding: 0.2rem;
+  width: 12rem;
+  cursor: pointer;
 }
 
-#wordNumberInput {
-  width: 7.5rem;
-}
-
+#wordNumberInput,
 #wordNumber1,
 #wordNumber2 {
-  width: 9rem;
+  width: 7.5rem;
+  margin-bottom: 0.5rem;
   color: rgb(250, 245, 245);
+  background-color: rgb(0, 0, 0);
+  font-family: "Poetsen One", cursive;
+  height: 1.55rem;
+  border: solid rgb(10, 76, 157) 0.2rem;
+  box-shadow: 0.1rem 0.05rem;
+  border-radius: 0.15rem;
+  padding: 0.2rem;
 }
 
-.numbers,
-.average-score {
+#lookupWordNumberButton,
+#calculateAverageButton {
+  width: 12rem;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   font-family: "Poetsen One", cursive;
-  color: rgb(0, 0, 0);
-  font-size: .88rem;
+  height: 1.55rem;
+  border: solid rgb(10, 76, 157) 0.2rem;
+  box-shadow: 0.1rem 0.05rem;
+  border-radius: 0.15rem;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+#footerClocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 250px;
+  margin: 0.5rem;
 }
 
 #wordDetails,
 #averageScoreResult {
   color: rgb(255, 255, 255);
-  font-size: .9rem;
-  animation: 
-  colorCycle2 5s ease-in-out infinite alternate;
+  font-size: 0.9rem;
+  animation: colorCycle2 5s ease-in-out infinite alternate;
 }
 
 #wordInput {
   color: rgb(0, 0, 0);
 }
 
-#footerClocks {
-  /* color: white;
-  font-family: "Silkscreen", serif;
-  font-weight: 700; */
-  font-style: normal;
-  padding: .25rem;
-}
-
 #countdown {
   font-family: "Courgette", serif;
-  color:rgb(233, 14, 25);
+  color: rgb(233, 14, 25);
 }
 
 #currentTime {
   font-family: "Slackey", serif;
-  color:rgb(151, 17, 234);
+  color: rgb(151, 17, 234);
 }
 
 #countdownToMidnight {
   font-family: "Unlock", serif;
-  color:rgb(15, 108, 10);
+  color: rgb(15, 108, 10);
 }
-
-
-
-
 
 /* .pardon {
   position: absolute;
@@ -951,16 +1355,6 @@ footer {
 }
 */
 
-
-
-
-
-
-
-
-
-
- 
 /* #wordle-link,
 #nyt-link   {
   background-color: rgb(118, 119, 121);
@@ -990,7 +1384,8 @@ footer {
 }
 
 @media (max-width: 600px) {
-  header, footer {
+  header,
+  footer {
     flex-direction: column; /* Stack items vertically */
     height: auto; /* Adjust height */
   }
@@ -1000,7 +1395,8 @@ footer {
     width: 100%; /* Full width on smaller screens */
   }
 
-  #applyFilterButton, #undoButton {
+  #applyFilterButton,
+  #undoButton {
     width: 100%; /* Buttons take full width */
   }
 }
@@ -1029,11 +1425,11 @@ footer {
     border-radius: 0rem;
     box-shadow: 0rem 0rem;
     padding: 0rem;
-  } 
+  }
 }
 
 @media screen and (max-width: 800px) {
-    #instructions {
+  #instructions {
     font-family: "Righteous", serif;
     font-weight: 400;
     font-style: normal;
@@ -1046,48 +1442,88 @@ footer {
     border-radius: 0rem;
     box-shadow: 0rem 0rem;
     padding: 0rem;
-  } 
+  }
 
   #toggleLookupButton,
   #lookupWordNumberButton {
     width: 10rem;
     height: 3rem;
   }
-
-
-  
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Monoton&family=Protest+Riot&family=Rubik+Mono+One&family=Silkscreen&family=Single+Day&display=swap');
+@media screen and (max-width: 1024px) {
+  footer {
+    justify-content: center;
+  }
 
+  .numbers,
+  .average-score {
+    flex: 1 1 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .numbers,
+  .average-score,
+  #footerClocks {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  #toggleLookupButton,
+  #toggleAverageScoreButton {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 0.5rem;
+  }
+
+  #wordNumberInput,
+  #wordNumber1,
+  #wordNumber2,
+  #lookupWordNumberButton,
+  #calculateAverageButton {
+    max-width: 100%;
+  }
+
+  #footerClocks {
+    font-size: 0.9rem;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Monoton&family=Protest+Riot&family=Rubik+Mono+One&family=Silkscreen&family=Single+Day&display=swap");
 
 .superDoggo1 {
-  display: inline-block; 
+  display: inline-block;
   animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
-            colorCycle5 5s ease-in-out infinite alternate;
+    colorCycle5 5s ease-in-out infinite alternate;
 }
 .superDoggo2 {
-  display: inline-block; 
+  display: inline-block;
   animation: fontFamKeyFrame 10s infinite, fadeInOut 6s infinite,
-             colorCycle11 5s ease-in-out infinite alternate;
+    colorCycle11 5s ease-in-out infinite alternate;
 }
 
 .iHateTheGOP {
-  display: inline-block; 
+  display: inline-block;
   animation: fontFamKeyFrame 30s infinite, fadeInOut 4s infinite,
-             colorCycle 30s ease-in-out infinite alternate;
+    colorCycle 30s ease-in-out infinite alternate;
 }
 .iHateTheGOP2 {
-  display: inline-block; 
-  animation:  fontFamKeyFrame 10s infinite, fadeInOut 4s infinite,
-              colorCycle 15s ease-in-out infinite alternate,
-              letterWiggle 5s infinite,
-              pulseText66 5s infinite,
-              drift 30s ease-in-out infinite;
+  display: inline-block;
+  animation: fontFamKeyFrame 10s infinite, fadeInOut 4s infinite,
+    colorCycle 15s ease-in-out infinite alternate, letterWiggle 5s infinite,
+    pulseText66 5s infinite, drift 30s ease-in-out infinite;
 }
-
-
-
 
 @keyframes fontFamKeyFrame {
   0% {
@@ -1108,4 +1544,121 @@ footer {
   100% {
     font-family: "Monoton", sans-serif;
   }
+}
+
+#toggleLookupButton,
+#lookupWordNumberButton,
+#calculateAverageButton,
+#toggleAverageScoreButton,
+#wordNumber1,
+#wordNumber2,
+#wordNumberInput {
+  margin-bottom: 0.3rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-family: "Poetsen One", cursive;
+  height: 1.55rem;
+  border: solid rgb(10, 76, 157) 0.2rem;
+  box-shadow: 0.1rem 0.05rem;
+  border-radius: 0.15rem;
+  padding: 0.2rem;
+}
+
+#wordNumberInput {
+  width: 7.5rem;
+}
+
+#wordNumber1,
+#wordNumber2 {
+  width: 9rem;
+  color: rgb(250, 245, 245);
+}
+
+.numbers,
+.average-score {
+  font-family: "Poetsen One", cursive;
+  color: rgb(0, 0, 0);
+  font-size: 0.88rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 200px;
+  margin: 0.5rem;
+}
+
+#lookupSection,
+#averageScoreSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+#footerClocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 250px;
+  margin: 0.5rem;
+  font-style: normal;
+  padding: 0.25rem;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    justify-content: center;
   }
+
+  .numbers,
+  .average-score {
+    flex: 1 1 300px;
+  }
+
+  #wordNumberInput,
+  #wordNumber1,
+  #wordNumber2 {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .numbers,
+  .average-score,
+  #footerClocks {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  #toggleLookupButton,
+  #toggleAverageScoreButton {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 0.5rem;
+  }
+
+  #wordNumberInput,
+  #wordNumber1,
+  #wordNumber2,
+  #lookupWordNumberButton,
+  #calculateAverageButton {
+    max-width: 100%;
+  }
+
+  #footerClocks {
+    font-size: 0.9rem;
+  }
+}
