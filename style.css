@@ -1047,6 +1047,15 @@ footer {
     box-shadow: 0rem 0rem;
     padding: 0rem;
   } 
+
+  #toggleLookupButton,
+  #lookupWordNumberButton {
+    width: 10rem;
+    height: 3rem;
+  }
+
+
+  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Monoton&family=Protest+Riot&family=Rubik+Mono+One&family=Silkscreen&family=Single+Day&display=swap');
