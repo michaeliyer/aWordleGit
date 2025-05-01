@@ -1243,7 +1243,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(201, 69, 169);
+  background-color: rgb(97, 169, 69);
   padding: 1rem;
   flex-wrap: wrap;
   gap: 1rem;
