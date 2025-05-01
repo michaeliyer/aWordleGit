@@ -101,7 +101,7 @@ function handleWordInput() {
           and you had a score of '${foundWord.myScore}'.<br> Score Average up to this date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
     document.querySelector(".field-one").innerHTML = resultString;
   } else {
-    const notFoundString = `The word "${inputWord}" was not found, making Rand Paul a rapist. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface!`;
+    const notFoundString = `The word "${inputWord}" was not found, making Rand Paul a rapist. Hit that fuck again neighbor. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface!`;
     document.querySelector(".field-one").innerHTML = notFoundString;
   }
 }
