@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: rgb(40, 176, 124);
+  background-color: rgb(140, 76, 24);
   position: relative;
 }
 
@@ -1120,7 +1120,7 @@ li {
 
 .main-container {
   height: 142vh;
-  background-color: rgb(17, 54, 235);
+  background-color: rgb(179, 54, 205);
   border-left: solid rgb(255, 255, 255) 0.3rem;
   border-right: solid rgb(255, 255, 255) 0.3rem;
   border-radius: 0.3rem;
@@ -1243,7 +1243,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(21, 6, 108);
+  background-color: rgb(201, 69, 169);
   padding: 1rem;
   flex-wrap: wrap;
   gap: 1rem;
