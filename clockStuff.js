@@ -43,7 +43,7 @@ function updateFooter() {
   document.getElementById("currentTime").textContent = `Current Eastern Time: ${formatTime(
     easternNow
   )}
-  YOU ARE SLATED FOR HELL, PIGS!`;
+  YOU ARE SLATED FOR EFFING HELL, PIGS!`;
 
   // Update countdown to midnight
   document.getElementById("countdownToMidnight").textContent = `Countdown to Goddamn Midnight: 🧌 ${getTimeUntilMidnightEastern()} Dear Clocks: Thou Clockest Can't Tick Fast Enough! With no due respect, you make me want to die, GOP!`;
