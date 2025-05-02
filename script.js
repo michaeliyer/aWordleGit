@@ -182,7 +182,7 @@ function applyFilter(selectedFunction, letter, position) {
       filteredWords = containsDuplicateLetters();
       break;
     default:
-      alert("Please select a valid function, you stupid asshole.");
+      alert("Please select a valid function, you stupid, stupid asshole.");
       return;
   }
 }
