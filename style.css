@@ -23,7 +23,7 @@ header {
   color: rgb(125, 150, 230);
   border: solid rgb(255, 255, 255) 0.3rem;
   border-radius: 0.3rem;
-  background-color: rgb(50, 70, 123);
+  background-color: rgb(70, 70, 73);
 }
 
 h2 {
@@ -1120,7 +1120,7 @@ li {
 
 .main-container {
   height: 142vh;
-  background-color: rgb(179, 54, 205);
+  background-color: rgb(160, 204, 205);
   border-left: solid rgb(255, 255, 255) 0.3rem;
   border-right: solid rgb(255, 255, 255) 0.3rem;
   border-radius: 0.3rem;
@@ -1230,7 +1230,7 @@ h4 {
   /* font-family: "Volkhov", serif; */
   font-size: 0.99rem;
   color: rgb(252, 12, 12);
-  background-color: rgb(233, 226, 16);
+  background-color: rgb(23, 126, 126);
   padding: 1.5rem;
   text-align: justify;
 }
@@ -1243,7 +1243,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(97, 169, 69);
+  background-color: rgb(207, 19, 199);
   padding: 1rem;
   flex-wrap: wrap;
   gap: 1rem;
