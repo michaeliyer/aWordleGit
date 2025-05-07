@@ -1120,7 +1120,7 @@ li {
 
 .main-container {
   height: 142vh;
-  background-color: rgb(10, 20, 60);
+  background-color: rgb(100, 200, 250);
   border-left: solid rgb(255, 255, 255) 0.3rem;
   border-right: solid rgb(255, 255, 255) 0.3rem;
   border-radius: 0.3rem;
