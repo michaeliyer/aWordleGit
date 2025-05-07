@@ -1238,7 +1238,7 @@ h4 {
 footer {
   height: auto;
   min-height: 16vh;
-  border: solid rgb(255, 255, 255) 0.3rem;
+  border: solid rgb(25, 55, 1) 0.3rem;
   border-radius: 0.15rem;
   display: flex;
   justify-content: space-around;
@@ -1500,8 +1500,8 @@ footer {
   }
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Monoton&family=Protest+Riot&family=Rubik+Mono+One&family=Silkscreen&family=Single+Day&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Monoton&family=Protest+Riot&family=Rubik+Mono+One&family=Silkscreen&family=Single+Day&display=swap");
+ */
 .superDoggo1 {
   display: inline-block;
   animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
