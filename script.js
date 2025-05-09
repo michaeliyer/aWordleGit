@@ -97,8 +97,8 @@ function handleWordInput() {
     const averageScoreUpToDate = calculateAverageScoreUpToDate(
       foundWord.gameDate
     );
-    const resultString = `'${foundWord.word}' was ALREADY Goddamn FUCKING employed by Wordle (as I've said!!!! Repeatedly!!!) on ${foundWord.gameDate}.<br> It was word #${foundWord.wordNumber}, 
-          and you had a score of '${foundWord.myScore}'.<br> Your Score Average up to this date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
+    const resultString = `'${foundWord.word}' was ALREADY Goddamn FUCKING employed by Wordle (as I've said! Repeatedly!) on ${foundWord.gameDate}.<br> It was word #${foundWord.wordNumber}, 
+          and you had a score of '${foundWord.myScore}'.<br> Your Score Average thru this date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
     document.querySelector(".field-one").innerHTML = resultString;
   } else {
     const notFoundString = `The word "${inputWord}" was not found, making Rand Paul a rapist. Hit that fuck again neighbor. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface!`;
