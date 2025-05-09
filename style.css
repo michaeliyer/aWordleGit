@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: rgb(101, 160, 20);
+  background-color: rgb(10, 10, 20);
   position: relative;
 }
 
@@ -23,7 +23,7 @@ header {
   color: rgb(125, 150, 230);
   border: solid rgb(255, 255, 255) 0.3rem;
   border-radius: 0.3rem;
-  background-color: rgb(222, 23, 222);
+  background-color: rgb(222, 223, 22);
 }
 
 h2 {
@@ -1120,7 +1120,7 @@ li {
 
 .main-container {
   height: 142vh;
-  background-color: rgb(10, 244, 111);
+  background-color: rgb(100, 24, 111);
   border-left: solid rgb(255, 255, 255) 0.3rem;
   border-right: solid rgb(255, 255, 255) 0.3rem;
   border-radius: 0.3rem;
@@ -1230,7 +1230,7 @@ h4 {
   /* font-family: "Volkhov", serif; */
   font-size: 0.99rem;
   color: rgb(252, 148, 148);
-  background-color: rgb(25, 2, 26);
+  background-color: rgb(250, 2, 126);
   padding: 1.5rem;
   text-align: justify;
 }
@@ -1243,7 +1243,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(211, 162, 19);
+  background-color: rgb(21, 162, 119);
   padding: 1rem;
   flex-wrap: wrap;
   gap: 1rem;
