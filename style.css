@@ -1229,8 +1229,8 @@ h4 {
   font-style: normal;
   /* font-family: "Volkhov", serif; */
   font-size: 0.99rem;
-/*   color: rgb(250, 10, 20);
-  background-color: rgb(155, 2, 0); */
+  color: rgb(250, 10, 20);
+  background-color: rgb(155, 2, 0);
   padding: 1.5rem;
   text-align: justify;
   animation: colorCycle1000 60s linear infinite;
@@ -1750,3 +1750,6 @@ footer {
     color: white;
   }
 }
+
+
+
