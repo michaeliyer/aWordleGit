@@ -1715,7 +1715,7 @@ footer {
   }
   60% {
     background-color: rgb(0, 100, 255);
-    color: white;
+    color: red;
   }
   65% {
     background-color: rgb(0, 150, 255);
@@ -1735,11 +1735,11 @@ footer {
   }
   85% {
     background-color: rgb(0, 255, 100);
-    color: black;
+    color: red;
   }
   90% {
     background-color: rgb(0, 255, 50);
-    color: black;
+    color: red;
   }
   95% {
     background-color: rgb(0, 255, 0);
