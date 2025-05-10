@@ -1229,10 +1229,11 @@ h4 {
   font-style: normal;
   /* font-family: "Volkhov", serif; */
   font-size: 0.99rem;
-  color: rgb(250, 10, 20);
-  background-color: rgb(155, 2, 0);
+/*   color: rgb(250, 10, 20);
+  background-color: rgb(155, 2, 0); */
   padding: 1.5rem;
   text-align: justify;
+  animation: colorCycle1000 60s linear infinite;
 }
 
 footer {
@@ -1660,5 +1661,92 @@ footer {
 
   #footerClocks {
     font-size: 0.9rem;
+  }
+}
+
+@keyframes colorCycle1000 {
+  0% {
+    background-color: rgb(0, 0, 255);        /* blue */
+    color: rgb(255, 255, 0);                 /* yellow */
+  }
+  5% {
+    background-color: rgb(0, 128, 255);      /* light blue */
+    color: rgb(173, 255, 47);                /* green-yellow */
+  }
+  10% {
+    background-color: rgb(0, 255, 255);      /* cyan */
+    color: rgb(192, 255, 62);                /* yellow-green */
+  }
+  15% {
+    background-color: rgb(0, 255, 200);      /* aqua-green */
+    color: rgb(224, 255, 102);               /* pale yellow */
+  }
+  20% {
+    background-color: rgb(0, 255, 150);
+    color: rgb(173, 255, 47);
+  }
+  25% {
+    background-color: rgb(0, 255, 100);
+    color: rgb(255, 255, 102);
+  }
+  30% {
+    background-color: rgb(0, 255, 50);
+    color: rgb(173, 255, 47);
+  }
+  35% {
+    background-color: rgb(0, 255, 0);        /* lime */
+    color: rgb(250, 255, 140);
+  }
+  40% {
+    background-color: rgb(0, 200, 100);
+    color: rgb(255, 255, 0);
+  }
+  45% {
+    background-color: rgb(0, 150, 150);
+    color: rgb(192, 255, 62);
+  }
+  50% {
+    background-color: rgb(0, 100, 200);
+    color: rgb(255, 255, 102);
+  }
+  55% {
+    background-color: rgb(0, 50, 255);
+    color: rgb(250, 255, 140);
+  }
+  60% {
+    background-color: rgb(0, 100, 255);
+    color: rgb(224, 255, 102);
+  }
+  65% {
+    background-color: rgb(0, 150, 255);
+    color: rgb(192, 255, 62);
+  }
+  70% {
+    background-color: rgb(0, 200, 255);
+    color: rgb(255, 255, 0);
+  }
+  75% {
+    background-color: rgb(0, 220, 200);
+    color: rgb(250, 255, 140);
+  }
+  80% {
+    background-color: rgb(0, 240, 150);
+    color: rgb(173, 255, 47);
+  }
+  85% {
+    background-color: rgb(0, 255, 100);
+    color: rgb(255, 255, 102);
+  }
+  90% {
+    background-color: rgb(0, 255, 50);
+    color: rgb(250, 255, 140);
+  }
+  95% {
+    background-color: rgb(0, 255, 0);
+    color: rgb(224, 255, 102);
+  }
+  100% {
+    background-color: rgb(0, 0, 255);        /* back to blue */
+    color: rgb(255, 255, 0);                 /* back to yellow */
   }
 }
