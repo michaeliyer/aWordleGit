@@ -71,7 +71,7 @@ function updateCountdown() {
   const countdownElement = document.getElementById("countdown");
   if (countdownElement) {
     countdownElement.textContent = `Los Americanos Mid-Term Electionés 0f 2026: ${calculateCountdown("2026-11-03T00:00:00")}. 
-    Wilt We Goddamn MotherFucking Maketh Her, Thou Jerkoes, Thou Dastardly Nastardly Bastardly Fools? Likely, We Art Fucketh? What Dost Sayeth Thou? I sayeth yea!`;
+    Wilt We Goddamn MotherFucking Maketh Her, Thou Jerkoes, Thou Dastardly Nastardly Bastardly Castaway Fools? Likely, We Art Fucketh? What Dost Sayeth Thou? I sayeth yea!`;
   }
 }
 
