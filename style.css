@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: rgb(255, 55, 255);
+  background-color: rgb(255, 155, 255);
   position: relative;
 }
 
@@ -23,7 +23,7 @@ header {
   color: rgb(125, 150, 230);
   border: solid rgb(255, 255, 255) 0.3rem;
   border-radius: 0.3rem;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 55, 255);
 }
 
 h2 {
