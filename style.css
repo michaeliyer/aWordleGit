@@ -1108,8 +1108,8 @@ li {
   padding: 0.5rem;
   animation: 
     /* pulseText 3s ease-in infinite,  */
-    /* drift 10s ease-in-out infinite, */ colorCycle
-    4s ease-in-out infinite alternate;
+    /* drift 10s ease-in-out infinite, */ 
+    colorCycle 4s ease-in-out infinite alternate;
   /* waveText 10s ease-in-out infinite; */
 }
 
@@ -1120,12 +1120,16 @@ li {
 
 .main-container {
   height: 142vh;
-  background-color: rgb(255, 255, 125);
+/*   background-color: rgb(255, 255, 125); */
   border-left: solid rgb(255, 255, 255) 0.3rem;
   border-right: solid rgb(255, 255, 255) 0.3rem;
   border-radius: 0.3rem;
   background-position: center;
   background-size: cover;
+}
+
+.gopAsshole {
+  animation: colorCycle2000 60s ease-in-out infinite alternate;
 }
 
 .inner-main {
