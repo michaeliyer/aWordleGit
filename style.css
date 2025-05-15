@@ -1753,3 +1753,93 @@ footer {
 
 
 
+
+@keyframes colorCycle2000 {
+  0% {
+    background-color: dodgerblue;        /* blue */
+    color: white;
+  }
+  5% {
+    background-color: blue;      /* sky blue */
+    color: red;
+  }
+  10% {
+    background-color: red;      /* cyan */
+    color: yellow;
+  }
+  15% {
+    background-color: orange;
+    color: silver;
+  }
+  20% {
+    background-color: yellow;
+    color: black;
+  }
+  25% {
+    background-color: pink;
+    color: green;
+  }
+  30% {
+    background-color: silver;
+    color: coral;
+  }
+  35% {
+    background-color: black;        /* lime */
+    color: dodgerblue;
+  }
+  40% {
+    background-color: violet;
+    color: yellow;
+  }
+  45% {
+    background-color: beige;
+    color: black;
+  }
+  50% {
+    background-color: lime;
+    color: blue;
+  }
+  55% {
+    background-color: coral;
+    color: grey;
+  }
+  60% {
+    background-color: cream;
+    color: orange;
+  }
+  65% {
+    background-color: grey;
+    color: rust;
+  }
+  70% {
+    background-color: white;
+    color: black;
+  }
+  75% {
+    background-color: purple;
+    color: orange;
+  }
+  80% {
+    background-color: mauve;
+    color: yellow;
+  }
+  85% {
+    background-color: burgundy;
+    color: lime;
+  }
+  90% {
+    background-color: canary;
+    color: rose;
+  }
+  95% {
+    background-color: emerald;
+    color: red;
+  }
+  100% {
+    background-color: dodgerblue;
+    color: silver;
+  }
+}
+
+
+
