@@ -1239,7 +1239,7 @@ h4 {
 footer {
   height: auto;
   min-height: 16vh;
-  border: solid rgb(25, 55, 1) 0.3rem;
+  border: solid rgb(25, 55, 10) 0.3rem;
   border-radius: 0.15rem;
   display: flex;
   justify-content: space-around;
