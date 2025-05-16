@@ -1351,7 +1351,7 @@ export const dailyWordsSmall = [
     'DOGMA', 'DOUGH', 'DOWDY', 'DOWNY', 'DRAKE', 'DRAMA',
     'DRANK', 'DRAPE', 'DRAWL', 'DREAD', 'DRESS', 'DRIED', 'DRIER', 'DRIFT', 'DRILL',
     'DROIT', 'DRONE', 'DROSS', 'DROWN', 'DRUID', 'DRUNK', 'DRYLY',
-    'DULLY', 'DUMPY', 'DUNCE', 'DUSKY', 'DUSTY', 'DYING', 'EAGER',  
+    'DULLY', 'DUMPY', 'DUNCE', 'DUSKY', 'DUSTY', 'DYING',   
     'EATEN', 'EATER', 'ECLAT', 'EDIFY', 'EERIE', 'EIGHT', 'EKING', 'ELATE', 'ELECT',
     'ELEGY', 'ELFIN', 'ELIDE', 'ELITE', 'EMBED', 'EMCEE', 'ENEMY', 
     'ENTRY', 'ENVOY', 'ERASE', 'ERECT', 'ESTER', 'ETUDE', 'EVICT',
@@ -1771,7 +1771,7 @@ export const dailyWordsLarge = [
     'DURRA', 'DURRS', 'DURRY', 'DURST', 'DURUM', 'DURZI', 'DUSKS', 'DUSKY', 'DUSTS', 'DUSTY',
     'DUXES', 'DWAAL', 'DWALE', 'DWALM', 'DWAMS', 'DWANG', 'DWAUM',
     'DWEEB', 'DWILE', 'DWINE', 'DYADS', 'DYERS', 'DYING', 'DYKED', 'DYKES',
-    'DYKON', 'DYNEL', 'DYNES', 'EAGER', 'EAGRE', 'EALED', 'EALES', 'EANED', 'EARDS',
+    'DYKON', 'DYNEL', 'DYNES', 'EAGRE', 'EALED', 'EALES', 'EANED', 'EARDS',
     'EARED', 'EARLS', 'EARNS', 'EARNT', 'EARST', 'EASED', 'EASER',
     'EASES', 'EASLE', 'EASTS', 'EATEN', 'EATER', 'EATHE', 'EAVED', 'EAVES', 'EBBED', 'EBBET',
     'EBONS', 'EBOOK', 'ECADS', 'ECHED', 'ECHES', 'ECHOS', 'ECLAT', 'ECRUS', 'EDEMA',
@@ -11317,6 +11317,12 @@ export const wordleWords = [
         gameDate: "5/14/25",
         myScore: 4,
         wordNumber: 1425,
+      },
+      {
+        word: "EAGER",
+        gameDate: "5/15/25",
+        myScore: 6,
+        wordNumber: 1426,
       },
   ];
 
