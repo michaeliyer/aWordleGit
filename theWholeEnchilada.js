@@ -1810,7 +1810,7 @@ export const dailyWordsLarge = [
     'FARAD', 'FARCI', 'FARCY', 'FARDS', 'FARED', 'FARER', 'FARES', 'FARLE', 'FARLS',
     'FARMS', 'FAROS', 'FARRO', 'FARSE', 'FARTS', 'FASCI', 'FASTI', 'FASTS', 'FATAL', 'FATED',
     'FATES', 'FATLY', 'FATSO', 'FATTY', 'FATWA', 'FAUGH', 'FAULD', 'FAUNA', 'FAUNS',
-    'FAURD', 'FAUTS', 'FAUVE', 'FAVAS', 'FAVEL', 'FAVER', 'FAVES',  'FAVUS', 'FAWNS',
+    'FAURD', 'FAUTS', 'FAUVE', 'FAVAS', 'FAVEL', 'FAVER', 'FAVES', 'FAVUS', 'FAWNS',
     'FAWNY', 'FAXED', 'FAXES', 'FAYED', 'FAYER', 'FAYNE', 'FAYRE', 'FAZED', 'FAZES', 'FEALS',
     'FEARE', 'FEARS', 'FEART', 'FEASE', 'FEATS', 'FEAZE', 'FECAL', 'FECES', 'FECHT',
     'FECIT', 'FECKS', 'FEDEX', 'FEEBS', 'FEEDS', 'FEELS', 'FEENS', 'FEERS', 'FEESE', 'FEEZE',
@@ -11333,5 +11333,3 @@ export const letterValues = {
 };
 console.log("this works goddamn fucking great");
 console.log("real eefin nice like, Girly Girl!")
-
-
