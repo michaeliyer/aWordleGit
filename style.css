@@ -24,7 +24,7 @@ header {
   border: solid rgb(255, 255, 255) 0.3rem;
   border-radius: 0.3rem;
   /* background-color: rgb(235, 235, 235); */
-  animation: colorCycle4000 60s linear infinite;
+  animation: colorCycle4000 20s linear infinite;
 
 }
 
@@ -1255,7 +1255,7 @@ footer {
   padding: 1rem;
   flex-wrap: wrap;
   gap: 1rem;
-  animation: colorCycle3000 60s linear infinite;
+  animation: colorCycle3000 30s linear infinite;
 }
 
 
