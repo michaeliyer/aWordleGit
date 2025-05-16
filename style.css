@@ -1933,11 +1933,11 @@ footer {
 }
 
 header {
-  animation: animation: colorCycle4000 60s linear infinite;
+  animation: colorCycle4000 60s linear infinite;
 }
 
 footer {
-  animation: animation: colorCycle3000 60s linear infinite;
+  animation: colorCycle3000 60s linear infinite;
 }
 
 @keyframes colorCycle4000 {
