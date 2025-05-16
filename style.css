@@ -1132,7 +1132,7 @@ li {
 }
 
 .gopAsshole {
-  animation: colorCycle2000 60s ease-in-out infinite alternate;
+  animation: colorCycle5000 1s steps(1) infinite;
 }
 
 .inner-main {
@@ -2031,5 +2031,17 @@ header {
   }
 }
 
-
+@keyframes colorCycle5000 {
+  0%   { background-color: black; color: white; }
+  10%  { background-color: white; color: black; }
+  20%  { background-color: black; color: white; }
+  30%  { background-color: white; color: black; }
+  40%  { background-color: black; color: white; }
+  50%  { background-color: white; color: black; }
+  60%  { background-color: black; color: white; }
+  70%  { background-color: white; color: black; }
+  80%  { background-color: black; color: white; }
+  90%  { background-color: white; color: black; }
+  100% { background-color: black; color: white; }
+}
 
