@@ -1845,5 +1845,187 @@ footer {
   }
 }
 
+@keyframes colorCycle3000 {
+  0% {
+    background-color: midnightblue;
+    color: white;
+  }
+  5% {
+    background-color: teal;
+    color: gold;
+  }
+  10% {
+    background-color: firebrick;
+    color: lavender;
+  }
+  15% {
+    background-color: seagreen;
+    color: lightyellow;
+  }
+  20% {
+    background-color: sienna;
+    color: mintcream;
+  }
+  25% {
+    background-color: plum;
+    color: ivory;
+  }
+  30% {
+    background-color: cornflowerblue;
+    color: darkorange;
+  }
+  35% {
+    background-color: orchid;
+    color: navy;
+  }
+  40% {
+    background-color: tomato;
+    color: aliceblue;
+  }
+  45% {
+    background-color: slategray;
+    color: wheat;
+  }
+  50% {
+    background-color: mediumvioletred;
+    color: lightgreen;
+  }
+  55% {
+    background-color: peru;
+    color: aqua;
+  }
+  60% {
+    background-color: indigo;
+    color: lemonchiffon;
+  }
+  65% {
+    background-color: forestgreen;
+    color: linen;
+  }
+  70% {
+    background-color: lightsteelblue;
+    color: crimson;
+  }
+  75% {
+    background-color: rosybrown;
+    color: khaki;
+  }
+  80% {
+    background-color: turquoise;
+    color: chocolate;
+  }
+  85% {
+    background-color: deeppink;
+    color: honeydew;
+  }
+  90% {
+    background-color: moccasin;
+    color: darkslategray;
+  }
+  95% {
+    background-color: salmon;
+    color: palegoldenrod;
+  }
+  100% {
+    background-color: midnightblue;
+    color: white;
+  }
+}
+
+header {
+  animation: animation: colorCycle4000 60s linear infinite;
+}
+
+footer {
+  animation: animation: colorCycle3000 60s linear infinite;
+}
+
+@keyframes colorCycle4000 {
+  0% {
+    background-color: black;
+    color: #39ff14; /* neon green */
+  }
+  5% {
+    background-color: #ff073a; /* neon red */
+    color: #00fff7; /* electric cyan */
+  }
+  10% {
+    background-color: #8f00ff; /* vivid purple */
+    color: #ffff33; /* bright yellow */
+  }
+  15% {
+    background-color: #ff6ec7; /* neon pink */
+    color: #00ff00; /* lime */
+  }
+  20% {
+    background-color: #00ffff; /* aqua */
+    color: #ffcc00; /* amber */
+  }
+  25% {
+    background-color: #ff00ff; /* fuchsia */
+    color: #00ffcc; /* bright teal */
+  }
+  30% {
+    background-color: #00ff00; /* neon green */
+    color: #ff0066; /* hot pink */
+  }
+  35% {
+    background-color: #ff1493; /* deep pink */
+    color: #00bfff; /* deep sky blue */
+  }
+  40% {
+    background-color: #1f51ff; /* neon blue */
+    color: #ffdf00; /* bright yellow */
+  }
+  45% {
+    background-color: #ff4500; /* orange red */
+    color: #00fa9a; /* neon mint */
+  }
+  50% {
+    background-color: #00ffcc; /* neon aqua */
+    color: #ff00bf; /* magenta pink */
+  }
+  55% {
+    background-color: #7fff00; /* chartreuse */
+    color: #ff69b4; /* neon rose */
+  }
+  60% {
+    background-color: #ffcc00; /* neon gold */
+    color: #00ffff; /* neon cyan */
+  }
+  65% {
+    background-color: #ff6347; /* neon tomato */
+    color: #adff2f; /* green-yellow */
+  }
+  70% {
+    background-color: #da70d6; /* orchid */
+    color: #00ff99; /* mint neon */
+  }
+  75% {
+    background-color: #ff00cc; /* intense fuchsia */
+    color: #33ff00; /* bright green */
+  }
+  80% {
+    background-color: #00ffff; /* neon blue-green */
+    color: #ff007f; /* raspberry pink */
+  }
+  85% {
+    background-color: #ffff00; /* yellow */
+    color: #00ffcc; /* aqua */
+  }
+  90% {
+    background-color: #00ff7f; /* spring green */
+    color: #ff3333; /* strong red */
+  }
+  95% {
+    background-color: #ff00ff; /* fuchsia */
+    color: #39ff14; /* slime green */
+  }
+  100% {
+    background-color: black;
+    color: #39ff14;
+  }
+}
+
 
 
