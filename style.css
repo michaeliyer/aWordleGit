@@ -1132,7 +1132,7 @@ li {
 }
 
 .gopAsshole {
-  animation: colorCycle5000 1s steps(1) infinite;
+  animation: colorCycle5000 .5s steps(1) infinite;
 }
 
 .inner-main {
