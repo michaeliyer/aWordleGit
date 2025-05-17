@@ -1524,6 +1524,17 @@ footer {
     colorCycle11 5s ease-in-out infinite alternate;
 }
 
+simple2000 {
+  fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
+  animation: colorCycle5 5s ease-in-out infinite alternate;
+}
+
+simple3000 {
+  fontFamKeyFrame 10s infinite, fadeInOut 6s infinite,
+  animation: colorCycle3000 10s ease-in-out infinite alternate;
+}
+
+
 .iHateTheGOP {
   display: inline-block;
   animation: fontFamKeyFrame 30s infinite, fadeInOut 4s infinite,
