@@ -1131,11 +1131,21 @@ li {
   background-size: cover;
 }
 
+.topFlex {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid rgb(255, 255, 255) 0.1rem;
+  border-radius: 1.25rem;
+  animation: colorCycle2000 5s steps(1) infinite;  
+}
+
 .gopAsshole {
 /*   animation: colorCycle2000 .5s steps(1) infinite; */
-  animation: colorCycle2000 5s steps(1) infinite; 
-  
+  animation: colorCycle2000 5s steps(1) infinite;   
 }
+
 
 .inner-main {
   position: relative;
