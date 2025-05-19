@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+ animation: colorCycle5000 2s steps(1) infinite; 
   position: relative;
 }
 
