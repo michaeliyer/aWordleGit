@@ -1130,18 +1130,15 @@ li {
 }
 
 .topFlex {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   border: solid rgb(155, 155, 155) 0.3rem;
-
   border-radius: 1rem;
   animation: simple3000 3s steps(1) infinite;  
-
   border-radius: 1.25rem;
   animation: colorCycle3000 3s steps(1) infinite;  
-
 }
 
 .gopAsshole {
