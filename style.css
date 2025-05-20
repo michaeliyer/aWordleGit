@@ -11,7 +11,7 @@ html {
 
 body {
  animation: colorCycle5000 .25s steps(1) infinite; 
-  position: relative;
+ position: relative;
 }
 
 header {
@@ -1138,7 +1138,7 @@ li {
   align-items: center;
   border: solid rgb(155, 155, 155) 0.3rem;
   border-radius: 1rem;
-  animation: colorCycle3000 3s steps(1) infinite;  
+  animation: simple3000 3s steps(1) infinite;  
 }
 
 .gopAsshole {
