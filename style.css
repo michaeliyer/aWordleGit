@@ -10,13 +10,8 @@ html {
 }
 
 body {
-<<<<<<< Updated upstream
- animation: colorCycle5000 .25s steps(1) infinite; 
-=======
-  /* background-color: black; */
- animation: colorCycle3000 25s steps(1) infinite; 
->>>>>>> Stashed changes
- position: relative;
+  animation: colorCycle5000 .25s steps(1) infinite;
+  position: relative;
 }
 
 header {
@@ -30,9 +25,7 @@ header {
   border-radius: 0.3rem;
   /* background-color: rgb(235, 235, 235); */
   animation: colorCycle4000 20s linear infinite;
-
 }
-
 
 h2 {
   font-family: "Merienda", cursive;
