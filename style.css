@@ -10,7 +10,7 @@ html {
 }
 
 body {
- animation: colorCycle5000 2s steps(1) infinite; 
+ animation: colorCycle5000 .25s steps(1) infinite; 
   position: relative;
 }
 
@@ -1132,7 +1132,7 @@ li {
 }
 
 .topFlex {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
