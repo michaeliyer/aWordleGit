@@ -1,5 +1,5 @@
 export const fixedWordsLarge = [
-    'QQQQQ', 'ZZZZZ', 'JJJJJ', 'QQZZJ', 'ZZQQJ', 'JQQZZ', 'JZZQQ', 'QQJZZ', 'ZZJQQ', 'QQQZX', 
+    'QQQQQ', 'ZZZZZ', 'JJJJJ', 'QQZZJ', 'ZZQQJ', 'JQQZZ', 'JZZQQ', 'QQJZZ', 'ZZJQQ', 'QQJZX', 
     'AAHED', 'AALII', 'AARGH', 'AARTI', 'ABACA', 'ABACI', 'ABACK', 'ABACS', 'ABAFT', 'ABAKA',
     'ABAMP', 'ABAND', 'ABASE', 'ABASH', 'ABASK', 'ABATE', 'ABAYA', 'ABBAS', 'ABBED', 'ABBES',
     'ABBEY', 'ABBOT', 'ABCEE', 'ABEAM', 'ABEAR', 'ABELE', 'ABERS', 'ABETS', 'ABHOR', 'ABIDE',
@@ -26,9 +26,9 @@ export const fixedWordsLarge = [
     'AIMUS', 'AIOLI', 'AIRED', 'AIRER', 'AIRNS', 'AIRTH', 'AIRTS', 'AISLE', 'AITCH', 'AITUS',
     'AIVER', 'AJIES', 'AJIVA', 'AJUGA', 'AJWAN', 'AKEES', 'AKELA', 'AKENE', 'AKING', 'AKITA',
     'AKKAS', 'ALAAP', 'ALACK', 'ALAMO', 'ALAND', 'ALANE', 'ALANG', 'ALANS', 'ALANT', 'ALAPA',
-    'ALAPS', 'ALARY', 'ALATE', 'ALAYS', 'ALBAS', 'ALBEE', 'ALBUG', 'ALBUM', 'ALCID', 'ALDER', 
-    'ALDOL', 'ALECK', 'ALECS', 'ALEFS', 'ALEPH', 'ALERT', 'ALEWS', 'ALEYE', 'ALFAS', 'ALGAE', 
-    'ALGAL', 'ALGAS',
+    'ALAPS', 'ALARM', 'ALARY', 'ALATE', 'ALAYS', 'ALBAS', 'ALBEE', 'ALBUG', 'ALBUM', 'ALCID', 
+    'ALDER', 'ALDOL', 'ALECK', 'ALECS', 'ALEFS', 'ALEPH', 'ALERT', 'ALEWS', 'ALEYE', 'ALFAS', 
+    'ALGAE', 'ALGAL', 'ALGAS',
     'ALGID', 'ALGIN', 'ALGOL', 'ALIAS', 'ALIBI', 'ALIEN', 'ALIFS', 'ALIGN', 'ALIKE', 'ALINE',
     'ALIST', 'ALIVE', 'ALIYA', 'ALKIE', 'ALKOS', 'ALKYD', 'ALKYL', 'ALLEE', 'ALLEY', 'ALLIS',
     'ALLOD', 'ALLOT', 'ALLOW', 'ALLOY', 'ALLYL', 'ALMAH', 'ALMAS', 'ALMEH', 'ALMES', 'ALMUD',
@@ -11357,10 +11357,9 @@ export const wordleWords = [
       {
         word: "ALARM",
         gameDate: "5/21/25",
-        myScore: 3,
+        myScore: 43,
         wordNumber: 1432,
-      },
-    
+      }
   ];
 
 export const letterValues = {
