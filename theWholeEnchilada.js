@@ -2451,7 +2451,7 @@ export const dailyWordsLarge = [
     'SHOOK', 'SHOOL', 'SHOON', 'SHOOS', 'SHOOT', 'SHOPE', 'SHOPS', 'SHORL', 
     'SHORT', 'SHOTE', 'SHOTS', 'SHOTT', 'SHOWD', 'SHOWS', 
     'SHOYU', 'SHRED', 'SHREW', 'SHRIS', 'SHROW', 'SHTIK', 'SHTUM', 'SHTUP',
-    'SHUCK', 'SHULE', 'SHULN', 'SHULS', 'SHUNS', 'SHURA', 'SHUSH', 'SHUTE', 'SHUTS',
+    'SHULE', 'SHULN', 'SHULS', 'SHUNS', 'SHURA', 'SHUSH', 'SHUTE', 'SHUTS',
     'SHWAS', 'SHYER', 'SIALS', 'SIBBS', 'SIBYL', 'SICES', 'SICHT', 'SICKO', 'SICKS',
     'SICKY', 'SIDAS', 'SIDED', 'SIDER', 'SIDES', 'SIDHA', 'SIDHE', 'SIDLE', 'SIELD',
     'SIENS', 'SIENT', 'SIETH', 'SIEUR', 'SIEVE', 'SIFTS', 'SIGHS', 'SIGIL', 'SIGLA',
