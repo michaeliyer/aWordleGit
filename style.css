@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  animation: colorCycle5000 .65s steps(1) infinite;
+  animation: colorCycle3000 .65s steps(1) infinite;
   position: relative;
 }
 
@@ -24,7 +24,7 @@ header {
   border: solid rgb(255, 255, 255) 0.3rem;
   border-radius: 0.3rem;
   /* background-color: rgb(235, 235, 235); */
-  animation: colorCycle4000 2s linear infinite;
+  animation: colorCycle5000 2s linear infinite;
 }
 
 h2 {
