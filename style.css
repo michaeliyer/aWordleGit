@@ -74,7 +74,7 @@ h2 {
   font-style: normal;
   font-size: 1rem;
   animation: pulseText 300s ease-in infinite,
-    colorCycle 60s ease-in-out infinite alternate;
+    colorCycle 55s ease-in-out infinite alternate;
 }
 
 .fuckula1 {
