@@ -252,7 +252,7 @@ calculateAverageButton.addEventListener("click", () => {
   const totalScore = filteredWords.reduce((sum, word) => sum + word.myScore, 0);
   const averageScore = totalScore / filteredWords.length;
 
-  averageScoreResult.textContent = `Average Score between words #${start} & #${end} = a gd, a-f-ing 'damn crispAss shitting ${averageScore.toFixed(
+  averageScoreResult.textContent = `Average Score - (You smell like shit!) - between words #${start} & #${end} = a gd, a-f-ing 'damn crispAss shitting ${averageScore.toFixed(
     6
   )}, You Cocksucker!`;
 });
