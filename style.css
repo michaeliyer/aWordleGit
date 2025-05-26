@@ -23,8 +23,8 @@ header {
   /* color: rgb(125, 150, 230); */
   border: solid rgb(255, 255, 255) 0.3rem;
   border-radius: 0.3rem;
-  /* background-color: rgb(235, 235, 235); */
-  animation: colorCycle5000 2s linear infinite;
+  background-color: rgb(235, 235, 235);
+/*   animation: colorCycle5000 2s linear infinite; */
 }
 
 h2 {
