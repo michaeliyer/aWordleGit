@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  animation: colorCycle3000 .65s steps(1) infinite;
+/*   animation: colorCycle3000 .65s steps(1) infinite; */
   position: relative;
 }
 
