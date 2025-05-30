@@ -1400,7 +1400,7 @@ export const dailyWordsSmall = [
     'PRANK', 'PRAWN', 'PREEN', 'PRIED', 'PRISM', 'PRIVY',  
     'PROOF', 'PRUDE', 'PUBIC', 'PUDGY', 'PUFFY', 'PULSE', 'PUNCH',
     'PUPPY', 'PUREE', 'PURER', 'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'QUACK', 'QUAIL', 'QUAKE',
-    'QUARK', 'QUASH', 'QUASI', 'QUEER', 'QUELL', 'QUILL', 'QUILT', 'QUOTH',
+    'QUARK', 'QUASI', 'QUEER', 'QUELL', 'QUILL', 'QUILT', 'QUOTH',
     'RABBI', 'RABID', 'RACER', 'RADAR', 'RADII', 'RAJAH', 'RALLY', 'RALPH', 'RANDY',
     'RARER', 'RASPY', 'RATTY', 'RAVEN', 'RAZOR', 'REARM', 'REBAR', 
     'RECUT', 'REEDY', 'REFIT', 'REHAB', 'REIGN', 'RELAY', 'REMIT',
