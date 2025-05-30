@@ -2328,7 +2328,7 @@ export const dailyWordsLarge = [
     'PYXIE', 'PYXIS', 'PZAZZ',
     'QADIS', 'QAIDS', 'QAJAQ', 'QANAT', 'QAPIK', 'QIBLA', 'QOPHS', 'QORMA', 'QUACK', 'QUADS',
     'QUAFF', 'QUAGS', 'QUAIL', 'QUAIR', 'QUAIS', 'QUAKE', 'QUAKY', 'QUALE', 'QUANT',
-    'QUARE', 'QUARK', 'QUASH', 'QUASI', 'QUASS', 'QUATE', 'QUATS', 'QUAYD', 'QUAYS',
+    'QUARE', 'QUARK', 'QUASI', 'QUASS', 'QUATE', 'QUATS', 'QUAYD', 'QUAYS',
     'QUBIT', 'QUEAN', 'QUEER', 'QUELL', 'QUEME', 'QUENA', 'QUERN',
     'QUEYN', 'QUEYS', 'QUICH', 'QUIDS', 'QUIFF', 'QUILL', 'QUILT',
     'QUIMS', 'QUINA', 'QUINE', 'QUINO', 'QUINS', 'QUINT', 'QUIPO', 'QUIPS', 'QUIPU', 'QUIRE',
