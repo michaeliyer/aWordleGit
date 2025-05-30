@@ -11401,7 +11401,13 @@ export const wordleWords = [
         gameDate: "5/28/25",
         myScore: 2,
         wordNumber: 1439,
-      }
+      },
+      {
+        word: "QUASH",
+        gameDate: "5/29/25",
+        myScore: 4,
+        wordNumber: 1440,
+      },
   ];
 
 export const letterValues = {
