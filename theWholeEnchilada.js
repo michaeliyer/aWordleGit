@@ -2385,7 +2385,7 @@ export const dailyWordsLarge = [
     'ROOSE', 'ROOST', 'ROOTS', 'ROOTY', 'ROPED', 'ROPER', 'ROPES', 'ROPEY', 'ROQUE', 'RORAL',
     'RORES', 'RORIC', 'RORID', 'RORIE', 'RORTS', 'RORTY', 'ROSED', 'ROSES', 'ROSET', 'ROSHI',
     'ROSIN', 'ROSIT', 'ROSTI', 'ROSTS', 'ROTAL', 'ROTAN', 'ROTAS', 'ROTCH', 'ROTED', 'ROTES',
-    'ROTIS', 'ROTLS', 'ROTON', 'ROTOR', 'ROTOS', 'ROTTE', 'ROUEN', 'ROUES', 'ROUGH',
+    'ROTIS', 'ROTLS', 'ROTON', 'ROTOR', 'ROTOS', 'ROTTE', 'ROUEN', 'ROUES', 
     'ROULE', 'ROULS', 'ROUMS', 'ROUPS', 'ROUPY', 'ROUST', 'ROUTH',
     'ROUTS', 'ROVED', 'ROVEN', 'ROVES', 'ROWAN', 'ROWDY', 'ROWED', 'ROWEL', 'ROWEN',
     'ROWIE', 'ROWME', 'ROWND', 'ROWTH', 'ROWTS', 'ROYNE', 'ROYST', 'ROZET',
