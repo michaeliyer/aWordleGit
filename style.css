@@ -73,7 +73,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  animation: pulseText 3s ease-in infinite,
+  animation: pulseText 300s ease-in infinite,
     colorCycle 55s ease-in-out infinite alternate;
 }
 
