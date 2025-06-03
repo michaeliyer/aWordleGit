@@ -1458,7 +1458,7 @@ export const dailyWordsLarge = [
     'ACING', 'ACINI', 'ACKEE', 'ACMES', 'ACMIC', 'ACNED', 'ACNES', 'ACOCK', 'ACOLD', 
     'ACRED', 'ACRES', 'ACROS', 'ACTED', 'ACTIN', 'ACTON', 'ACYLS',
     'ADAWS', 'ADAYS', 'ADDAX', 'ADDED', 'ADDER', 'ADDIE', 'ADDLE', 'ADEEM',
-    'ADHAN', 'ADIEU', 'ADIOS', 'ADITS', 'ADMAN', 'ADMEN', 'ADMIN', 'ADMIX', 
+    'ADHAN', 'ADIEU', 'ADIOS', 'ADITS', 'ADMAN', 'ADMEN', 'ADMIX', 
     'ADOBI', 'ADOBO', 'ADORN', 'ADOWN', 'ADOZE', 'ADRAD', 'ADRED', 'ADSUM',
     'ADUKI', 'ADUNC', 'ADUST', 'ADVEW', 'ADYTA', 'ADZED', 'ADZES', 'AECIA', 'AEGIS',
     'AEONS', 'AERIE', 'AEROS', 'AESIR', 'AFALD', 'AFARA', 'AFARS', 'AFEAR', 'AFIRE',
