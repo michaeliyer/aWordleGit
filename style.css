@@ -1138,7 +1138,7 @@ li {
   border-radius: 1rem;
   animation: simple3000 3s steps(1) infinite;  
   border-radius: 1.25rem;
-  animation: colorCycle3000 3s steps(1) infinite;  
+  animation: colorCycle4000 30s steps(1) infinite;  
 }
 
 .gopAsshole {
