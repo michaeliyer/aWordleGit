@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -39,6 +40,7 @@ h2 {
 #toggleInstructions {
   position: relative;
   align-items: center;
+  font-family: "Exile", system-ui;
   animation: pulseText 140s ease-in infinite,
     /* drift 10s ease-in-out infinite, */ colorCycle 6s ease-in-out infinite
       alternate;
@@ -2057,8 +2059,8 @@ footer {
 .dickBag {
   border: solid rgb(244, 243, 110) 0.4rem;
   display: inline-block;
-  animation: fontFamKeyFrame99 20s infinite, fadeInOut 8s infinite,
-             colorCycle5000 5s ease-in-out infinite alternate;
+  animation: fontFamKeyFrame99 10s infinite, fadeInOut 8s infinite,
+             colorCycle5000 30s ease-in-out infinite alternate;
 }
 
 
