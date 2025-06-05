@@ -2059,8 +2059,8 @@ footer {
 .dickBag {
   border: solid rgb(244, 243, 110) 0.4rem;
   display: inline-block;
-  animation: fontFamKeyFrame99 10s infinite, fadeInOut 8s infinite,
-             colorCycle5000 30s ease-in-out infinite alternate;
+  animation: fontFamKeyFrame99 5s infinite, fadeInOut 8s infinite,
+             colorCycle5000 1s ease-in-out infinite alternate;
 }
 
 
