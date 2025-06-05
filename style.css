@@ -1539,13 +1539,13 @@ footer {
 }
 
 .simple2000 {
-  fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
-  animation: colorCycle5 5s ease-in-out infinite alternate;
+  animation: colorCycle5 5s ease-in-out infinite alternate,
+  fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
 }
 
 .simple3000 {
-  fontFamKeyFrame 10s infinite, fadeInOut 6s infinite,
-  animation: colorCycle3000 10s ease-in-out infinite alternate;
+  animation: colorCycle3000 10s ease-in-out infinite alternate,
+  fontFamKeyFrame 10s infinite, fadeInOut 6s infinite;
 }
 
 
@@ -2057,10 +2057,16 @@ footer {
 }
 
 .dickBag {
-  border: solid rgb(244, 243, 110) 0.4rem;
+  width: 600px;
+  height: 180px;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  border-radius: 1rem;
+  border: solid rgb(253, 253, 253) 0.4rem;
   display: inline-block;
   animation: fontFamKeyFrame99 5s infinite, fadeInOut 8s infinite,
-             colorCycle5000 1s ease-in-out infinite alternate;
+             colorCycle5000 1s ease-in-out infinite alternate,
+             driftWaveCombo99 30s ease-in-out infinite;
 }
 
 
@@ -2094,4 +2100,17 @@ footer {
   100% {
     font-family: "Sigmar One", sans-serif;
   }
+}
+
+
+
+@keyframes driftWaveCombo99 {
+  0%   { transform: translate(0, 0) rotate(0deg); }
+  25%  { transform: translate(0, 85vw) rotate(-45deg); }
+  35%  { transform: translate(0, -10vw) rotate(-75deg); }
+  50%  { transform: translate(100vw, -10vw) rotate(100deg); }
+  75%  { transform: translate(150vw, -10vw) rotate(-60deg); }
+  80%  { transform: translate(150vw, 45vw) rotate(-20deg); }
+  85%  { transform: translate(-10vw, 45vw) rotate(0deg); }
+  100% { transform: translate(0, 0) rotate(15deg); }
 }
