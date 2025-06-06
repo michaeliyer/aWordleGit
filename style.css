@@ -2079,7 +2079,7 @@ footer {
   display: inline-block;
   animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
              colorCycle3000 1s ease-in-out infinite alternate,
-             driftWaveCombo100 10s ease-in-out infinite;
+             driftWaveCombo100 60s ease-in-out infinite;
 }
 
 
