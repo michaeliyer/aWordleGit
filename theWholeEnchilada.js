@@ -1775,7 +1775,7 @@ export const dailyWordsLarge = [
     'EARED', 'EARLS', 'EARNS', 'EARNT', 'EARST', 'EASED', 'EASER',
     'EASES', 'EASLE', 'EASTS', 'EATEN', 'EATER', 'EATHE', 'EAVED', 'EAVES', 'EBBED', 'EBBET',
     'EBONS', 'EBOOK', 'ECADS', 'ECHED', 'ECHES', 'ECHOS', 'ECLAT', 'ECRUS', 'EDEMA',
-    'EDGED', 'EDGER', 'EDGES', 'EDIFY', 'EDILE', 'EDITS', 'EDUCE', 'EDUCT', 'EEJIT',
+    'EDGED', 'EDGER', 'EDGES', 'EDILE', 'EDITS', 'EDUCE', 'EDUCT', 'EEJIT',
     'EENSY', 'EERIE', 'EEVEN', 'EEVNS', 'EFFED', 'EGADS', 'EGERS', 'EGEST', 'EGGAR', 'EGGED',
     'EGGER', 'EGMAS', 'EHING', 'EIDER', 'EIDOS', 'EIGHT', 'EIGNE', 'EIKED', 'EIKON',
     'EILDS', 'EISEL', 'EJIDO', 'EKING', 'EKKAS', 'ELAIN', 'ELAND', 'ELANS', 'ELATE',
