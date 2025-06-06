@@ -64,9 +64,9 @@ h2 {
   /* box-shadow: .15rem .90rem; */
   position: absolute;
   z-index: 20;
-  top: 20rem;
+  top: 55rem;
   /* right: 75rem; */
-  left: 30rem;
+  left: 55rem;
   text-align: center;
   padding: 0.2rem;
   width: 22vw;
@@ -76,7 +76,7 @@ h2 {
   font-style: normal;
   font-size: 1rem;
   animation: pulseText 300s ease-in infinite,
-    colorCycle 55s ease-in-out infinite alternate;
+    colorCycle5000 .5s ease-in-out infinite alternate;
 }
 
 .fuckula1 {
@@ -2057,8 +2057,8 @@ footer {
 }
 
 .dickBag {
-  width: 600px;
-  height: 180px;
+  /* width: 600px;
+  height: 180px; */
   line-height: 3rem;
   font-size: 2.5rem;
   border-radius: 1rem;
@@ -2066,12 +2066,12 @@ footer {
   display: inline-block;
   animation: fontFamKeyFrame99 5s infinite, fadeInOut 8s infinite,
              colorCycle5000 1s ease-in-out infinite alternate,
-             driftWaveCombo99 30s ease-in-out infinite;
+             driftWaveCombo99 90s ease-in-out infinite;
 }
 
 .dickBag2 {
-  width: 600px;
-  height: 180px;
+  /* width: 600px;
+  height: 180px; */
   line-height: 3rem;
   font-size: 2.5rem;
   border-radius: 1rem;
@@ -2079,7 +2079,7 @@ footer {
   display: inline-block;
   animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
              colorCycle3000 1s ease-in-out infinite alternate,
-             driftWaveCombo100 60s ease-in-out infinite;
+             driftWaveCombo100 90s ease-in-out infinite;
 }
 
 
@@ -2127,6 +2127,7 @@ footer {
   85%  { transform: translate(-10vw, 45vw) rotate(0deg); }
   100% { transform: translate(0, 0) rotate(15deg); }
 }
+
 @keyframes driftWaveCombo100 {
   0%   { transform: translate(0, 0) rotate(0deg); }
   25%  { transform: translate(0, -85vw) rotate(45deg); }
