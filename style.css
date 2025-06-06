@@ -2127,7 +2127,7 @@ footer {
   85%  { transform: translate(-10vw, 45vw) rotate(0deg); }
   100% { transform: translate(0, 0) rotate(15deg); }
 }
-@keyframes driftWaveContrast100 {
+@keyframes driftWaveCombo100 {
   0%   { transform: translate(0, 0) rotate(0deg); }
   25%  { transform: translate(0, -85vw) rotate(45deg); }
   35%  { transform: translate(0, 10vw) rotate(75deg); }
