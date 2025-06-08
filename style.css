@@ -2161,6 +2161,7 @@ footer {
   80%  { transform: translate(-150vw, -45vw) rotate(20deg); }
   85%  { transform: translate(10vw, -45vw) rotate(0deg); }
   100% { transform: translate(0, 0) rotate(-15deg); }
+}
 
 @keyframes pulser_1 {
   0%   { border-width: 10px; }
