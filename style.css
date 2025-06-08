@@ -1255,8 +1255,8 @@ h4 {
   padding: 1.5rem;
   text-align: justify;
   animation: 
-    fontFamKeyFrame99 10s infinite, fadeInOut 8s infinite,
-    colorCycle5000 5s linear infinite;
+    fontFamKeyFrame99 .5s infinite, fadeInOut 8s infinite,
+    colorCycle5000 10s linear infinite;
 }
 
 footer {
