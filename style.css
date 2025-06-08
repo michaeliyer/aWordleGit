@@ -1245,7 +1245,7 @@ h4 {
 #filteredWords {
   /* font-family: "Yanone Kaffeesatz", serif; */
   font-optical-sizing: auto;
-  font-family: "Belanosima", serif;
+/*   font-family: "Belanosima", serif; */
   font-weight: 400;
   font-style: normal;
   /* font-family: "Volkhov", serif; */
@@ -1254,7 +1254,9 @@ h4 {
   background-color: rgb(0, 0, 200); */
   padding: 1.5rem;
   text-align: justify;
-  animation: colorCycle1000 60s linear infinite;
+  animation: 
+    fontFamKeyFrame99 10s infinite, fadeInOut 8s infinite,
+    colorCycle5000 5s linear infinite;
 }
 
 footer {
