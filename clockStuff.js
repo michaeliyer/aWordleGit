@@ -46,7 +46,7 @@ function updateFooter() {
   YOU ARE SLATED FOR EFFING HELL, PIGS, SO LICK ME!`;
 
   // Update countdown to midnight
-  document.getElementById("countdownToMidnight").textContent = `Your Countdown To Your Idiotic Goddamn Fuckin' Midnight Hour: 🧌 ${getTimeUntilMidnightEastern()} Dear All You Good Clocks, Etc. Out There: Thou Clockest Can't Tick Fast Enough! With no due respect, you make me want to self-mutilate, GOP! You know you're morons.`;
+  document.getElementById("countdownToMidnight").textContent = `Your Effing Countdown To Your Idiotic Goddamn Fuckin' Midnight Hour: 🧌 ${getTimeUntilMidnightEastern()} Dear All You Good Clocks, Etc. Out There: Thou Clockest Can't Tick Fast Enough! With no due respect, you make me want to self-mutilate, GOP! You know you're morons.`;
 }
 
 // Start the clock
