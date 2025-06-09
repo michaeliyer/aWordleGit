@@ -2067,7 +2067,7 @@ export const dailyWordsLarge = [
     'LAXED', 'LAXER', 'LAXES', 'LAXLY', 'LAYED', 'LAYIN', 'LAYUP', 'LAZAR', 'LAZED',
     'LAZES', 'LAZOS', 'LAZZI', 'LAZZO', 'LEACH', 'LEADS', 'LEADY', 'LEAFS', 'LEAKS',
     'LEAKY', 'LEAMS', 'LEANS', 'LEANT', 'LEANY', 'LEAPS', 'LEARE', 'LEARS',
-    'LEARY', 'LEASE', 'LEAST', 'LEATS', 'LEAVY', 'LEAZE', 'LEBEN', 'LECCY',
+    'LEARY', 'LEAST', 'LEATS', 'LEAVY', 'LEAZE', 'LEBEN', 'LECCY',
     'LEDES', 'LEDGY', 'LEDUM', 'LEEAR', 'LEEKS', 'LEEPS', 'LEERS',
     'LEESE', 'LEETS', 'LEEZE', 'LEFTE', 'LEFTS', 'LEFTY', 'LEGAL', 'LEGER', 'LEGES', 'LEGGE',
     'LEGGO', 'LEGIT', 'LEHRS', 'LEHUA', 'LEIRS', 'LEISH', 'LEMAN', 'LEMED', 'LEMEL',
