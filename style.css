@@ -2094,16 +2094,28 @@ footer {
   display: inline-block;
   animation: fontFamKeyFrame99 100s infinite, fadeInOut 8s infinite,
 /*           colorCycle5000 1s ease-in-out infinite alternate, */
-             driftWaveCombo100 90s ease-in-out infinite;
+             driftWaveCombo100 10s ease-in-out infinite;
 }
 
-.teaBag {
+.teaBag1 {
+  color: red;
+  border-style: solid;
+  border-color: white;
+  animation: 
+    fontFamKeyFrame 50s infinite, fadeInOut 4s infinite,
+    pulser_1 20s infinite ease-in-out,
+    driftWaveCombo100 90s ease-in-out infinite;
+}
+
+.teaBag2 {
   color: green;
   border-style: solid;
   border-color: black;
   animation: 
     fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
-    pulser_1 2s infinite ease-in-out; 
+    pulser_1 2s infinite ease-in-out,
+    driftWaveCombo100 20s ease-in-out infinite;
+
 }
 
 
