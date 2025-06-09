@@ -2169,10 +2169,10 @@ footer {
 }
 
 @keyframes pulser_1 {
-  0%   { border-width: 10px; }
-  20%  { border-width: 30px; }
-  40%  { border-width: 10px; }
-  60%  { border-width: 30px; }
-  80%  { border-width: 10px; }
-  100% { border-width: 30px; }
+  0%   { border-width: 5px; }
+  20%  { border-width: 20px; }
+  40%  { border-width: 5px; }
+  60%  { border-width: 20px; }
+  80%  { border-width: 5px; }
+  100% { border-width: 20px; }
 }
