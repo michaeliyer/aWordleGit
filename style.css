@@ -2098,8 +2098,9 @@ footer {
 }
 
 .teaBag {
+  color: green;
   border-style: solid;
-  border-color: red;
+  border-color: black;
   animation: 
     fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
     pulser_1 2s infinite ease-in-out; 
