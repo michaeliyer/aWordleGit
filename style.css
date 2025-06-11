@@ -2081,7 +2081,7 @@ footer {
   display: inline-block;
   animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
              colorCycle3000 1s ease-in-out infinite alternate,
-             driftWaveCombo100 90s ease-in-out infinite;
+             driftWaveCombo100 20s ease-in-out infinite;
 }
 
 .dickBag3 {
