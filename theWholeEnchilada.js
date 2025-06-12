@@ -840,7 +840,7 @@ export const fixedWordsLarge = [
     'PISKY', 'PISOS', 'PISSY', 'PISTE', 'PITAS', 'PITCH', 'PITHS', 'PITHY', 'PITON', 'PITOT',
     'PITTA',
     'PIUMS', 'PIVOT', 'PIXEL', 'PIXES', 'PIXIE', 'PIZED', 'PIZES', 'PIZZA', 'PLAAS', 'PLACE',
-    'PLACK', 'PLAGE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE', 'PLANK', 'PLANS', 'PLANT', 'PLAPS',
+    'PLACK', 'PLAGE', 'PLAIN', 'PLAIT', 'PLANE', 'PLANK', 'PLANS', 'PLANT', 'PLAPS',
     'PLASH', 'PLASM', 'PLAST', 'PLATE', 'PLATS', 'PLATT', 'PLATY', 'PLAYA', 'PLAYS', 'PLAZA',
     'PLEAD', 'PLEAS', 'PLEAT', 'PLEBE', 'PLEBS', 'PLENA', 'PLEON', 'PLESH', 'PLEWS', 'PLICA',
     'PLIED', 'PLIER', 'PLIES', 'PLIMS', 'PLING', 'PLINK', 'PLOAT', 'PLODS', 'PLONG', 'PLONK',
