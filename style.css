@@ -2103,20 +2103,32 @@ footer {
   border-color: white;
   animation: 
     fontFamKeyFrame 50s infinite, fadeInOut 4s infinite,
-    pulser_1 20s infinite ease-in-out,
+    pulser_1 40s infinite ease-in-out,
     driftWaveCombo100 90s ease-in-out infinite;
 }
 
 .teaBag2 {
   color: green;
+  background color: dodgerblue;
   border-style: solid;
   border-color: black;
   animation: 
-    fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
-    pulser_1 2s infinite ease-in-out,
-    driftWaveCombo100 20s ease-in-out infinite;
-
+    fontFamKeyFrame 40s infinite, fadeInOut 8s infinite,
+    pulser_1 20s infinite ease-in-out,
+    driftWaveCombo100 100s ease-in-out infinite;
 }
+
+.dumbfuck1 {
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  animation: 
+    fontFamKeyFrame 30s infinite, fadeInOut 8s infinite,
+    pulser_1 30s infinite ease-in-out,
+    driftWaveCombo100 100s ease-in-out infinite;
+}
+
 
 
 @keyframes colorCycle5000 {
@@ -2183,9 +2195,9 @@ footer {
 
 @keyframes pulser_1 {
   0%   { border-width: 5px; }
-  20%  { border-width: 20px; }
+  20%  { border-width: 30px; }
   40%  { border-width: 5px; }
   60%  { border-width: 20px; }
   80%  { border-width: 5px; }
-  100% { border-width: 20px; }
+  100% { border-width: 30px; }
 }
