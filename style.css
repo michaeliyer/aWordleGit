@@ -2136,7 +2136,7 @@ footer {
   border-color: black;
   animation: 
     fontFamKeyFrame 30s infinite, fadeInOut 8s infinite,
-    pulser_2 300s infinite ease-in-out,
+    pulser_2 300s infinite ease-in-out;
 }
 
 
