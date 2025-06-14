@@ -2129,6 +2129,16 @@ footer {
     driftWaveCombo100 100s ease-in-out infinite;
 }
 
+.dumbfuck2 {
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  animation: 
+    fontFamKeyFrame 30s infinite, fadeInOut 8s infinite,
+    pulser_2 300s infinite ease-in-out,
+}
+
 
 
 @keyframes colorCycle5000 {
@@ -2195,9 +2205,18 @@ footer {
 
 @keyframes pulser_1 {
   0%   { border-width: 5px; }
-  20%  { border-width: 30px; }
+  20%  { border-width: 15px; }
   40%  { border-width: 5px; }
-  60%  { border-width: 20px; }
+  60%  { border-width: 15px; }
   80%  { border-width: 5px; }
-  100% { border-width: 30px; }
+  100% { border-width: 15px; }
+}
+
+@keyframes pulser_2 {
+  0%   { border-width: 5px; }
+  20%  { border-width: 50px; }
+  40%  { border-width: 5px; }
+  60%  { border-width: 50px; }
+  80%  { border-width: 5px; }
+  100% { border-width: 50px; }
 }
