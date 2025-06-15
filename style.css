@@ -2139,6 +2139,14 @@ footer {
     pulser_2 300s infinite ease-in-out;
 }
 
+.fucklick100 {
+background-color: rgb (44, 77, 88);
+color: rgb (144, 177, 188);
+animation: fontFamKeyFrame99 15s infinite, fadeInOut 8s infinite,
+           colorCycle5000 .5s ease-in-out infinite alternate, */
+           driftWaveCombo100 5s ease-in-out infinite;
+}
+
 
 
 @keyframes colorCycle5000 {
