@@ -2142,14 +2142,15 @@ footer {
 .fucklick100 {
 animation: fontFamKeyFrame99 15s infinite, fadeInOut 8s infinite,
            colorCycle5000 .5s ease-in-out infinite alternate,
-           driftWaveCombo100 5s ease-in-out infinite;
+           driftWaveCombo100 50s ease-in-out infinite;
 }
 
 .fucklick200 {
+font-size: 2.25rem;
 background-color: rgb (44, 77, 88);
 color: rgb (144, 177, 188);
 animation: fontFamKeyFrame 45s infinite, fadeInOut 8s infinite,
-           driftWaveCombo99 5s ease-in-out infinite;
+           driftWaveCombo101 50s ease-in-out infinite;
 }
 
 
@@ -2232,4 +2233,15 @@ animation: fontFamKeyFrame 45s infinite, fadeInOut 8s infinite,
   60%  { border-width: 50px; }
   80%  { border-width: 5px; }
   100% { border-width: 50px; }
+}
+
+@keyframes driftWaveCombo101 {
+  0%   { transform: translate(0, 0) rotate(0deg); }
+  25%  { transform: translate(0, 5vw) rotate(-45deg); }
+  35%  { transform: translate(0, 10vw) rotate(-25deg); }
+  50%  { transform: translate(0, 0) rotate(-45deg); }
+  75%  { transform: translate(0, -10vw) rotate(-25deg); }
+  80%  { transform: translate(0, -5vw) rotate(-45deg); }
+  85%  { transform: translate(0, 0) rotate(-25deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
 }
