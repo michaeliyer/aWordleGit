@@ -18,7 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const toggleLookupButton = document.getElementById("toggleLookupButton");
   const lookupSection = document.getElementById("lookupSection");
   const lookupWordNumberButton = document.getElementById(
-    "lookupWordNumberButton"
+    "lookupWordNumberButton";
+  const useLessToggle = document.getElementById(
+    "useLess";
+  const useLessButton = document.getElementById(
+    "useLessBtn";
+    
   );
   const undoButton = document.getElementById("undoButton");
   const toggleAverageScoreButton = document.getElementById(
@@ -59,6 +64,13 @@ document.addEventListener("DOMContentLoaded", () => {
   toggleAverageScoreButton.addEventListener("click", function () {
     averageScoreSection.classList.toggle("hidden");
   });
+
+  
+  uselessBtn.addEventListener("click", () => {
+  useLessToggle.textContent = "Hello Useless";
+
+    
+});
 });
 
 function doesNotContainLetter(letter) {
