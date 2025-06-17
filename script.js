@@ -26,6 +26,19 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const averageScoreSection = document.getElementById("averageScoreSection");
 
+const useLessElements = document.querySelectorAll(".useLess");
+
+useLessElements.forEach(el => {
+  el.addEventListener("click", () => {
+    alert("Hello Useless");
+  });
+});
+
+
+
+
+
+
   // Ensure all sections are hidden by default
   groupOneSection.classList.add("hidden");
   groupTwoSection.classList.add("hidden");
