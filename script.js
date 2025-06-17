@@ -19,10 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const lookupSection = document.getElementById("lookupSection");
   const lookupWordNumberButton = document.getElementById(
     "lookupWordNumberButton";
-  const useLessToggle = document.getElementById(
+  const useLessElements = document.getElementById(
     "useLess";
-  const useLessButton = document.getElementById(
-    "useLessBtn";
     
   );
   const undoButton = document.getElementById("undoButton");
@@ -66,9 +64,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   
-  uselessBtn.addEventListener("click", () => {
-  useLessToggle.textContent = "Hello Useless";
-
+useLessElements.forEach(el => {
+  el.addEventListener("click", () => {
+    alert("Hello Useless");
+  });
+});
     
 });
 });
