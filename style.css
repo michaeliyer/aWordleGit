@@ -2246,3 +2246,37 @@ animation: fontFamKeyFrame 45s infinite, fadeInOut 8s infinite,
   85%  { transform: translate(0, 0) rotate(-25deg); }
   100% { transform: translate(0, 0) rotate(0deg); }
 }
+
+.fucklick300 {
+font-size: 2.25rem;
+line-height: 1.75rem;
+animation: fontFamKeyFrame55 10s infinite, fadeInOut 8s infinite,
+            pulser_55 3s infinite ease-in-out,
+            colorCycle55 10s ease-in-out infinite alternate;
+}
+
+@keyframes pulser_55 {
+  0%   { border-width: 5px; }
+  50%  { border-width: 20px; }
+  100% { border-width: 5px; }
+}
+
+@keyframes fontFamKeyFrame55 {
+  0% {
+    font-family: "Fredoka", sans-serif;
+  }
+  50% {
+    font-family: "Cherry Bomb One", system-ui;
+  }
+  100% {
+    font-family: "Sigmar One", sans-serif;
+  }
+}
+
+@keyframes colorCycle55 {
+  0%   { background-color: gold; color: dodgerblue; }
+
+  50%  { background-color: dodgerblue; color: gold; }
+
+  100% { background-color: gold; color: dodgerblue; }
+}
