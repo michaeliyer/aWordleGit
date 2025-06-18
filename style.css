@@ -2255,12 +2255,28 @@ animation: fontFamKeyFrame55 10s infinite, fadeInOut 8s infinite,
             pulser_55 3s infinite ease-in-out,
             colorCycle55 10s ease-in-out infinite alternate;
 }
+.fucklick400 {
+font-size: 2rem;
+line-height: 1.5rem;
+background-color: black;
+color: white;
+border: 5px solid dodgerblue;
+animation: fontFamKeyFrame66 10s infinite, fadeInOut 8s infinite,
+            pulser_66 3s infinite ease-in-out;
+  }
 
 @keyframes pulser_55 {
   0%   { border-width: 5px;     border-color: maroon;}
   50%  { border-width: 60px;    border-color: maroon;}
   100% { border-width: 5px;     border-color: maroon;}
 }
+
+@keyframes pulser_66 {
+  0%   { border-width: 2px;     border-color: dodgerblue;}
+  50%  { border-width: 30px;    border-color: dodgerblue;}
+  100% { border-width: 2px;     border-color: dodgerblue;}
+}
+
 
 @keyframes fontFamKeyFrame55 {
   0% {
@@ -2273,6 +2289,17 @@ animation: fontFamKeyFrame55 10s infinite, fadeInOut 8s infinite,
     font-family: "Sigmar One", sans-serif;
   }
 }
+
+@keyframes fontFamKeyFrame66 {
+  0% {
+    font-family: "Exile", system-ui;
+  }
+  50% {
+    font-family: "Russo One", sans-serif;
+  }
+  100% {
+   font-family: "Zen Tokyo Zoo", system-ui;  }
+  }
 
 @keyframes colorCycle55 {
   0%   { background-color: gold; color: dodgerblue; }
