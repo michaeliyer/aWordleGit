@@ -2172,7 +2172,7 @@ export const dailyWordsLarge = [
     'MUCKS', 'MUCOR', 'MUCRO', 'MUCUS', 'MUDDY', 'MUDGE', 'MUDIR', 'MUDRA', 'MUFFS',
     'MUFTI', 'MUGGA', 'MUGGS', 'MUGGY', 'MUHLY', 'MUIDS', 'MUILS', 'MUIRS', 'MUIST', 'MUJIK',
     'MULCT', 'MULED', 'MULES', 'MULEY', 'MULGA', 'MULIE', 'MULLA', 'MULLS', 'MULSE',
-    'MULSH', 'MUMMS', 'MUMPS', 'MUMSY', 'MUMUS', 'MUNCH', 'MUNGA', 'MUNGE', 'MUNGO',
+    'MULSH', 'MUMMS', 'MUMPS', 'MUMSY', 'MUMUS', 'MUNGA', 'MUNGE', 'MUNGO',
     'MUNGS', 'MUNIS', 'MUONS', 'MURAS', 'MURED', 'MURES', 'MUREX', 'MURID', 'MURKS',
     'MURKY', 'MURLS', 'MURLY', 'MURRA', 'MURRE', 'MURRI', 'MURRS', 'MURRY', 'MURTI', 'MURVA',
     'MUSAR', 'MUSCA', 'MUSED', 'MUSER', 'MUSES', 'MUSET', 'MUSHA', 'MUSIT',  
