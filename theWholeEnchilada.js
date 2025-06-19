@@ -1387,7 +1387,7 @@ export const dailyWordsSmall = [
     'MINIM', 'MINOR', 'MINTY', 'MIRTH', 'MISER', 'MISSY', 'MOCHA', 'MODAL',
     'MOGUL', 'MOLDY', 'MOODY', 'MORON', 'MORPH', 'MOTEL', 'MOTIF', 'MOUND', 'MOUTH', 
     'MOVER', 'MOWER',
-    'MUCUS', 'MUDDY', 'MUNCH', 'MURKY', 'MUSKY', 'MYRRH', 'NACHO', 'NADIR', 'NASAL',
+    'MUCUS', 'MUDDY', 'MURKY', 'MUSKY', 'MYRRH', 'NACHO', 'NADIR', 'NASAL',
     'NEWER', 'NEWLY', 'NIECE', 'NINNY',
     'NOBLY', 'NOISY', 'NOMAD', 'NOOSE', 'NOSEY', 'NOTCH', 'NOVEL', 'NUTTY',
     'NYLON', 'OAKEN', 'OBESE', 'OCTAL', 'ODDER', 'ODDLY', 'OFFER', 'OLDEN', 'OMBRE',
