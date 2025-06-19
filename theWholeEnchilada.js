@@ -13,8 +13,8 @@ export const fixedWordsLarge = [
     'ADAGE', 'ADAPT', 'ADAWS', 'ADAYS', 'ADDAX', 'ADDED', 'ADDER', 'ADDIE', 'ADDLE', 'ADEEM',
     'ADEPT', 'ADHAN', 'ADIEU', 'ADIOS', 'ADITS', 'ADMAN', 'ADMEN', 'ADMIN', 'ADMIT', 'ADMIX', 
     'ADOBE',
-    'ADOBI', 'ADOBO', 'ADOPT', 'ADORE', 'ADORN', 'ADOWN', 'ADOZE', 'ADRAD', 'ADRED', 'ADSUM',
     'ADUKI', 'ADULT', 'ADUNC', 'ADUST', 'ADVEW', 'ADYTA', 'ADZED', 'ADZES', 'AECIA', 'AEGIS',
+    'ADOBI', 'ADOBO', 'ADOPT', 'ADORE', 'ADORN', 'ADOWN', 'ADOZE', 'ADRAD', 'ADRED', 'ADSUM',
     'AEONS', 'AERIE', 'AEROS', 'AESIR', 'AFALD', 'AFARA', 'AFARS', 'AFEAR', 'AFFIX', 'AFIRE',
     'AFORE', 'AFRIT', 'AFROS', 'AFTER', 'AGAIN', 'AGAMA', 'AGAMI', 'AGAPE', 'AGARS', 'AGAST', 
     'AGATE', 'AGAVE',
@@ -11522,6 +11522,12 @@ export const wordleWords = [
         gameDate: "6/17/25",
         myScore: 4,
         wordNumber: 1459,
+      },
+      {
+        word: "MUNCH",
+        gameDate: "6/18/25",
+        myScore: 4,
+        wordNumber: 1460,
       },
     
     
