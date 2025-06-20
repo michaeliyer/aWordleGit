@@ -2265,6 +2265,16 @@ animation: fontFamKeyFrame66 10s infinite, fadeInOut 8s infinite,
             pulser_66 3s infinite ease-in-out;
 }
 
+.fucklick500 {
+font-size: 1.75rem;
+line-height: 1.4rem;
+background-color: green;
+color: pink;
+border: 5px solid dodgerblue;
+animation: fontFamKeyFrame55 30s infinite, fadeInOut 4s infinite,
+            pulser_55 10s infinite ease-in-out;
+}
+
 @keyframes pulser_55 {
   0%   { border-width: 5px;     border-color: maroon;}
   50%  { border-width: 60px;    border-color: maroon;}
