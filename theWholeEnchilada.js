@@ -11529,6 +11529,12 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1460,
       },
+      {
+        word: "CURIO",
+        gameDate: "6/19/25",
+        myScore: 2,
+        wordNumber: 1461,
+      },
     
     
   ];
