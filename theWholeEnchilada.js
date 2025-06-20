@@ -1344,7 +1344,7 @@ export const dailyWordsSmall = [
     'COPSE', 'CORAL', 'COUCH', 'COUGH', 'COUPE', 'COVEN', 'COVEY', 'CRACK', 
     'CRASH', 'CREED', 'CREEK', 'CREEP', 'CREME', 'CRESS',
     'CRICK', 'CRIED', 'CRIER', 'CROCK', 'CRONY', 'CROUP', 'CRUDE',
-    'CRUEL', 'CRUMP', 'CUBIC', 'CURIO', 'CURRY', 'CURVE', 'CURVY',
+    'CRUEL', 'CRUMP', 'CUBIC', 'CURRY', 'CURVE', 'CURVY',
     'CUTIE', 'CYCLE', 'DAILY', 'DAIRY', 'DALLY', 'DAUNT', 'DEALT', 'DEBAR',
     'DECOR', 'DEFER', 'DEIGN', 
     'DEMON', 'DEMUR', 'DENSE', 'DERBY', 'DETOX', 'DEUCE', 'DILLY', 'DIMLY',
