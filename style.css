@@ -2275,6 +2275,15 @@ animation: fontFamKeyFrame55 30s infinite, fadeInOut 4s infinite,
             pulser_55 10s infinite ease-in-out;
 }
 
+.fucklick600 {
+font-family: "Press Start 2P", system-ui;
+font-size: 1.75rem;
+line-height: 1.4rem;
+background-color: green;
+color: pink;
+border: 5px solid dodgerblue;
+}
+
 @keyframes pulser_55 {
   0%   { border-width: 5px;     border-color: maroon;}
   50%  { border-width: 60px;    border-color: maroon;}
