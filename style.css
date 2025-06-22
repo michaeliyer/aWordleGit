@@ -2267,7 +2267,7 @@ animation: fontFamKeyFrame66 10s infinite, fadeInOut 8s infinite,
 
 .fucklick500 {
 font-size: 1.75rem;
-line-height: 1.4rem;
+line-height: 1.5rem;
 background-color: green;
 color: pink;
 border: 5px solid dodgerblue;
@@ -2278,7 +2278,7 @@ animation: fontFamKeyFrame55 30s infinite, fadeInOut 4s infinite,
 .fucklick600 {
 font-family: "Press Start 2P", system-ui;
 font-size: 1.25rem;
-line-height: 1.4rem;
+line-height: 1.5rem;
 background-color: blue;
 color: cream;
 border: 5px solid aqua;
