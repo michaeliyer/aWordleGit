@@ -1887,7 +1887,7 @@ export const dailyWordsLarge = [
     'GIMEL', 'GIMME', 'GIMPS', 'GIMPY', 'GINCH', 'GINGE', 'GINGS', 'GINKS', 'GINNY', 'GIPON',
     'GIPPY', 'GIPSY', 'GIRDS', 'GIRLS', 'GIRLY', 'GIRNS', 'GIRON', 'GIROS', 'GIRRS', 'GIRSH',
     'GIRTS', 'GISMO', 'GISMS', 'GISTS', 'GITCH', 'GITES', 'GIUST', 'GIVED',
-    'GIVER', 'GIVES', 'GIZMO', 'GLACE', 'GLADE', 'GLADS', 'GLADY', 'GLAIK', 'GLAIR', 'GLAMS',
+    'GIVER', 'GIVES', 'GIZMO', 'GLACE', 'GLADS', 'GLADY', 'GLAIK', 'GLAIR', 'GLAMS',
     'GLANS', 'GLARE', 'GLARY', 
     'GLAUM', 'GLAUR', 'GLAZY', 
     'GLEBA', 'GLEBE', 'GLEBY', 'GLEDE', 'GLEDS', 'GLEED', 'GLEEK', 'GLEES', 'GLEET',
