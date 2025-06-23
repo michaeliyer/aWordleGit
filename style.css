@@ -2271,7 +2271,7 @@ line-height: 1.5rem;
 background-color: green;
 color: pink;
 border: 5px solid dodgerblue;
-animation: fontFamKeyFrame55 30s infinite, fadeInOut 4s infinite,
+animation: fontFamKeyFrame55 20s infinite, fadeInOut 4s infinite,
             pulser_55 10s infinite ease-in-out;
 }
 
