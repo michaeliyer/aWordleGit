@@ -2098,9 +2098,9 @@ footer {
 }
 
 .teaBag1 {
+  background-color: wheat;
   color: red;
-  border-style: solid;
-  border-color: white;
+  border: pink solid 1rem;
   animation: 
     fontFamKeyFrame 50s infinite, fadeInOut 4s infinite,
     pulser_1 40s infinite ease-in-out,
@@ -2110,8 +2110,9 @@ footer {
 .teaBag2 {
   color: green;
   background-color: dodgerblue;
-  border-style: solid;
-  border-color: black;
+  border: purple solid 1rem;
+/*   border-style: solid;
+  border-color: black; */
   animation: 
     fontFamKeyFrame 40s infinite, fadeInOut 8s infinite,
     pulser_1 20s infinite ease-in-out,
