@@ -70,7 +70,7 @@ function calculateCountdown(targetDate) {
 function updateCountdown() {
   const countdownElement = document.getElementById("countdown");
   if (countdownElement) {
-    countdownElement.textContent = `Los Putos Americanos de los Mid-Termos Christos Electionés de 2026: ${calculateCountdown("2026-11-03T00:00:00")}. 
+    countdownElement.textContent = `Los Putos de los Americanos de los Mid-Termos Christos Electionés de 2026: ${calculateCountdown("2026-11-03T00:00:00")}. 
     Wilst We Goddamn MotherFucking Maketh Her, It, Los Jerkoes, Thoust Fulleth andeth Dastardly Nastardly Bastardly Castaway Wasterly Foolinoidal Toolions? Likethly, We Arteth Completethly Fucketh? What Dost Sayeth Thou? I sayeth yea, fuckethstroid! Licketh off pleaseth thou.`;
   }
 }
