@@ -1536,6 +1536,8 @@ footer {
 }
 .superDoggo2 {
   display: inline-block;
+  border: 2rem solid black;
+  border-radius: .75rem;
   animation: fontFamKeyFrame 10s infinite, fadeInOut 6s infinite,
     colorCycle11 5s ease-in-out infinite alternate;
 }
