@@ -246,7 +246,7 @@ h2 {
 
 .jerks {
   animation: colorCycle66 20s ease-in-out infinite alternate,
-    pulseText66 5s infinite, waveText66 5s infinite;
+    pulseText66 15s infinite, waveText66 5s infinite;
 }
 
 .jerks2 {
