@@ -2274,7 +2274,7 @@ line-height: 1.5rem;
 background-color: green;
 color: pink;
 border: 5px solid dodgerblue;
-animation: fontFamKeyFrame55 20s infinite, fadeInOut 4s infinite,
+animation: fontFamKeyFrame55 40s infinite, fadeInOut 4s infinite,
             pulser_55 10s infinite ease-in-out;
 }
 
@@ -2306,6 +2306,9 @@ border: 5px solid aqua;
   }
   50% {
     font-family: "Cherry Bomb One", system-ui;
+  }  
+  60% {
+    font-family: "Monoton", sans-serif;
   }
   100% {
     font-family: "Sigmar One", sans-serif;
