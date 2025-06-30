@@ -2159,7 +2159,7 @@ animation: fontFamKeyFrame 45s infinite, fadeInOut 8s infinite,
 
 .nothingElse1 {
 font-size: 2.25rem;
-line-height: 1.75rem;
+line-height: 2rem;
 background-color: black;
 color: white;
 }
