@@ -2157,7 +2157,12 @@ animation: fontFamKeyFrame 45s infinite, fadeInOut 8s infinite,
            driftWaveCombo101 50s ease-in-out infinite;
 }
 
-
+nothingElse1 {
+font-size: 2.25rem;
+line-height: 1.75rem;
+background-color: black;
+color: white;
+}
 
 @keyframes colorCycle5000 {
   0%   { background-color: black; color: white; }
