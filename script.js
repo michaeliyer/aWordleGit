@@ -111,7 +111,7 @@ function handleWordInput() {
       foundWord.gameDate
     );
     const resultString = `'${foundWord.word}': That most retardally idiotical WORD was fuckin' ALREADY Goddamn FUCKING em-fuckin'-ployed by this Pissing Ass Wordle affair (as I've said! Repeatedly! Listen!) on ${foundWord.gameDate}. Goddamn you Ace! <br> It was word #${foundWord.wordNumber}, 
-          and ye had ye a score of '${foundWord.myScore}'!<br> Your Score Average thru this here stupid ass fuckin' date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
+          and ye had ye a score of '${foundWord.myScore}'!<br> Your Score Average thru this here stupid ass lousy fuckin' date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
     document.querySelector(".field-one").innerHTML = resultString;
   } else {
     const notFoundString = `The word "${inputWord}", which is an innocent but extremely foolosh bystander †‡ †‡ †‡ , was notteth found, oh wretched Whores and Assfucks, making Rand Paul that rapist. Hit that fuck again neighbor. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface! You're <span><em>all</em></span> fuckfaces.`;
