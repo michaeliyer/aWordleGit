@@ -22,7 +22,7 @@ header {
   align-items: center;
   /* color: #F7E64C; */
   /* color: rgb(135, 150, 230); */
-  border: solid rgb(255, 225, 235) 1rem;
+  border: solid rgb(255, 235, 235) 1rem;
   border-radius: 0.3rem;
 /*   background-color: rgb(235, 235, 235); */
   animation: colorCycle5000 45s linear infinite;  
