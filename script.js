@@ -123,7 +123,7 @@ function displayResults(results) {
   const resultsDiv = document.getElementById("filteredWords");
   const wordsList = results.join(", ");
   const totalWords = results.length;
-  const listWithTotal = `${wordsList} (${totalWords} Christing †‡ and most fantastically idiotical and goddamn cunting †‡ stupid ass frickin' fuckin' AssHole 🧌 🧌 🧌  Fuckin' Words stupidestly exist stupidly and Parasitically in this here unlit motherfrickin' list, assholes!! It's steadily shrinking, dickLicks, like my sanity, DICKLORD!)`;
+  const listWithTotal = `${wordsList} (${totalWords} Christing †‡ and most outwardly fantastically idiotical and goddamn cunting †‡ stupid ass frickin' fuckin' AssHole 🧌 🧌 🧌  Fuckin' Words stupidestly exist stupidly and Parasitically in this here unlit motherfrickin' list, assholes!! It's steadily shrinking, dickLicks, like my sanity, DICKLORD!)`;
   resultsDiv.innerHTML = listWithTotal;
 }
 
