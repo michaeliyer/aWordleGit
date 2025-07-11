@@ -2194,6 +2194,16 @@ background-color: green;
 color: silver;
 }
 
+.superDoggo111 {
+font-size: 2rem;
+line-height: 2rem;
+background-color: green;
+color: silver;
+animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
+}
+
+
+
 @keyframes colorCycle5000 {
   0%   { background-color: black; color: white; }
   10%  { background-color: white; color: black; }
