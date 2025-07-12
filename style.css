@@ -2202,6 +2202,17 @@ color: silver;
 animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
 }
 
+.pardon2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 9rem;
+  height: 9rem;
+  color: yellow;
+  background-color: blue;
+  animation: drift 30s linear infinite;
+}
+
 
 
 @keyframes colorCycle5000 {
