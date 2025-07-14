@@ -2120,6 +2120,14 @@ footer {
     pulser_1 20s infinite ease-in-out,
     driftWaveCombo100 100s ease-in-out infinite;
 }
+.teaBag3 {
+  color: white;
+  background-color: black;
+  border: purple solid 2rem;
+  animation: 
+    fontFamKeyFrame 40s infinite, fadeInOut 8s infinite,
+    pulser_1 20s infinite ease-in-out,
+}
 
 .dumbfuck1 {
   color: white;
