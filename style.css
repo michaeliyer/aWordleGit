@@ -152,7 +152,7 @@ h2 {
   border-radius: 0.5rem;
   font-family: "Unlock", serif;
   font-size: 1.15rem;
-  animation: waveText 5s ease-in-out infinite alternate,
+  animation: waveText 30s ease-in-out infinite alternate,
     colorCycle3 10s ease-in-out infinite alternate;
 }
 
