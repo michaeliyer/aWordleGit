@@ -24,7 +24,7 @@ header {
   /* color: rgb(135, 150, 230); */
   border: solid rgb(255, 255, 255) 1rem;
   border-radius: 0.3rem;
-/*   background-color: rgb(225, 235, 230); */
+/*   background-color: rgb(225, 235, 235); */
   animation: colorCycle5000 45s linear infinite;  
 }
 
