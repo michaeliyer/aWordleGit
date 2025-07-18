@@ -1384,7 +1384,7 @@ export const dailyWordsSmall = [
     'LUMPY', 'LUPUS', 'LURCH', 'LURID', 'LYMPH', 'LYRIC', 'MACRO', 
     'MAFIA', 'MAKER', 'MAMMA', 'MAMMY', 'MANGE', 'MANGY', 'MANIC',
     'MEATY', 'MECCA', 'MELEE', 'MIGHT', 'MILKY', 
-    'MINIM', 'MINOR', 'MINTY', 'MIRTH', 'MISER', 'MISSY', 'MOCHA', 'MODAL',
+    'MINIM', 'MINOR', 'MINTY', 'MIRTH', 'MISER', 'MISSY', 'MOCHA',
     'MOGUL', 'MOODY', 'MORON', 'MORPH', 'MOTEL', 'MOTIF', 'MOUND', 'MOUTH', 
     'MOVER', 'MOWER',
     'MUCUS', 'MUDDY', 'MURKY', 'MUSKY', 'MYRRH', 'NACHO', 'NADIR', 'NASAL',
