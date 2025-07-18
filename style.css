@@ -107,7 +107,7 @@ h2 {
 
 .pigFuckers {
   border: solid rgb(229, 8, 8) 0.2rem;
-  border-radius: 0.5rem;
+  border-radius: 3rem;
   font-family: "Unlock", serif;
   font-size: 1.15rem;
   animation: colorCycle3 30s ease-in-out infinite alternate;
