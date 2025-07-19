@@ -37,7 +37,7 @@ h2 {
   padding: 0.3rem;
 }
 
-#toggleInstructions {
+.toggleInstructions {
   position: relative;
   align-items: center;
   font-family: "Exile", system-ui;
@@ -75,7 +75,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  animation: pulseText 300s ease-in infinite,
+/*   animation: pulseText 300s ease-in infinite, */
     colorCycle5000 .5s ease-in-out infinite alternate;
 }
 
@@ -1067,7 +1067,7 @@ li {
   /* waveText 30s ease-in-out infinite; */
 }
 
-#toggleInstructions:active {
+.toggleInstructions:active {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
