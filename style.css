@@ -2349,6 +2349,15 @@ color: cream;
 border: 5px solid aqua;
 }
 
+.deeBag {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.15rem;
+  background-color: black;
+  color: white;
+}
+
 @keyframes pulser_55 {
   0%   { border-width: 5px;     border-color: maroon;}
   50%  { border-width: 60px;    border-color: maroon;}
