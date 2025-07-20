@@ -1062,8 +1062,8 @@ li {
   line-height: 1.2rem;
   font-size: 0.8rem;
   animation: pulseText 40s ease-in infinite,
-    /* drift 10s ease-in-out infinite, */ colorCycle 6s ease-in-out infinite
-      alternate;
+    /* drift 10s ease-in-out infinite, */ 
+    colorCycle 6s ease-in-out infinite alternate;
   /* waveText 30s ease-in-out infinite; */
 }
 
@@ -1087,8 +1087,8 @@ li {
   font-weight: 600;
   animation: 
   /* pulseText 10s ease-in infinite,  */
-  /* drift 10s ease-in-out infinite, */ colorCycle
-    5s ease-in-out infinite alternate;
+  /* drift 10s ease-in-out infinite, */ 
+    colorCycle 5s ease-in-out infinite alternate;
   /* waveText 3s ease-in-out infinite; */
 }
 
@@ -2126,7 +2126,7 @@ footer {
   border: purple solid 2rem;
   animation: 
     fontFamKeyFrame 40s infinite, fadeInOut 8s infinite,
-    pulser_1 20s infinite ease-in-out,
+    pulser_1 20s infinite ease-in-out;
 }
 
 .dumbfuck1 {
@@ -2356,6 +2356,15 @@ border: 5px solid aqua;
   font-size: 1.15rem;
   background-color: black;
   color: white;
+}
+
+.deeBag2 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Merienda", cursive;  
+  font-size: 1.65rem;
+  background-color: green;
+  color: yellow;
 }
 
 @keyframes pulser_55 {
