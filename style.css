@@ -2367,6 +2367,14 @@ border: 5px solid aqua;
   color: yellow;
 }
 
+.deeBag3 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 2rem;
+  font-family: "Press Start 2P", system-ui;  
+  background-color: blue;
+  color: red;
+}
+
 @keyframes pulser_55 {
   0%   { border-width: 5px;     border-color: maroon;}
   50%  { border-width: 60px;    border-color: maroon;}
