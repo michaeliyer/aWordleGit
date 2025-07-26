@@ -110,7 +110,7 @@ function handleWordInput() {
     const averageScoreUpToDate = calculateAverageScoreUpToDate(
       foundWord.gameDate
     );
-    const resultString = `'${foundWord.word}': That, um, most retardally idiotical WORD was so abso-fuckin-lutely fuckin' ALREADY Goddamn FUCKING em-fuckin'-ployed by this Pissing Ass Wordle affair (as I've said! Repeatedly! Listen!) on ${foundWord.gameDate}. Goddamn you Ace! <br> It was word #${foundWord.wordNumber}, 
+    const resultString = `'${foundWord.word}': That, um, most retardally, um, idiotical WORD was so abso-fuckin-lutely fuckin' ALREADY Goddamn FUCKING em-fuckin'-ployed by this Pissing Ass Wordle affair (as I've said! Repeatedly! Listen!) on ${foundWord.gameDate}. Goddamn you Ace! <br> It was word #${foundWord.wordNumber}, 
           and ye had ye a score of '${foundWord.myScore}'!<br> Your Score Average thru this here stupid ass lousy, um, fuckin' date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
     document.querySelector(".field-one").innerHTML = resultString;
   } else {
