@@ -64,7 +64,7 @@ function calculateCountdown(targetDate) {
   const minutes = Math.floor((diff / (1000 * 60)) % 60);
   const seconds = Math.floor((diff / 1000) % 60);
 
-  return `${days} very freakin' dark, um, long-ass flickston ass days, you, um, know, Yo!! You, one, all, holy extremely, um, dumb fuck bitch fuckass - drunks, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+  return `${days} very freakin' dark, um, long-ass flickston, um, ass days, you, um, know, Yo!! You, one, all, holy extremely, um, dumb fuck bitch fuckass - drunks, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
 }
 
 function updateCountdown() {
