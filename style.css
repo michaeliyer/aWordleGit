@@ -2337,7 +2337,7 @@ background-color: green;
 color: pink;
 border: 5px solid dodgerblue;
 animation: fontFamKeyFrame55 40s infinite, fadeInOut 4s infinite,
-            pulser_55 10s infinite ease-in-out;
+            pulser_55 60s infinite ease-in-out;
 }
 
 .fucklick600 {
