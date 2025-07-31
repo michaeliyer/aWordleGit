@@ -11,7 +11,7 @@ html {
 }
 
 body {
-/*   animation: colorCycle5000 .65s steps(1) infinite; */
+/*   animation: colorCycle5000 .75s steps(1) infinite; */
   position: relative;
 }
 
@@ -33,7 +33,7 @@ h2 {
   font-size: 1.75rem;
   border: solid rgb(40, 255, 255) 0.2rem;
   box-shadow: 0.1rem 0.05rem;
-  border-radius: 0.4rem;
+  border-radius: 0.45rem;
   padding: 0.33rem;
 }
 
