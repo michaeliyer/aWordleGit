@@ -1372,16 +1372,16 @@ footer {
   font-size: 1.75rem;
 }
 
-/* .pardon {
+.pardon {
   position: absolute;
   top: 50%;
   left: 0;
   width: 9rem;
   height: 9rem;
   background-color: bisque;
-  animation: drift 30s linear infinite;
+  color: navy;
+/*   animation: drift 30s linear infinite; */
 }
-*/
 
 /* #wordle-link,
 #nyt-link   {
