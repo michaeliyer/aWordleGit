@@ -1544,7 +1544,7 @@ footer {
 }
 
 .simple2000 {
-  animation: colorCycle5 5s ease-in-out infinite alternate,
+  animation: colorCycle5 50s ease-in-out infinite alternate,
   fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
 }
 
