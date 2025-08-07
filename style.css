@@ -170,8 +170,8 @@ h2 {
   border-radius: 0.5rem;
   font-family: "Archivo Black", sans-serif;
   font-size: 1.15rem;
-  animation: colorCycle4 5s ease-in-out infinite alternate,
-    wave 10s ease-in-out infinite;
+  animation: colorCycle4 15s ease-in-out infinite alternate,
+    wave 15s ease-in-out infinite;
 }
 
 .miniPig1 {
