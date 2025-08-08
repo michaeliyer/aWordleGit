@@ -2376,6 +2376,14 @@ border: 5px solid aqua;
   color: red;
 }
 
+.coralDay {
+  font-family: "Silkscreen", sans-serif;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 2rem;
+  background-color: coral;
+  color: chartreuse;
+}
+
 @keyframes pulser_55 {
   0%   { border-width: 5px;     border-color: maroon;}
   50%  { border-width: 60px;    border-color: maroon;}
@@ -2422,3 +2430,4 @@ border: 5px solid aqua;
 
   100% { background-color: gold; color: dodgerblue; }
 }
+
