@@ -1563,7 +1563,7 @@ footer {
   display: inline-block;
   animation: fontFamKeyFrame 10s infinite, fadeInOut 4s infinite,
     colorCycle 15s ease-in-out infinite alternate, letterWiggle 5s infinite,
-    pulseText66 5s infinite, drift 30s ease-in-out infinite;
+    pulseText66 15s infinite, drift 30s ease-in-out infinite;
 }
 
 @keyframes fontFamKeyFrame {
