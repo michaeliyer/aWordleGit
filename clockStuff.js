@@ -1,4 +1,4 @@
-document.getElementById("footerClocks").style.border = "5px solid #ccc"; // Example of targeting the new ID 
+document.getElementById("footerClocks").style.border = "6px solid #ccc"; // Example of targeting the new ID 
 // Function to format time in the "HH:MM:SS" format
 function formatTime(date) {
   const hours = date.getHours().toString().padStart(2, "0");
