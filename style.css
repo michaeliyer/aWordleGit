@@ -1,4 +1,4 @@
-* {
+llo* {
 
   padding: 0;
   margin: 0;
@@ -606,7 +606,6 @@ h2 {
   25% {
     transform: translateX(-10vw);
   }
-  50% {
     transform: translateX(0);
   }
   75% {
@@ -2152,8 +2151,8 @@ footer {
 }
 
 .dumbfuck3 {
-  color: white;
-  background-color: red;
+  color: yellow;
+  background-color: blue;
   border-style: solid;
   border-color: black;
   animation: 
