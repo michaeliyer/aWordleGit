@@ -2207,7 +2207,7 @@ font-size: 2rem;
 line-height: 2rem;
 background-color: green;
 color: silver;
-animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
+animation: fontFamKeyFrame 30s infinite, fadeInOut 8s infinite;
 }
 
 .pardon2 {
