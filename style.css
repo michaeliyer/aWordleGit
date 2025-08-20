@@ -1532,7 +1532,7 @@ footer {
 .superDoggo1 {
   display: inline-block;
   animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
-    colorCycle5 5s ease-in-out infinite alternate;
+    colorCycle5 30s ease-in-out infinite alternate;
 }
 .superDoggo2 {
   display: inline-block;
