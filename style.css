@@ -98,7 +98,7 @@ h2 {
 }
 
 .pigMan {
-  border: solid rgb(229, 8, 8) 0.21rem;
+  border: solid rgb(229, 8, 10) 0.21rem;
   border-radius: 0.5rem;
   animation: letterWiggle 1s infinite, waveText 30s ease-in-out infinite,
     colorCycle5 30s ease-in-out infinite alternate,
