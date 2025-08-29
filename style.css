@@ -2216,7 +2216,7 @@ animation: fontFamKeyFrame 30s infinite, fadeInOut 8s infinite;
   left: 0;
   color: yellow;
   background-color: blue;
-  animation: drift 30s linear infinite;
+  animation: drift 35s linear infinite;
 }
 
 
