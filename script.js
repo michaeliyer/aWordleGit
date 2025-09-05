@@ -123,7 +123,7 @@ function displayResults(results) {
   const resultsDiv = document.getElementById("filteredWords");
   const wordsList = results.join(", ");
   const totalWords = results.length;
-  const listWithTotal = `${wordsList} (${totalWords}, um, Christing, um, †‡ and, ah, well, ah, dick, um, yeah, um, oh ho, gagging, um, grossly, um, outwardly, blatantly, fantastically, errrr, idiotical, eh, and, um, goddamn, ahem, cunting †‡ stupid ass frickin' fuckin' AssHole 🧌 🧌 🧌  Fuckin' Words stupidestly exist stupidly and Parasitically, um, in this here unlit motherfrickin' list, assholes!! It's steadily shrinking, dickLicks, like my sanity, DICKLORD!)`;
+  const listWithTotal = `${wordsList} (${totalWords}, um, er, Christing, um, †‡ and, ah, well, ah, dick, um, yeah, um, oh ho, gagging, um, grossly, um, outwardly, blatantly, fantastically, errrr, idiotical, eh, and, um, goddamn, ahem, cunting †‡ stupid ass frickin' fuckin' AssHole 🧌 🧌 🧌  Fuckin' Words stupidestly exist stupidly and Parasitically, um, in this here unlit motherfrickin' list, assholes!! It's steadily shrinking, dickLicks, like my sanity, DICKLORD!)`;
   resultsDiv.innerHTML = listWithTotal;
 }
 
