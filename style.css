@@ -2430,3 +2430,10 @@ border: 5px solid aqua;
   100% { background-color: gold; color: dodgerblue; }
 }
 
+.fixedCrap-1 {
+  position: fixed;
+  z-index: 333;
+  font-size: 2.25rem;
+  line-height: 1.75rem;
+  border: green solid .33rem;
+}
