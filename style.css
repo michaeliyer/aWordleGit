@@ -2433,6 +2433,8 @@ border: 5px solid aqua;
 .fixedCrap-1 {
   position: fixed;
   z-index: 333;
+  background-color: dodgerblue;
+  color: silver;
   font-size: 2.25rem;
   line-height: 1.75rem;
   border: green solid .33rem;
