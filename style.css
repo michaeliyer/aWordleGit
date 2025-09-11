@@ -2432,9 +2432,9 @@ border: 5px solid aqua;
 
 .fixedCrap-1 {
   position: fixed;
-  top: 1rem;
+  top: 20rem;
   left: 1rem;
-  width: 200px;
+  width: 400px;
   padding: 1rem;
   background-color: dodgerblue;
   color: silver;
@@ -2447,9 +2447,9 @@ border: 5px solid aqua;
 
 .fixedCrap-2 {
   position: fixed;
-  top: -10rem;
-  left: 15rem;
-  width: 200px;
+  top: 20rem;
+  left: 30rem;
+  width: 400px;
   padding: 1rem;
   background-color: navy;
   color: chartreuse;
@@ -2461,9 +2461,9 @@ border: 5px solid aqua;
 }
 .fixedCrap-3 {
   position: fixed;
-  top: -5rem;
+  top: 2rem;
   left: 5rem;
-  width: 200px;
+  width: 400px;
   padding: 1rem;
   background-color: navy;
   color: chartreuse;
