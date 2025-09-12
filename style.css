@@ -102,7 +102,7 @@ h2 {
   border-radius: 0.5rem;
   animation: letterWiggle 1s infinite, waveText 30s ease-in-out infinite,
     colorCycle5 30s ease-in-out infinite alternate,
-    drift3 5s ease-in-out infinite;
+    drift3 15s ease-in-out infinite;
 }
 
 .pigFuckers {
