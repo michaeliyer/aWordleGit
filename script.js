@@ -26,18 +26,13 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const averageScoreSection = document.getElementById("averageScoreSection");
 
-const useLessElements = document.querySelectorAll(".useLess");
+  const useLessElements = document.querySelectorAll(".useLess");
 
-useLessElements.forEach(el => {
-  el.addEventListener("click", () => {
-    alert("Hello Useless");
+  useLessElements.forEach((el) => {
+    el.addEventListener("click", () => {
+      alert("Hello Useless");
+    });
   });
-});
-
-
-
-
-
 
   // Ensure all sections are hidden by default
   groupOneSection.classList.add("hidden");
@@ -51,6 +46,15 @@ useLessElements.forEach(el => {
   submitButton.addEventListener("click", function (event) {
     event.preventDefault();
     handleWordInput();
+  });
+
+  // Add Enter key functionality for word input
+  const wordInput = document.getElementById("wordInput");
+  wordInput.addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      handleWordInput();
+    }
   });
   toggleGroupOne.addEventListener("click", function () {
     groupOneSection.classList.toggle("hidden");
@@ -195,7 +199,9 @@ function applyFilter(selectedFunction, letter, position) {
       filteredWords = containsDuplicateLetters();
       break;
     default:
-      alert("Please select, ah, a valid, gerrr, function, you, er, goddamn, um, stupid, ah, stupid, um, er, asshole.");
+      alert(
+        "Please select, ah, a valid, gerrr, function, you, er, goddamn, um, stupid, ah, stupid, um, er, asshole."
+      );
       return;
   }
 }
