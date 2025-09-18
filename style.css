@@ -142,7 +142,7 @@ h2 {
   border: solid rgb(229, 8, 8) 0.2rem;
   border-radius: 0.5rem;
   font-family: "Kaushan Script", cursive;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   animation: colorCycle5 20s ease-in-out infinite alternate,
     drift3 15s ease-in-out infinite, pulseText 10s ease-in infinite;
 }
