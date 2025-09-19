@@ -253,7 +253,7 @@ h2 {
 }
 
 .jerks2 {
-  animation: colorCycle11 20s ease-in-out infinite alternate,
+  animation: colorCycle11 22s ease-in-out infinite alternate,
     waveText67 20s infinite;
 }
 
