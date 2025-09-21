@@ -71,7 +71,7 @@ function updateCountdown() {
   const countdownElement = document.getElementById("countdown");
   if (countdownElement) {
     countdownElement.textContent = `Los, um, well, Putos de Putanños y de, ah, um, siii, los, ah, Americanos, um, de los Mid-Termos Christos Electionés de lo 2026: ${calculateCountdown("2026-11-03T00:00:00")}. 
-    Wilst We Goddamn MotherFucking Maketh Her, It, That, um, Thou, uh, Los, er, Um, Jerkoes, er, Lo, Thoust, um, Fulleth andeth Dastardly Nastardly and Bastardly Castaway Wasterly Foolinoidal Toolions? Likethly, We Arteth Completethly Fucketh? What Dost Sayeth Thou? I sayeth yea, fuckethstroid! Licketh off pleaseth thou. Ah, the hate...You see thgat?`;
+    Wilst We Goddamn MadreFucking Maketh Her, It, That, um, Thou, uh, Los, er, Um, Jerkoes, er, Lo, Thoust, um, Fulleth andeth Dastardly Nastardly and Bastardly Castaway Wasterly Foolinoidal Toolions? Likethly, We Arteth Completethly Fucketh? What Dost Sayeth Thou? I sayeth yea, fuckethstroid! Licketh off pleaseth thou. Ah, the hate...You see thgat?`;
   }
 }
 
