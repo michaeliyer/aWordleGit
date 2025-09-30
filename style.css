@@ -94,7 +94,7 @@ h2 {
   font-family: "Unlock", serif;
   font-size: 1.15rem;
   animation: colorCycle4 5s ease-in-out infinite alternate,
-    waveText 10s ease-in-out infinite, drift 10s ease-in-out infinite;
+    waveText 10s ease-in-out infinite, drift 11s ease-in-out infinite;
 }
 
 .pigMan {
