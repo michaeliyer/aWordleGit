@@ -2340,7 +2340,7 @@ background-color: green;
 color: pink;
 border: 5px solid dodgerblue;
 animation: fontFamKeyFrame55 40s infinite, fadeInOut 4s infinite,
-            pulser_55 60s infinite ease-in-out;
+pulser_55 60s infinite ease-in-out;
 }
 
 .fucklick600 {
@@ -2476,3 +2476,13 @@ border: 5px solid aqua;
   z-index: 333;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
 }
+
+.badAssMan {
+  background-color: green;
+  color: silver;
+  font-size: 2.25rem;
+  font-family: "New Rocker", system-ui;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 2rem;
+}
+  
