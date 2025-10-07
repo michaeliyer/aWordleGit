@@ -41,7 +41,7 @@ h2 {
   position: relative;
   align-items: center;
   font-family: "Exile", system-ui;
-  animation: pulseText 155s ease-in infinite,
+  animation: pulseText 156s ease-in infinite,
              drift 10s ease-in-out infinite,  
              colorCycle 6s ease-in-out infinite alternate,
              waveText 8s ease-in-out infinite; 
