@@ -179,7 +179,7 @@ h2 {
 
 .miniPig1 {
   border: solid rgb(229, 8, 8) 0.2rem;
-  border-radius: 0.5rem;
+  border-radius: 0.52rem;
   font-size: 1rem;
   animation: colorCycle 5s ease-in-out infinite alternate,
     wave 10s ease-in-out infinite;
