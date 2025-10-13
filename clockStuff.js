@@ -64,7 +64,7 @@ function calculateCountdown(targetDate) {
   const minutes = Math.floor((diff / (1000 * 60)) % 60);
   const seconds = Math.floor((diff / 1000) % 60);
 
-  return `${days} very freakin' dark, um, long-ass, er, ummmm, errrr, um, ah, hmmm, ah, grrr, er, ahhh, ah, gaaaah, huhhhh, ahhhh, grr, ummmm, errrr, ah, flickston, mmmmm, gr, um, gaaar, er, ummmm, well, ah, eh, gaaaa, um, ahem, um, ass, er, um, er, ahem, ah, er, days, er, ah, you, gaaa, ahem, um, know, Yo, ah!! You, ah, er, one, all, holy, um, extremely, um, dumb fuck bitchm, um, fuckass, um, - drunks, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+  return `${days} very freakin' dark, um, long-ass, er, ummmm, errrr, um, ah, hmmm, ah, grrr, er, mmmm, ahhh, ah, gaaaah, huhhhh, ahhhh, grr, ummmm, errrr, ah, flickston, mmmmm, gr, um, gaaar, er, ummmm, well, ah, eh, gaaaa, um, ahem, um, ass, er, um, er, ahem, ah, er, days, er, ah, you, gaaa, ahem, um, know, Yo, ah!! You, ah, er, one, all, holy, um, extremely, um, dumb fuck bitchm, um, fuckass, um, - drunks, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
 }
 
 function updateCountdown() {
