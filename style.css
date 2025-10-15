@@ -2484,7 +2484,7 @@ border: 5px solid aqua;
   line-height: 2rem;
   font-family: "New Rocker", system-ui;
   border: solid rgb(229, 8, 8) 0.2rem;
-  border-radius: 2rem;
+  border-radius: 2.1rem;
 }
 
 .badAssMan2 {
@@ -2494,7 +2494,7 @@ border: 5px solid aqua;
   line-height: 2rem;
   font-family: "Zen Tokyo Zoo", system-ui;
   border: solid rgb(29, 58, 118) 0.2rem;
-  border-radius: 2rem;
+  border-radius: 2.1rem;
 }
 
 .badAssMan3 {
@@ -2504,6 +2504,6 @@ border: 5px solid aqua;
   line-height: 2rem;
   font-family: "Yanone Kaffeesatz", serif;
   border: solid rgb(29, 58, 118) 0.2rem;
-  border-radius: 2rem;
+  border-radius: 2.1rem;
 }
   
