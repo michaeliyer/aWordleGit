@@ -2487,6 +2487,16 @@ border: 5px solid aqua;
   border-radius: 2.1rem;
 }
 
+.badAssMan1A {
+  background-color: pink;
+  color: blue;
+  font-size: 3.25rem;
+  line-height: 3rem;
+  font-family: "Poetsen One", cursive;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 1rem;
+}
+
 .badAssMan2 {
   background-color: rgb(15, 45, 25);
   color: white;
