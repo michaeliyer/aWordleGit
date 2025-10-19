@@ -2507,13 +2507,23 @@ border: 5px solid aqua;
   border-radius: 2.1rem;
 }
 
+.badAssMan2A {
+  background-color: rgb(150, 245, 225);
+  color: aqua;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-family: "Zen Tokyo Zoo", system-ui;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 2.1rem;
+}
+
 .badAssMan3 {
   background-color: navy;
   color: white;
   font-size: 2.25rem;
   line-height: 2rem;
-  font-family: "Yanone Kaffeesatz", serif;
+  font-family: "Merienda", cursive;
   border: solid rgb(29, 58, 118) 0.2rem;
-  border-radius: 2.1rem;
+  border-radius: 1.1rem;
 }
   
