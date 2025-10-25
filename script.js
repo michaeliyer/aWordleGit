@@ -200,7 +200,7 @@ function applyFilter(selectedFunction, letter, position) {
       break;
     default:
       alert(
-        "Please select, ah, a valid, gerrr, function, ahhh, you, er, um, goddamn, ohhh, gaaaa, ahhh, er, ahhhhh, um, stupid, duhhh, ah, stupid, um, er, asshole."
+        "Please select, ah, a valid, gerrr, function, ahhh, you, er, um, ahhh, goddamn, ohhh, gaaaa, ahhh, er, ahhhhh, um, stupid, duhhh, ah, stupid, um, er, asshole."
       );
       return;
   }
