@@ -2568,6 +2568,16 @@ border: 5px solid aqua;
   border-radius: 2.1rem;
 }
 
+.badAssMan2D {
+  background-color: yellow;
+  color: purple;
+  font-family: "Kaushan Script", cursive;
+  font-size: 2rem;
+  line-height: 2rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 2.1rem;
+}
+
 .badAssMan3 {
   background-color: navy;
   color: white;
