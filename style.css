@@ -2609,8 +2609,8 @@ border: 5px solid aqua;
 }
 
 .badAssMan3C {
-  background-color: maroon;
-  color: blue;
+  background-color: 800000;
+  color: #FF2400;
   font-family: "Monoton", sans-serif;
   font-size: 2.25rem;
   line-height: 2.25rem;
@@ -2619,8 +2619,8 @@ border: 5px solid aqua;
 }
 
 .badAssMan3D {
-  background-color: #667eea;
-  color: #667eea;
+  background-color: maroon;
+  color: #FF2400;
   font-family: "Single Day", cursive;
   font-size: 2.25rem;
   line-height: 2.25rem;
