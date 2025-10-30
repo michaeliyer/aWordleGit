@@ -230,10 +230,12 @@ h2 {
 
 .fuckFace1 {
   font-family: "Archivo Black", sans-serif;
+  background-color: #00ff00;
+  color: #00bfff;
   border: solid rgb(229, 8, 8) 0.2rem;
   border-radius: 0.5rem;
-  animation: colorCycle11 5s ease-in-out infinite alternate,
-    waveText7 5s infinite, fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
+  /* animation: colorCycle11 5s ease-in-out infinite alternate,
+    waveText7 5s infinite, fontFamKeyFrame 20s infinite, fadeInOut 8s infinite; */
 }
 
 .fuckFace2 {
