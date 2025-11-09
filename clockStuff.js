@@ -64,14 +64,14 @@ function calculateCountdown(targetDate) {
   const minutes = Math.floor((diff / (1000 * 60)) % 60);
   const seconds = Math.floor((diff / 1000) % 60);
 
-  return `${days} very freakin' dark, um, long-ass, er, ummm, ahh, errrr, shh, grr, ahhh, mmm, err, ahhh, ahhhh, gr..., uhhh, um, ah, mmm, errr, ahh, errr, hmm, ah, grrr, er, mm, ahhh, ah, gaaaah, huhhhh, ahhhh, grr, ummmm, errrr, ah, flickston, mmmmm, gr, um, gaaar, er, ummmm, well, ah, eh, gaaaa, um, ahem, um, ass, er, um, er, ahem, ah, er, days, er, ah, you, gaaa, ahem, um, know, Yo, ah!! You, ah, er, one, all, holy, um, extremely, um, dumb fuck bitchm, um, fuckass, um, - drunks, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+  return `${days} very freakin' dark, um, long-ass, er, ummm, ahh, errrr, shh, grr, ahh, mmm, err, ahhh, ahhhh, gr..., uhhh, um, ah, mmm, errr, ahh, errr, hmm, ah, grrr, er, mm, ahhh, ah, gaaaah, huhhhh, ahhhh, grr, ummmm, errrr, ah, flickston, mmmmm, gr, um, gaaar, er, ummmm, well, ah, eh, gaaaa, um, ahem, um, ass, er, um, er, ahem, ah, er, days, er, ah, you, gaaa, ahem, um, know, Yo, ah!! You, ah, er, one, all, holy, um, extremely, um, dumb fuck bitchm, um, fuckass, um, - drunks, ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
 }
 
 function updateCountdown() {
   const countdownElement = document.getElementById("countdown");
   if (countdownElement) {
     countdownElement.textContent = `Los, soy..., um, well, ehhh, Putos de, yahhhoo, Putanños y de, errrr, ah, um, siii, los, ah, Americanos, um, de los Mid-Termos Christos Electionés de lo 2026: ${calculateCountdown("2026-11-03T00:00:00")}. 
-    Wilst We Goddamn MadreFucking Maketh Her, It, That, um, yoooooo, Thou, ahh, uh, Los, er, Um, Jerkoes, er, Lo, Thoust, um, Fulleth andeth Dastardly Nastardly and Bastardly Castaway Wasterly Foolinoidal Toolions? Likethly, We Arteth Completethly Fucketh? What Dost Sayeth Thou? I sayeth yea, fuckethstroid! Licketh off pleaseth thou. Ah, the hate...You see thgat?`;
+    Wilst We Goddamn MadreFucking Maketh Her, It, That, um, yooo, Thou, ahh, uh, Los, er, Um, Jerkoes, er, Lo, Thoust, um, Fulleth andeth Dastardly Nastardly and Bastardly Castaway Wasterly Foolinoidal Toolions? Likethly, We Arteth Completethly Fucketh? What Dost Sayeth Thou? I sayeth yea, fuckethstroid! Licketh off pleaseth thou. Ah, the hate...You see thgat?`;
   }
 }
 
