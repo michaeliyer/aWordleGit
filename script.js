@@ -118,7 +118,7 @@ function handleWordInput() {
           and ye had ye a score of '${foundWord.myScore}'!<br> Your, um, Score, ahhh, , ahhh, um, Average, er, thru this here stupid ass lousy, um, fuckin' date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
     document.querySelector(".field-one").innerHTML = resultString;
   } else {
-    const notFoundString = `The fockin word "${inputWord}", which, ah, er, ahh, gaaaaa, grr, ahh, errrr, ahhh, is, gaaaa, um, er, an innocent, ah, but extremely foolosh bystander †‡ †‡ †‡ , was notteth found, oh wretched Whores and Assfucks, making Rand Paul that rapist. Hit that fuck again neighbor. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface! You're <span><em>all</em></span> fuckfaces.`;
+    const notFoundString = `The fockin word "${inputWord}", which, ahhh, er, ahh, gaaaaa, grr, ahh, errrr, ahhh, is, gaaaa, um, er, an innocent, ah, but extremely foolosh bystander †‡ †‡ †‡ , was notteth found, oh wretched Whores and Assfucks, making Rand Paul that rapist. Hit that fuck again neighbor. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface! You're <span><em>all</em></span> fuckfaces.`;
     document.querySelector(".field-one").innerHTML = notFoundString;
   }
 }
@@ -127,7 +127,7 @@ function displayResults(results) {
   const resultsDiv = document.getElementById("filteredWords");
   const wordsList = results.join(", ");
   const totalWords = results.length;
-  const listWithTotal = `${wordsList} (${totalWords}, um, er, ehhh, ooohh, ahhh, ahh, grrr, mmm, er, grrr..., ahhhh, err, oh, uh, grrr, ah, Christing, er, jahhh, er, ah, well, um, †‡ and, gaaahh, ah, well, ah, dick, well, um, yeah, um, oh ho, gagging, um, grossly, um, outwardly, blatantly, fantastically, errrr, idiotical, eh, and, um, goddamn, ahem, cunting †‡ stupid ass frickin' fuckin' AssHole 🧌 🧌 🧌  Fuckin' Words stupidestly exist stupidly and Parasitically, um, in this here unlit motherfrickin' list, assholes!! It's steadily shrinking, dickLicks, like my sanity, DICKLORD!)`;
+  const listWithTotal = `${wordsList} (${totalWords}, um, er, ehhh, ooohh, ahhh, ahh, grrr, mmm, er, grrr..., ahhh, err, oh, uh, grrr, ah, Christing, er, jahhh, er, ah, well, um, †‡ and, gaaahh, ah, well, ah, dick, well, um, yeah, um, oh ho, gagging, um, grossly, um, outwardly, blatantly, fantastically, errrr, idiotical, eh, and, um, goddamn, ahem, cunting †‡ stupid ass frickin' fuckin' AssHole 🧌 🧌 🧌  Fuckin' Words stupidestly exist stupidly and Parasitically, um, in this here unlit motherfrickin' list, assholes!! It's steadily shrinking, dickLicks, like my sanity, DICKLORD!)`;
   resultsDiv.innerHTML = listWithTotal;
 }
 
