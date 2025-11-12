@@ -275,3 +275,5 @@ calculateAverageButton.addEventListener("click", () => {
     6
   )}, You Cocksucker! Anything good in your life is luck. You fuck. Thx Coral on 8-7-25`;
 });
+
+
