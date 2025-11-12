@@ -22,7 +22,7 @@ header {
   align-items: center;
   /* color: #F7E64C; */
   /* color: rgb(135, 150, 235); */
-  border: solid rgb(255, 254, 235) 1rem;
+  border: solid rgb(255, 255, 235) 1rem;
   border-radius: 0.33rem;
 /*   background-color: rgb(235, 235, 235); */
   animation: colorCycle5000 60s linear infinite;  
@@ -2568,12 +2568,12 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
-.badAssMan1H {
+.badAssMan1I {
   font-family: "Abel", serif;
   color: rgb(255, 0, 102);
   background-color: rgb(255, 245, 157);
-  font-size: 2.25rem;
-  line-height: 2.25rem;
+  font-size: 1.65rem;
+  line-height: 1.65rem;
   border: solid rgb(29, 58, 118) 0.2rem;
   border-radius: 1.1rem;
 }
@@ -2658,7 +2658,7 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
-.badAssMan2G {
+.badAssMan2H {
   font-family: "Archivo Black", sans-serif;
   color: rgb(26, 194, 68);
   background-color: rgb(251, 48, 211);
