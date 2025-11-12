@@ -353,3 +353,7 @@ calculateAverageButton.addEventListener("click", () => {
   document.addEventListener("DOMContentLoaded", () => {
     cleanNode(document.body);
   });
+
+
+
+
