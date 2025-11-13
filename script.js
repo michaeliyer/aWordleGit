@@ -318,8 +318,8 @@ calculateAverageButton.addEventListener("click", () => {
   //   cleanNode(document.body);
   // });
 
-    const censorshipMap = {
-    "pig": "XXXXXXXX",
+  const censorshipMap = {
+    "famous": "Sterilizer",
     "people": "aliens",
     "cum": "Rum",
     "shit": "crud!",
@@ -333,7 +333,6 @@ calculateAverageButton.addEventListener("click", () => {
     for (const [badWord, replacement] of Object.entries(censorshipMap)) {
       const regex = new RegExp(`${badWord}`, 'gi');
       cleaned = cleaned.replace(regex, (match) => {
-        // Preserve casing
         return match[0] === match[0].toUpperCase()
           ? replacement[0].toUpperCase() + replacement.slice(1)
           : replacement;
@@ -350,8 +349,17 @@ calculateAverageButton.addEventListener("click", () => {
     }
   }
 
-  document.addEventListener("DOMContentLoaded", () => {
-    cleanNode(document.body);
+  let cleanerEnabled = false;
+
+  document.getElementById("toggleCleanerBtn").addEventListener("click", () => {
+    cleanerEnabled = !cleanerEnabled;
+    document.getElementById("toggleCleanerBtn").textContent = `Text Cleaner: ${cleanerEnabled ? "ON" : "OFF"}`;
+
+    if (cleanerEnabled) {
+      cleanNode(document.body);
+    } else {
+      location.reload(); // reload original content if turned off
+    }
   });
 
 
