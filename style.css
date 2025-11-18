@@ -75,7 +75,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
- animation: colorCycle5000 1s ease-in-out infinite alternate;
+ animation: colorCycle5000 500s ease-in-out infinite alternate;
  /*  pulseText 300s ease-in infinite, */
 }
 
@@ -1150,7 +1150,7 @@ li {
 
 .gopAsshole {
 /*   animation: colorCycle2000 .5s steps(1) infinite; */
-  animation: colorCycle2000 5s steps(1) infinite;   
+  animation: colorCycle2000 500s steps(1) infinite;   
 }
 
 
@@ -2819,6 +2819,7 @@ border: 5px solid aqua;
   border: solid rgb(29, 58, 118) 0.2rem;
   border-radius: 1.1rem;
 }
+
   
 .jasmineCrockett {
   color: white;
