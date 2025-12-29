@@ -2619,7 +2619,6 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
-
 .badAssMan1N {
   font-family: "Luckiest Guy", cursive;
   color: green;
@@ -2629,7 +2628,6 @@ border: 5px solid aqua;
   border: solid rgb(29, 58, 118) 0.2rem;
   border-radius: 1.1rem;
 }
-
 
 .badAssMan1O {
   font-family: "New Rocker", system-ui;
@@ -2725,6 +2723,16 @@ border: 5px solid aqua;
   color: rgb(66, 44, 66);
   background-color: rgb(88, 55, 88);
   font-family: "Luckiest Guy", cursive;
+  font-size: 1.65rem;
+  line-height: 1.65rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
+.badAssMan1Y {
+  color: rgb(165, 44, 6);
+  background-color: rgb(185, 55, 8);
+  font-family: "Merienda", cursive;
   font-size: 1.65rem;
   line-height: 1.65rem;
   border: solid rgb(29, 58, 118) 0.2rem;
