@@ -1352,7 +1352,7 @@ export const dailyWordsSmall = [
     'DRANK', 'DRAWL', 'DRESS', 'DRIED', 'DRIER', 
     'DROIT', 'DROSS', 'DROWN', 'DRUID', 'DRUNK', 'DRYLY',
     'DULLY', 'DUMPY', 'DUNCE', 'DUSKY', 'DUSTY', 'DYING',   
-    'EATEN', 'EATER', 'ECLAT', 'EERIE', 'EIGHT', 'EKING', 'ELECT',
+    'EATEN', 'EATER', 'ECLAT', 'EERIE', 'EKING', 'ELECT',
     'ELEGY', 'ELFIN', 'ELIDE', 'EMBED', 'EMCEE', 'ENEMY', 
     'ENTRY', 'ENVOY', 'ERECT', 'ESTER', 'ETUDE', 'EVICT',
     'EYING', 'FACET', 'FAIRY', 
@@ -1381,7 +1381,7 @@ export const dailyWordsSmall = [
     'LEPER', 'LIEGE', 'LIKEN', 'LIPID', 
     'LOAMY', 'LOATH', 'LOBBY', 'LOGIN', 'LOOSE', 'LORRY', 'LUMEN',
     'LUPUS', 'LURCH', 'LYING', 'LYMPH', 'LYRIC', 'MACRO', 
-    'MAFIA', 'MAMMA', 'MAMMY', 'MANGE', 'MANGY', 'MANIC',
+    'MAFIA', 'MAMMA', 'MAMMY', 'MANGE', 'MANGY', 
     'MEATY', 'MECCA', 'MELEE', 'MILKY', 
     'MINIM', 'MINOR', 'MISSY', 'MOCHA',
     'MOGUL', 'MOODY', 'MORON', 'MORPH', 'MOTIF', 'MOUND', 
@@ -1777,7 +1777,7 @@ export const dailyWordsLarge = [
     'EBONS', 'EBOOK', 'ECADS', 'ECHED', 'ECHES', 'ECHOS', 'ECLAT', 'ECRUS', 'EDEMA',
     'EDGED', 'EDGER', 'EDGES', 'EDILE', 'EDITS', 'EDUCE', 'EDUCT', 'EEJIT',
     'EENSY', 'EERIE', 'EEVEN', 'EEVNS', 'EFFED', 'EGADS', 'EGERS', 'EGEST', 'EGGAR', 'EGGED',
-    'EGGER', 'EGMAS', 'EHING', 'EIDER', 'EIDOS', 'EIGHT', 'EIGNE', 'EIKED', 'EIKON',
+    'EGGER', 'EGMAS', 'EHING', 'EIDER', 'EIDOS', 'EIGNE', 'EIKED', 'EIKON',
     'EILDS', 'EISEL', 'EJIDO', 'EKING', 'EKKAS', 'ELAIN', 'ELAND', 'ELANS',
     'ELCHI', 'ELDIN', 'ELECT', 'ELEGY', 'ELEMI', 'ELFED', 'ELFIN', 'ELIAD',
     'ELIDE', 'ELINT', 'ELMEN', 'ELOGE', 'ELOGY', 'ELOIN', 'ELOPS', 'ELPEE',
@@ -2115,7 +2115,7 @@ export const dailyWordsLarge = [
     'MALIS', 'MALLS', 'MALMS', 'MALMY', 'MALTS', 'MALTY', 'MALUS', 'MALVA', 'MALWA', 'MAMAS',
     'MAMBA', 'MAMEE', 'MAMEY', 'MAMIE', 'MAMMA', 'MAMMY', 'MANAS', 'MANAT', 'MANDI',
     'MANEB', 'MANED', 'MANEH', 'MANES', 'MANET', 'MANGE', 'MANGS', 'MANGY',
-    'MANIC', 'MANIS', 'MANKY', 'MANNA', 'MANOS', 'MANSE', 'MANTA',
+    'MANIS', 'MANKY', 'MANNA', 'MANOS', 'MANSE', 'MANTA',
     'MANTO', 'MANTY', 'MANUL', 'MANUS', 'MAPAU', 'MAQUI', 'MARAE', 'MARAH', 'MARAS',
     'MARCS', 'MARDY', 'MARES', 'MARGE', 'MARGS', 'MARIA', 'MARID', 'MARKA', 'MARKS',
     'MARLE', 'MARLS', 'MARLY', 'MARMS', 'MARON', 'MAROR', 'MARRA', 'MARRI', 'MARSE',
@@ -12609,6 +12609,16 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1664,
       }, 
+      { word: "EIGHT",
+        gameDate: "1/9/26",
+        myScore: 3,
+        wordNumber: 1665,
+      }, 
+      { word: "MANIC",
+        gameDate: "1/10/26",
+        myScore: 3,
+        wordNumber: 1666,
+      }, 
 
     
   ];
@@ -12626,7 +12636,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 8, 2026: Trump sux dykk000000000! BLAST")
+console.log("January 10, 2026: Trump sux dykk000000000! MANIC")
 
 
 console.log(wordleWords)
