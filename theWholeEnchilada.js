@@ -1343,7 +1343,7 @@ export const dailyWordsSmall = [
     'COPSE', 'COUCH', 'COUGH', 'COUPE', 'COVEY', 'CRACK', 
     'CRASH', 'CREED', 'CREEK', 'CREEP', 'CREME', 'CRESS',
     'CRICK', 'CRIED', 'CRIER', 'CROCK', 'CRONY', 'CROUP', 'CRUDE',
-    'CRUEL', 'CRUMP', 'CUBIC', 'CURRY', 'CURVY',
+    'CRUEL', 'CRUMP', 'CURRY', 'CURVY',
     'CUTIE', 'CYCLE', 'DAILY', 'DAIRY', 'DEALT', 'DEBAR',
     'DEIGN', 
     'DEMON', 'DEMUR', 'DENSE', 'DERBY', 'DILLY', 'DIMLY',
@@ -1693,7 +1693,7 @@ export const dailyWordsLarge = [
     'CROST', 'CROUP', 'CROUT', 'CROWS', 'CROZE', 'CRUCK', 'CRUDE',
     'CRUDO', 'CRUDS', 'CRUDY', 'CRUEL', 'CRUES', 'CRUET', 'CRUFT', 'CRUMP', 'CRUNK',
     'CRUOR', 'CRURA', 'CRUSE', 'CRUSY', 'CRUVE', 'CRWTH', 'CRYER',
-    'CTENE', 'CUBBY', 'CUBEB', 'CUBED', 'CUBER', 'CUBES', 'CUBIC', 'CUBIT', 'CUDDY', 'CUFFO',
+    'CTENE', 'CUBBY', 'CUBEB', 'CUBED', 'CUBER', 'CUBES', 'CUBIT', 'CUDDY', 'CUFFO',
     'CUFFS', 'CUIFS', 'CUING', 'CUISH', 'CUITS', 'CUKES', 'CULCH', 'CULET', 'CULEX', 'CULLS',
     'CULLY', 'CULMS', 'CULPA', 'CULTI', 'CULTS', 'CULTY', 'CUMEC', 'CUNDY', 'CUNEI',
     'CUNIT', 'CUNTS', 'CUPEL', 'CUPID', 'CUPPA', 'CUPPY', 'CURAT', 'CURBS', 'CURCH', 'CURDS',
@@ -2534,7 +2534,7 @@ export const dailyWordsLarge = [
     'SUBAS', 'SUBBY', 'SUBER', 'SUBHA', 'SUCCI', 'SUCKS', 'SUCKY', 'SUCRE', 'SUDDS', 'SUDOR',
     'SUDSY', 'SUENT', 'SUERS', 'SUETE', 'SUETS', 'SUETY', 'SUGAN', 'SUGHS',
     'SUGOS', 'SUHUR', 'SUIDS', 'SUING', 'SUINT', 'SUITS', 'SUJEE', 'SUKHS', 'SUKUK',
-    'SULCI', 'SULFA', 'SULFO', 'SULKS', 'SULPH', 'SULUS',  'SUMIS',
+    'SULCI', 'SULFA', 'SULFO', 'SULKS', 'SULPH', 'SULUS', 'SUMIS',
     'SUMMA', 'SUMOS', 'SUMPH', 'SUMPS', 'SUNIS', 'SUNKS', 'SUNNA', 'SUNNS', 'SUNUP',
     'SUPES', 'SUPRA', 'SURAH', 'SURAL', 'SURAS', 'SURAT', 'SURDS', 'SURED',
     'SURES', 'SURFS', 'SURFY', 'SURGE', 'SURGY', 'SURRA', 'SUSED', 'SUSES',
@@ -12669,6 +12669,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1676,
       }, 
+      { word: "CUBIC",
+        gameDate: "1/21/26",
+        myScore: 3,
+        wordNumber: 1677,
+      }, 
 
     
   ];
@@ -12686,7 +12691,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 20, 2026: Trump sux dykk000000000! SULLY")
+console.log("January 21, 2026: Trump sux dykk000000000! CUBIC")
 
 
 console.log(wordleWords)
