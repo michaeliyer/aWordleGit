@@ -1604,7 +1604,7 @@ export const dailyWordsSmall = [
 'BOOZY', 'BORAX', 'BORNE', 'BOSOM', 'BOSSY', 'BOTCH', 'BOUGH', 'BOULE', 'BOUND', 'BOWEL',
 'BOXER', 'BRACE', 'BRAID', 'BRAIN', 'BRAKE', 'BRAND', 'BRASH', 'BRASS', 'BRAVE', 'BRAVO',
 'BRAWL', 'BRAWN', 'BREAD', 'BREED', 'BRIAR', 'BRIBE', 'BRICK', 'BRIDE', 'BRIEF',
-'BRINE', 'BRINK', 'BRINY', 'BRISK', 'BROAD', 'BROIL', 'BROKE', 'BROOK',
+'BRINE', 'BRINK', 'BRINY', 'BRISK', 'BROAD', 'BROKE', 'BROOK',
 'BROOM', 'BROTH', 'BROWN', 'BRUNT', 'BRUSH', 'BRUTE', 'BUDDY', 'BUGGY', 'BUGLE',
 'BUILD', 'BUILT', 'BULGE', 'BULKY', 'BULLY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BURST',
 'BUSED', 'BUSHY', 'BUTCH', 'BUTTE', 'BUXOM', 'CABAL', 'CABBY', 'CABIN',
@@ -1974,7 +1974,7 @@ export const dailyWordsLarge = [
     'BREWS', 'BREYS', 'BRIAR', 'BRIBE', 'BRICK', 'BRIDE', 'BRIEF', 'BRIER', 'BRIES', 'BRIGS',
     'BRIKI', 'BRIKS', 'BRILL', 'BRIMS', 'BRINE', 'BRINK', 'BRINS', 'BRINY', 'BRIOS',
     'BRISE', 'BRISK', 'BRISS', 'BRITH', 'BRITS', 'BRITT', 'BRIZE', 'BROAD', 'BROCH', 'BROCK',
-    'BRODS', 'BROGH', 'BROGS', 'BROIL', 'BROKE', 'BROME', 'BROMO', 'BRONC', 'BROND', 
+    'BRODS', 'BROGH', 'BROGS', 'BROKE', 'BROME', 'BROMO', 'BRONC', 'BROND', 
     'BROOK', 'BROOL', 'BROOM', 'BROOS', 'BROSE', 'BROSY', 'BROTH', 'BROWN', 'BROWS', 'BRUGH',
     'BRUIN', 'BRUIT', 'BRULE', 'BRUME', 'BRUNG', 'BRUNT', 'BRUSH', 'BRUSK', 'BRUST', 'BRUTE',
     'BRUTS', 'BUATS', 'BUAZE', 'BUBAL', 'BUBAS', 'BUBBE', 'BUBBY', 'BUBUS', 'BUCHU', 'BUCKO',
@@ -24713,6 +24713,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "BROIL",
+        gameDate: "6/15/26",
+        myScore: 3,
+        wordNumber: 1822,
+        guess_1: "RINSE",
+        guess_2: "LYRIC",
+        guess_3: "BROIL",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24730,7 +24741,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 14, 2026: Trump sux dykk000000000! SEPIA")
+console.log("June 15, 2026: Trump sux dykk000000000! BROIL")
 
 console.log(wordleWords)
 
